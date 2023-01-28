@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import { routes } from "./routes/routes";
+import { mainRoutes } from "./routes/mainRoutes";
 
 function App() {
 
     return (
       <Provider >
-        <RouterProvider router={routes} />
+        <RouterProvider router={mainRoutes} />
       </Provider>
     );
 }
