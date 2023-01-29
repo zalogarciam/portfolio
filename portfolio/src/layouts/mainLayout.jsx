@@ -6,13 +6,13 @@ import Header from "../components/common/header";
 
 const MainLayout = () => {
   
-  useEffect(() => {
-    WebFont.load({
-      typekit: {
-        id: "Cartograph CF",
-      },
-    });
-  }, []);
+  // useEffect(() => {
+  //   WebFont.load({
+  //     typekit: {
+  //       id: "Cartograph CF",
+  //     },
+  //   });
+  // }, []);
 
   return (
     <>
