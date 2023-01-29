@@ -3,7 +3,7 @@ import MainLayout from "../layouts/mainLayout";
 import Home from "../pages/home";
 export const mainRoutes = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio/",
     element: <MainLayout />,
     errorElement: <h1>Error</h1>,
     children: [
