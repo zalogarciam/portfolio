@@ -31,7 +31,7 @@ const Header = () => {
     <header className="header" ref={header}>
       <nav className="nav" ref={nav}>
         <div className="container f-elements f-elements--header">
-          <Link to="/">
+          {/* <Link to="/">
             <img
               src={logo}
               alt="Logo"
@@ -39,7 +39,7 @@ const Header = () => {
               width="256"
               height="256"
             />
-          </Link>
+          </Link> */}
           <div
             className="modal modal--mobile"
             ref={mobileModal}
