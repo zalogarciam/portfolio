@@ -12,7 +12,7 @@ const List = ({
         <NavLink
           to="/portfolio/"
           className={({ isActive }) =>
-            isActive ? "list--link list--link--active" : "list__link"
+            isActive ? "list__link list__link--active" : "list__link"
           }
           onClick={handleClickNavLink}
         >
@@ -23,7 +23,7 @@ const List = ({
         <NavLink
           to="/portfolio/about/"
           className={({ isActive }) =>
-            isActive ? "list--link list--link--active" : "list__link"
+            isActive ? "list__link list__link--active" : "list__link"
           }
           onClick={handleClickNavLink}
         >
@@ -34,7 +34,7 @@ const List = ({
         <NavLink
           to="/portfolio/experience"
           className={({ isActive }) =>
-            isActive ? "list--link list--link--active" : "list__link"
+            isActive ? "list__link list__link--active" : "list__link"
           }
           onClick={handleClickNavLink}
         >
@@ -45,7 +45,7 @@ const List = ({
         <NavLink
           to="/portfolio/projects"
           className={({ isActive }) =>
-            isActive ? "list--link list--link--active" : "list__link"
+            isActive ? "list__link list__link--active" : "list__link"
           }
           onClick={handleClickNavLink}
         >
@@ -56,7 +56,7 @@ const List = ({
         <NavLink
           to="/portfolio/contact"
           className={({ isActive }) =>
-            isActive ? "list--link list--link--active" : "list__link"
+            isActive ? "list__link list__link--active" : "list__link"
           }
           onClick={handleClickNavLink}
         >

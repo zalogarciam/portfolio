@@ -11,13 +11,13 @@
   --light-primary-shadow-color: #00000080;
   --light-secondary-shadow-color: #00000040;
 
-  --primary-highlight-color: #61dafb;
-  --secondary-highlight-color: gold;
+  --primary-highlight-color: #8c0027;
+  --secondary-highlight-color: #fff;
 
-  --container-max-width: 512px;
+  --container-max-width: 1024px;
   --container-padding: 1rem;
 
-  --primary-theme-color: #20232a;
+  --primary-theme-color: #000;
 }
 
 .body {
