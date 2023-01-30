@@ -46,15 +46,16 @@ const Header = () => {
             onClick={handleClickHideMenu}
           >
             <List
-              className="list list--mobile-modal list--right-mobile-modal f-elements f-elements--responsive f-elements--center gap-md"
-              handleClickList={(e) => e.stopPropagation()}
-              handleClickNavLink={handleClickHideMenu}
+              // className="list list--mobile-modal list--right-mobile-modal f-elements f-elements--responsive f-elements--center gap-md"
+              className="d-flex d-flex--center gap-md"
+              // handleClickList={(e) => e.stopPropagation()}
+              // handleClickNavLink={handleClickHideMenu}
             />
-            <button className="icon icon--close" onClick={handleClickHideMenu}>
+            {/* <button className="icon icon--close" onClick={handleClickHideMenu}>
               <BsXCircle />
-            </button>
+            </button> */}
           </div>
-          <div className="f-elements f-elements--center gap-2xs">
+          {/* <div className="f-elements f-elements--center gap-2xs">
             <select
               className="select select--theme"
               onChange={handleChangeSelectTheme}
@@ -70,7 +71,7 @@ const Header = () => {
             <button className="icon icon--menu" onClick={handleClickShowMenu}>
               <BsList />
             </button>
-          </div>
+          </div> */}
         </div>
       </nav>
     </header>
