@@ -41,9 +41,9 @@ const Header = () => {
           >
             <List
               // className="list list--mobile-modal list--right-mobile-modal f-elements f-elements--responsive f-elements--center gap-md"
-              className="d-flex d-flex--center d-flex--direction gap-md list list--sidebar list--right-sidebar"
-              // handleClickList={(e) => e.stopPropagation()}
-              // handleClickNavLink={handleClickHideMenu}
+              className="list list--sidebar list--right-sidebar d-flex d-flex--center d-flex--direction gap-md"
+              handleClickList={(e) => e.stopPropagation()}
+              handleClickNavLink={handleClickHideMenu}
             />
             <button className="icon icon--close" onClick={handleClickHideMenu}>
               <BsXCircle />
