@@ -51,7 +51,7 @@ const Header = () => {
           </div>
           <div className="d-flex d-flex--center gap-md">
             <select
-              // className="select select--theme"
+              className="select select--theme"
               onChange={handleChangeSelectTheme}
               value={theme}
             >

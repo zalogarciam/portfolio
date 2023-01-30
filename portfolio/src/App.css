@@ -1,10 +1,6 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-
   --primary-font-family: "Cartograph CF";
+  font-family: var(--primary-font-family);
 
   --section-padding: 1.5rem;
   --container-padding: 1rem;
@@ -14,6 +10,9 @@
 
   --light-primary-shadow-color: #00000080;
   --light-secondary-shadow-color: #00000040;
+
+  --container-max-width: 512px;
+  --container-padding: 1rem;
 }
 
 @font-face {

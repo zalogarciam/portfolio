@@ -9,6 +9,15 @@
     cursor: pointer;
     transition: filter 0.25s, color 0.25s;
   
+    &:focus, &:active {
+        outline: none
+      }
+      
+
+    &:hover {
+        filter: brightness(1);
+      }
+      
     &--close {
       position: absolute;
       top: var(--padding-nav);
