@@ -5,7 +5,15 @@
   text-align: center;
 
   --primary-font-family: "Cartograph CF";
+
   --section-padding: 1.5rem;
+  --container-padding: 1rem;
+
+  --primary-text-color: #fff;
+  --dark-primary-text-color: #fff;
+
+  --light-primary-shadow-color: #00000080;
+  --light-secondary-shadow-color: #00000040;
 }
 
 @font-face {

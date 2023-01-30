@@ -2,23 +2,23 @@ import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.png";
 import List from "./list";
-import { BsCart, BsList, BsXCircle } from "react-icons/bs";
+import { BsList, BsXCircle } from "react-icons/bs";
 
 const Header = () => {
   const header = useRef();
   const nav = useRef();
-  const mobileModal = useRef();
+  const sidebar = useRef();
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") ?? "");
 
   const handleClickShowMenu = () => {
-    // header.current.classList.add('header--move-left');
-    // mobileModal.current.classList.add('modal--show');
+    header.current.classList.add("header--move-left");
+    sidebar.current.classList.add("sidebar--show");
   };
 
   const handleClickHideMenu = () => {
-    // header.current.classList.remove('header--move-left');
-    // mobileModal.current.classList.remove('modal--show');
+    header.current.classList.remove("header--move-left");
+    sidebar.current.classList.remove("sidebar--show");
   };
 
   const handleChangeSelectTheme = (e) => {
@@ -30,34 +30,28 @@ const Header = () => {
   return (
     <header className="header" ref={header}>
       <nav className="nav" ref={nav}>
-        <div className="container f-elements f-elements--header">
-          {/* <Link to="/">
-            <img
-              src={logo}
-              alt="Logo"
-              className="nav__logo"
-              width="256"
-              height="256"
-            />
-          </Link> */}
+        <div className="container d-flex d-flex--space-between">
+          <Link to="/">
+            <img src={logo} alt="Logo" className="nav__logo" />
+          </Link>
           <div
-            className="modal modal--mobile"
-            ref={mobileModal}
+            className="sidebar sidebar--close"
+            ref={sidebar}
             onClick={handleClickHideMenu}
           >
             <List
               // className="list list--mobile-modal list--right-mobile-modal f-elements f-elements--responsive f-elements--center gap-md"
-              className="d-flex d-flex--center gap-md"
+              className="d-flex d-flex--center d-flex--direction gap-md list list--sidebar list--right-sidebar"
               // handleClickList={(e) => e.stopPropagation()}
               // handleClickNavLink={handleClickHideMenu}
             />
-            {/* <button className="icon icon--close" onClick={handleClickHideMenu}>
+            <button className="icon icon--close" onClick={handleClickHideMenu}>
               <BsXCircle />
-            </button> */}
+            </button>
           </div>
-          {/* <div className="f-elements f-elements--center gap-2xs">
+          <div className="d-flex d-flex--center gap-md">
             <select
-              className="select select--theme"
+              // className="select select--theme"
               onChange={handleChangeSelectTheme}
               value={theme}
             >
@@ -65,13 +59,10 @@ const Header = () => {
               <option value="dark">🌚</option>
               <option value="light">🌞</option>
             </select>
-            <button className="icon icon--sm">
-              <BsCart />
-            </button>
             <button className="icon icon--menu" onClick={handleClickShowMenu}>
               <BsList />
             </button>
-          </div> */}
+          </div>
         </div>
       </nav>
     </header>

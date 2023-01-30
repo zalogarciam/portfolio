@@ -8,4 +8,13 @@
     width: 100%;
     transition: left 0.25s, background-color 0.25s, box-shadow 0.25s;
     left: var(--translate-header);
+
+    
+    &--move-left {
+        --translate-header: -50%;
+    }
+
+    &--move-right {
+        --translate-header: 50%;
+    }
 }

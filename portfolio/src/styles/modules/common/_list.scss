@@ -1,3 +1,31 @@
 .list {
+    margin: 0;
+    padding: 0;
     list-style: none;
+
+    &--sidebar {
+        background-image: linear-gradient(to bottom, var(--light-primary-shadow-color), var(--light-secondary-shadow-color));
+        // color: var(--dark-primary-text-color);
+        width: 50%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: calc(var(--section-padding) * 0.5);
+        transition: transform 0.5s;
+    
+        @include desktop {
+          background-image: none;
+        //   color: var(--primary-text-color);
+          width: auto;
+          padding: 0;
+        }
+      }
+    
+      &--left-sidebar {
+        transform: translateX(calc(var(--translate-modal) * -1));
+      }
+    
+      &--right-sidebar {
+        margin-left: auto;
+        transform: translateX(var(--translate-modal));
+      }
 }

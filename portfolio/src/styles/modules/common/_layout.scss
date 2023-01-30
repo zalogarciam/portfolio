@@ -1,5 +1,5 @@
 .d-flex {
-    
+
     display: flex;
 
     &--center {
@@ -7,5 +7,22 @@
       align-content: center;
       justify-items: center;
       justify-content: center;
+    }  
+
+    &--direction {
+        flex-direction: column;
+        @include desktop {
+          flex-direction: row;
+        }
     }
+
+    &--space-between {
+        align-items: center;
+        justify-content: space-between;
+      }
+
+    // &--header {
+    //     align-items: center;
+    //     justify-content: space-between;
+    // }
 }
