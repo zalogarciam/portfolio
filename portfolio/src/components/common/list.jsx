@@ -10,7 +10,6 @@ const List = ({
   return (
     <ul className={`list ${className}`} onClick={handleClickList}>
       {elements.map((element, index) => {
-        console.log(element);
         return (
           <li key={element}>
             <NavLink
