@@ -13,8 +13,8 @@ const Header = ({ elements, paths }) => {
 
   const documentScroll = () => {
     // if (window.location.pathname.includes('productos') === false) {
-    // header.current?.classList.toggle("header--scroll", window.scrollY > 0);
-    // nav.current?.classList.toggle("nav--scroll", window.scrollY > 0);
+    header.current?.classList.toggle("header--scroll", window.scrollY > 0);
+    nav.current?.classList.toggle("nav--scroll", window.scrollY > 0);
     // }
   };
 

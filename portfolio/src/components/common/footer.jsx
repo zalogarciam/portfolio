@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.png";
 
-const Footer = () => {
+const Footer = ({ elements, paths }) => {
   return (
     <footer className="footer">
-      <div className="row">
+      <div className="row ">
         <div className="col-4">
-          <Link to="/">
+          <Link to="/portfolio/">
             <img src={logo} alt="Logo" className="footer__logo" />
           </Link>
         </div>

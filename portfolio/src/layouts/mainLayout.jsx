@@ -16,12 +16,18 @@ const MainLayout = () => {
 
   return (
     <>
-      <div style={{ minHeight: "100%", position: "relative" }}>
+      <div>
         <Header elements={headerElements} paths={headerPaths} />
-        <main style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+        <main
+          style={{
+            paddingTop: "5rem",
+            paddingBottom: "5rem",
+            minHeight: "100vh",
+          }}
+        >
           <Outlet />
         </main>
-        <Footer />
+        <Footer elements={headerElements} paths={headerPaths} />
       </div>
     </>
   );
