@@ -6,20 +6,32 @@ h5 {
 
 h4 {
     font-family: var(--primary-font-family);
+    color: var(--primary-highlight-color);
 }
 
 h3 {
     font-family: var(--primary-font-family);
+    color: var(--primary-highlight-color);
 }
 
 h2 {
     font-family: var(--primary-font-family);
+    color: var(--primary-highlight-color);
 }
 
 h1 {
     font-family: var(--primary-font-family);
+    color: var(--primary-highlight-color);
+
 }
 
 p {
     font-family: var(--primary-font-family);
+    color: var(--primary-text-color);
+}
+
+.text-highlight {
+    font-size: 1rem;
+    font-family: var(--primary-font-family);
+    color: var(--primary-highlight-color);
 }

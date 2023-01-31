@@ -19,6 +19,7 @@
 
     &--scroll {
         background-color: var(--primary-theme-color);
-        box-shadow: 0 0 0.0625rem 0.0625rem var(--primary-highlight-color);
+        border-bottom: solid;
+        border-color: var(--primary-highlight-color);
       }
 }

@@ -1,14 +1,12 @@
 .footer {
-  // position:absolute;
-  // bottom:0;
-  // width:100%;
   height: auto;
   padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
+  padding-bottom: 1rem;
   background:var(--primary-theme-color);
   margin-right: 0px!important;
 
   border-top: solid;
+  border-bottom: solid;
   border-color: var(--primary-highlight-color);
 
   &__logo {

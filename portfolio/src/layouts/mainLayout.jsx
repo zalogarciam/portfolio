@@ -5,6 +5,9 @@ import Footer from "../components/common/footer";
 import Header from "../components/common/header";
 
 const MainLayout = () => {
+  // Setting code theme as default theme
+  localStorage.setItem("theme", "code");
+  
   const headerElements = [
     "Home",
     "About Me",
