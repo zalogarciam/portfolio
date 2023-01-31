@@ -16,11 +16,13 @@ const MainLayout = () => {
 
   return (
     <>
-      <Header elements={headerElements} paths={headerPaths} />
-      <main style={{ paddingTop: "5rem", height: "auto" }}>
-        <Outlet />
-      </main>
-      <Footer />
+      <div style={{ minHeight: "100%", position: "relative" }}>
+        <Header elements={headerElements} paths={headerPaths} />
+        <main style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+          <Outlet />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 };

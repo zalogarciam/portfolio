@@ -13,7 +13,15 @@ export const mainRoutes = createBrowserRouter([
       },
       {
         path: "/portfolio/about",
-        element: <h1>About Me</h1>,
+        element: (
+          <div>
+            <h1>About Me</h1>
+            <h1>About Me</h1>
+            <h1>About Me</h1>
+            <h1>About Me</h1>
+            <h1>About Me</h1>
+          </div>
+        ),
       },
       {
         path: "/portfolio/experience",
