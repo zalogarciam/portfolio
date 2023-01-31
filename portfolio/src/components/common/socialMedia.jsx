@@ -8,7 +8,7 @@ import {
 import { FaSteam } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const SocialMedia = () => {
+const SocialMedia = ({}) => {
   return (
     <div>
       <div className="row pt-3">
@@ -29,7 +29,7 @@ const SocialMedia = () => {
           </Link>
         </div>
       </div>
-      <div className="row pt-3 d-flex d--flex-center">
+      <div className="row pt-3 pb-3 d-flex d--flex-center">
         <div className="col-4 d-flex d-flex--center">
           <Link to={"//twitter.com/zalogarciam"} target="_blank">
             <BsTwitter className="icon icon--social-media" />
