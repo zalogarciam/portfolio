@@ -5,13 +5,14 @@ const MailToButton = ({ mailTo }) => {
   return (
     <div>
       <Link
+        className="link"
         to="#"
         onClick={(e) => {
           window.location.href = "mailto:" + mailTo;
           e.preventDefault();
         }}
       >
-        {mailTo}
+        {"Email: " + mailTo}
       </Link>
     </div>
   );
