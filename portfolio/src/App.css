@@ -1,5 +1,5 @@
 #root {
-  --primary-font-family: "Cartograph CF";
+  /* --primary-font-family: "Cartograph CF";
   --italic-font-family: "Cartograph CF Italic";
   --bold-font-family: "Cartograph CF Bold";
 
@@ -20,16 +20,16 @@
   --container-max-width: 1024px;
   --container-padding: 1rem;
 
-  --primary-theme-color: #000;
+  --primary-theme-color: #000; */
 }
 
-.body {
+/* .body {
   background-color: var(--primary-theme-color);
   color: var(--primary-text-color);
   font-family: var(--primary-font-family);
   margin: 0;
   transition: background-color 0.25s, color 0.25s;
-}
+} */
 
 @font-face {
   font-family: "Cartograph CF";

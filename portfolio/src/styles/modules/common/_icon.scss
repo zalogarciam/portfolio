@@ -12,21 +12,29 @@
     &:focus, &:active {
         outline: none
       }
-      
 
     &:hover {
         filter: brightness(1);
       }
       
     &--close {
+      
       position: absolute;
       top: var(--padding-nav);
       right: var(--container-padding);
       transition: filter 0.25s, color 0.25s, top 0.25s;
     }
     
-    &--close,
-    &--menu {
+    &--display{
+      display:block;
+    }
+
+    &--hide{
+      display:none;
+    }
+    
+    &--menu,
+    &--close {
       @include desktop {
         display: none;
       }

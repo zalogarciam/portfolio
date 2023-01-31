@@ -5,7 +5,6 @@ const List = ({
   handleClickList = () => {},
   handleClickNavLink = () => {},
 }) => {
-  console.log(className);
   return (
     <ul className={`list ${className}`} onClick={handleClickList}>
       <li>

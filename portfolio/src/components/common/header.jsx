@@ -8,23 +8,28 @@ const Header = () => {
   const header = useRef();
   const nav = useRef();
   const sidebar = useRef();
+  const menu = useRef();
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") ?? "");
 
   const handleClickShowMenu = () => {
     header.current.classList.add("header--move-left");
     sidebar.current.classList.add("sidebar--show");
+    menu.current.classList.add("icon--hide");
+    menu.current.classList.remove("icon--display");
   };
 
   const handleClickHideMenu = () => {
     header.current.classList.remove("header--move-left");
     sidebar.current.classList.remove("sidebar--show");
+    menu.current.classList.add("icon--display");
+    menu.current.classList.remove("icon--hide");
   };
 
   const handleChangeSelectTheme = (e) => {
-    // document.documentElement.className = e.target.value;
-    // localStorage.setItem('theme', e.target.value);
-    // setTheme(e.target.value);
+    document.documentElement.className = e.target.value;
+    localStorage.setItem("theme", e.target.value);
+    setTheme(e.target.value);
   };
 
   return (
@@ -55,11 +60,15 @@ const Header = () => {
               onChange={handleChangeSelectTheme}
               value={theme}
             >
-              <option value="system">💻</option>
+              <option value="code">💻</option>
               <option value="dark">🌚</option>
               <option value="light">🌞</option>
             </select>
-            <button className="icon icon--menu" onClick={handleClickShowMenu}>
+            <button
+              ref={menu}
+              className="icon icon--menu icon--display"
+              onClick={handleClickShowMenu}
+            >
               <BsList />
             </button>
           </div>

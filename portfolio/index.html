@@ -9,11 +9,11 @@
 
   <link rel="stylesheet" href="">
   <style>
-    :root {
+    /* :root {
       scroll-behavior: smooth;
-      background-color: #000;
+      background-color: var(--primary-theme-color);
       color: rgba(255, 255, 255, 0.87);
-      /* --dark-primary-text-color: #fff;
+      --dark-primary-text-color: #fff;
       --light-primary-text-color: #000;
       --light-primary-shadow-color: #00000080;
       --light-secondary-shadow-color: #00000040;
@@ -23,22 +23,92 @@
       --secondary-button-color: gold;
 
       --section-padding: 1.5rem;
-      --primary-border-radius: 0.5rem; */
+      --primary-border-radius: 0.5rem;
+
+    } */
+
+    :root {
+      --primary-font-family: "Cartograph CF";
+      --italic-font-family: "Cartograph CF Italic";
+      --bold-font-family: "Cartograph CF Bold";
+
+      font-family: var(--primary-font-family);
+      background-color: var(--primary-theme-color);
+
+      --section-padding: 1.5rem;
+      --container-padding: 1rem;
+
+      --primary-text-color: #fff;
+      --dark-primary-text-color: #fff;
+
+      --light-primary-shadow-color: #00000080;
+      --light-secondary-shadow-color: #00000040;
+
+      --primary-highlight-color: #8c0027;
+      --secondary-highlight-color: #fff;
+
+      --container-max-width: 1024px;
+      --container-padding: 1rem;
+
+      --primary-theme-color: #000;
     }
 
-    /* .body {
-      background-color: var(--primary-theme-color);
-      color: var(--primary-text-color);
-      font-family: var(--primary-font-family);
-      margin: 0;
-      transition: background-color 0.25s, color 0.25s;
-    } */
+    :root.dark {
+      /* --primary-theme-color: #20232a;
+      --secondary-theme-color: #282c34;
+      --primary-text-color: #fff;
+      --secondary-text-color: #888;
+      --primary-shadow-color: #ffffff80;
+      --secondary-shadow-color: #ffffff40; */
+      --primary-text-color: #fff;
+
+      --primary-theme-color: #000;
+      --primary-highlight-color: #8c0027;
+      --secondary-highlight-color: #fff;
+
+      --light-primary-shadow-color: #00000080;
+      --light-secondary-shadow-color: #00000040;
+    }
+
+    :root.light {
+      /* --primary-theme-color: #fff;
+      --secondary-theme-color: #eee;
+      --primary-text-color: #000;
+      --secondary-text-color: #777;
+      --primary-shadow-color: #00000080;
+      --secondary-shadow-color: #00000040; */
+      --primary-text-color: #000;
+
+      --primary-theme-color: #fff;
+      --primary-highlight-color: #e4e4e4;
+      --secondary-highlight-color: #000;
+
+      --light-primary-shadow-color: #00000077;
+      --light-secondary-shadow-color: #00000052;
+    }
+
+    :root.code {
+      --primary-text-color: #fff;
+
+      --primary-theme-color: #38393d;
+      --primary-highlight-color: #00ff00;
+      --secondary-highlight-color: #fff;
+
+      --light-primary-shadow-color: #00000080;
+      --light-secondary-shadow-color: #00000040;
+    }
   </style>
 </head>
 
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
+  <script>
+    const theme = localStorage.getItem('theme');
+    if (theme === "dark" || theme === "light" || theme === "code") {
+      document.documentElement.className = theme
+    }
+  </script>
 </body>
 
 </html>
