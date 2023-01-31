@@ -30,13 +30,13 @@
     }
 
     &--hide{
-      display:none;
+      display:none!important;
     }
 
     &--menu,
     &--close {
       @include desktop {
-        display: none;
+        display: none!important;
       }
     }
   }
