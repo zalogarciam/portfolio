@@ -45,7 +45,6 @@ const Header = () => {
             onClick={handleClickHideMenu}
           >
             <List
-              // className="list list--mobile-modal list--right-mobile-modal f-elements f-elements--responsive f-elements--center gap-md"
               className="list list--sidebar list--right-sidebar d-flex d-flex--center d-flex--direction gap-md"
               handleClickList={(e) => e.stopPropagation()}
               handleClickNavLink={handleClickHideMenu}
@@ -56,7 +55,7 @@ const Header = () => {
           </div>
           <div className="d-flex d-flex--center gap-md">
             <select
-              className="select select--theme"
+              className="select select--theme icon--border"
               onChange={handleChangeSelectTheme}
               value={theme}
             >

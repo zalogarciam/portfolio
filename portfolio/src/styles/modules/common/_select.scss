@@ -1,11 +1,24 @@
 .select {
     background-color: var(--secondary-theme-color);
-  
+    filter: brightness(0.75);
+
     &--theme {
       appearance: none;
       text-align: center;
       border-radius: 0.25rem;
-      width: 24px;
-      height: 24px;
+      border-color: var(--primary-highlight-color);
+      border-width: 2px;
+      width: 2.5rem;
+      height: 1.5rem;
+    }
+
+    &:hover {
+      filter: brightness(1);
+      cursor: pointer;
+    }
+
+    &:focus {
+      outline: none;
+      border-color: var(--primary-highlight-color);
     }
   }
