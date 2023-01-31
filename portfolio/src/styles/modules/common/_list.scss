@@ -28,14 +28,12 @@
         margin-left: auto;
         transform: translateX(var(--translate-modal));
       }
-
       &__link {
         position: relative;
         color: var(--primary-text-color);
         font-weight: 600;
         text-decoration: none;
         transition: color 0.25s;
-
         &::before {
           content: '';
           position: absolute;
@@ -50,11 +48,18 @@
     
         &:hover,
         &--active {
+          
           color: var(--primary-highlight-color);
+      
           &::before {
             width: 100%;
           
           }
         }
+      }
+      
+      &__element {
+          padding-top: 0rem;
+          padding-bottom: 0.75rem;
       }
 }

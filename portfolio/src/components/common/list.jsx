@@ -11,7 +11,7 @@ const List = ({
     <ul className={`list ${className}`} onClick={handleClickList}>
       {elements.map((element, index) => {
         return (
-          <li key={element}>
+          <li className="list__element" key={element}>
             <NavLink
               to={"/portfolio/" + paths[index]}
               className={({ isActive }) =>

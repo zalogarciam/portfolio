@@ -9,11 +9,19 @@
       justify-content: center;
     }  
 
-    &--direction {
+    &--direction-responsive {
         flex-direction: column;
         @include desktop {
           flex-direction: row;
         }
+    }
+
+    &--direction-row {
+      flex-direction: row;
+    }
+
+    &--direction-column {
+      flex-direction: column;
     }
 
     &--space-between {
@@ -38,4 +46,5 @@
 
 .row {
   margin-right: 0px!important;
+  width: 100%;
 }

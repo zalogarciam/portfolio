@@ -47,7 +47,7 @@ const Header = ({ elements, paths }) => {
             onClick={handleClickHideMenu}
           >
             <List
-              className="list list--sidebar list--right-sidebar d-flex d-flex--center d-flex--direction gap-md"
+              className="list list--sidebar list--right-sidebar d-flex d-flex--center d-flex--direction-responsive gap-md"
               handleClickList={(e) => e.stopPropagation()}
               handleClickNavLink={handleClickHideMenu}
               elements={elements}
