@@ -5,14 +5,19 @@ import Footer from "../components/common/footer";
 import Header from "../components/common/header";
 
 const MainLayout = () => {
-  
-  const headerElements = ["Home", "About Me", "Experience", "Projects", "Contact"]
-  const headerPaths = ["", "about", "experience", "projects", "contact"]
+  const headerElements = [
+    "Home",
+    "About Me",
+    "Experience",
+    "Projects",
+    "Contact",
+  ];
+  const headerPaths = ["", "about", "experience", "projects", "contact"];
 
   return (
     <>
-      <Header elements = {headerElements} paths = {headerPaths}/>
-      <main style={{ paddingTop: "5rem" }}>
+      <Header elements={headerElements} paths={headerPaths} />
+      <main style={{ paddingTop: "5rem", height: "auto" }}>
         <Outlet />
       </main>
       <Footer />

@@ -11,6 +11,13 @@ const Header = ({ elements, paths }) => {
   const sidebar = useRef();
   const menu = useRef();
 
+  const documentScroll = () => {
+    // if (window.location.pathname.includes('productos') === false) {
+    header.current?.classList.toggle("header--scroll", window.scrollY > 0);
+    nav.current?.classList.toggle("nav--scroll", window.scrollY > 0);
+    // }
+  };
+
   const handleClickShowMenu = () => {
     header.current.classList.add("header--move-left");
     sidebar.current.classList.add("sidebar--show");
@@ -24,6 +31,8 @@ const Header = ({ elements, paths }) => {
     menu.current.classList.add("icon--display");
     menu.current.classList.remove("icon--hide");
   };
+
+  document.addEventListener("scroll", documentScroll);
 
   return (
     <header className="header" ref={header}>

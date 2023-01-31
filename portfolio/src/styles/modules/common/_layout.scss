@@ -20,22 +20,18 @@
         align-items: center;
         justify-content: space-between;
       }
-
-    // &--header {
-    //     align-items: center;
-    //     justify-content: space-between;
-    // }
 }
 
+//Replacing container class of booststrap.
 .container {
-    max-width: var(--container-max-width);
-    margin: 0 auto;
-    padding-left: var(--container-padding);
-    padding-right: var(--container-padding);
+    max-width: var(--container-max-width)!important;
+    margin: 0 auto!important;
+    padding-left: var(--container-padding)!important;
+    padding-right: var(--container-padding)!important;
   
     &--sm {
-      padding-left: calc(var(--container-padding) * 0.75);
-      padding-right: calc(var(--container-padding) * 0.75);
-      max-width: none;
+      padding-left: calc(var(--container-padding) * 0.75)!important;
+      padding-right: calc(var(--container-padding) * 0.75)!important;
+      max-width: none!important;
     }
   }

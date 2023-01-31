@@ -4,9 +4,9 @@
     padding-bottom: var(--padding-nav);
     transition: padding 0.25s;
   
-    // &--scroll {
-    //   --padding-nav: calc(var(--section-padding) * 0.5);
-    // }
+    &--scroll {
+      --padding-nav: calc(var(--section-padding) * 0.5);
+    }
   
     &__logo {
       display: block;
