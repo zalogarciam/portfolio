@@ -1,15 +1,8 @@
 import { useRef } from "react";
-import {
-  BsFacebook,
-  BsInstagram,
-  BsLinkedin,
-  BsGithub,
-  BsTwitter,
-} from "react-icons/bs";
-import { FaSteam } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.png";
 import List from "./list";
+import SocialMedia from "./socialMedia";
 
 const Footer = ({ elements, paths }) => {
   const footer = useRef();
@@ -22,33 +15,28 @@ const Footer = ({ elements, paths }) => {
     console.log(scrollMaxY, window.scrollY);
     footer.current?.classList.toggle(
       "footer--scroll",
-      window.scrollY >= scrollMaxY - 80
+      window.scrollY >= scrollMaxY - 256
     );
   };
 
   document.addEventListener("scroll", documentScroll);
 
   return (
-    <div>
-      <footer className="footer" ref={footer}>
+    <div className="footer" ref={footer}>
+      <footer className="container ">
         <div className="row ">
           <div className="col-4 d-flex d-flex--center">
             <Link to="/portfolio/">
               <img src={logo} alt="Logo" className="footer__logo" />
             </Link>
           </div>
-          <div className="col-4 d-flex d--flex-center d-flex--direction-column ">
-            <h5 className="title">Useful Links</h5>
+          <div className="col-4 d-flex d--flex-center d-flex--direction-column text-center">
+            <h5 className="text-center">Useful Links</h5>
             <List elements={elements} paths={paths}></List>
           </div>
           <div className="col-4">
-            <h5>Social Media</h5>
-            <BsGithub />
-            <BsLinkedin />
-            <BsInstagram />
-            <BsTwitter />
-            <BsFacebook />
-            <FaSteam />
+            <h5 className="text-center">Social Media</h5>
+            <SocialMedia />
           </div>
         </div>
       </footer>

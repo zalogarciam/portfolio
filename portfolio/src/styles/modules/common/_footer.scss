@@ -3,12 +3,16 @@
   padding-top: var(--section-padding);
   padding-bottom: 1rem;
   background:var(--primary-theme-color);
-  margin-right: 0px!important;
-
+  // margin-right: 0px!important;
+  // max-width: var(--container-max-width);
+  // margin: 0 auto!important;
+  //   padding-left: var(--container-padding)!important;
+  //   padding-right: var(--container-padding)!important;
+    
   &--scroll {
     background-color: var(--primary-theme-color);
     border-top: solid;
-  border-bottom: solid;
+  // border-bottom: solid;
   border-color: var(--primary-highlight-color);
   }
 

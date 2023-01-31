@@ -39,4 +39,13 @@
         display: none!important;
       }
     }
+
+    &--social-media{
+      color: var(--secondary-highlight-color);
+
+      &:hover {
+        filter: brightness(1);
+        color: var(--primary-highlight-color);;
+      }
+    }
   }
