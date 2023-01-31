@@ -6,17 +6,12 @@ import Header from "../components/common/header";
 
 const MainLayout = () => {
   
-  // useEffect(() => {
-  //   WebFont.load({
-  //     typekit: {
-  //       id: "Cartograph CF",
-  //     },
-  //   });
-  // }, []);
+  const headerElements = ["Home", "About Me", "Experience", "Projects", "Contact"]
+  const headerPaths = ["", "about", "experience", "projects", "contact"]
 
   return (
     <>
-      <Header />
+      <Header elements = {headerElements} paths = {headerPaths}/>
       <main style={{ paddingTop: "5rem" }}>
         <Outlet />
       </main>

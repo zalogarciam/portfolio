@@ -4,7 +4,7 @@ import logo from "../../assets/img/logo.png";
 import List from "./list";
 import { BsList, BsXCircle } from "react-icons/bs";
 
-const Header = () => {
+const Header = ({ elements, paths }) => {
   const header = useRef();
   const nav = useRef();
   const sidebar = useRef();
@@ -48,6 +48,8 @@ const Header = () => {
               className="list list--sidebar list--right-sidebar d-flex d-flex--center d-flex--direction gap-md"
               handleClickList={(e) => e.stopPropagation()}
               handleClickNavLink={handleClickHideMenu}
+              elements={elements}
+              paths={paths}
             />
             <button className="icon icon--close" onClick={handleClickHideMenu}>
               <BsXCircle />
