@@ -5,9 +5,12 @@
   background:var(--primary-theme-color);
   margin-right: 0px!important;
 
-  border-top: solid;
+  &--scroll {
+    background-color: var(--primary-theme-color);
+    border-top: solid;
   border-bottom: solid;
   border-color: var(--primary-highlight-color);
+  }
 
   &__logo {
     display: block;

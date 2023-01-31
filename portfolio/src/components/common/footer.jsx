@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import {
   BsFacebook,
   BsInstagram,
@@ -11,9 +12,25 @@ import logo from "../../assets/img/logo.png";
 import List from "./list";
 
 const Footer = ({ elements, paths }) => {
+  const footer = useRef();
+  const documentScroll = () => {
+    var scrollMaxY =
+      window.scrollMaxY ||
+      document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
+
+    console.log(scrollMaxY, window.scrollY);
+    footer.current?.classList.toggle(
+      "footer--scroll",
+      window.scrollY >= scrollMaxY - 80
+    );
+  };
+
+  document.addEventListener("scroll", documentScroll);
+
   return (
     <div>
-      <footer className="footer">
+      <footer className="footer" ref={footer}>
         <div className="row ">
           <div className="col-4 d-flex d-flex--center">
             <Link to="/portfolio/">
