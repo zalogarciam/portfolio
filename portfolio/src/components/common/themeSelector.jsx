@@ -11,13 +11,13 @@ const ThemeSelector = () => {
 
   return (
     <select
-      className="select select--theme icon--border"
+      className="select select--theme icon--border paragraph-text"
       onChange={handleChangeSelectTheme}
       value={theme}
     >
-      <option value="code">💻</option>
-      <option value="dark">🌚</option>
-      <option value="light">🌞</option>
+      <option value="code">💻 Code</option>
+      <option value="dark">🌚 Dark</option>
+      <option value="light">🌞 Light</option>
     </select>
   );
 };

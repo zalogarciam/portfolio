@@ -1,5 +1,5 @@
 .select {
-    background-color: var(--secondary-theme-color);
+    background-color: var(--primary-highlight-color);
     filter: brightness(0.75);
 
     &--theme {
@@ -8,7 +8,7 @@
       border-radius: 0.25rem;
       border-color: var(--primary-highlight-color);
       border-width: 2px;
-      width: 2.5rem;
+      width: 7rem;
       height: 2rem;
     }
 
