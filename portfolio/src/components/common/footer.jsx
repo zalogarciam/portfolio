@@ -58,10 +58,10 @@ const Footer = ({ elements, paths }) => {
       </div>
 
       <div ref={copyright} className="pt-4">
-        <p className="text-center text-highlight">
+        <p className="text-center paragraph-highlight-text">
           I can fix the World 🌎, but they won't give me the source code 💻
         </p>
-        <p className="text-center text-highlight">
+        <p className="text-center paragraph-highlight-text">
           © 2023 Gonzalo Garcia Martinez. All rights reserved.
         </p>
       </div>
