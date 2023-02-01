@@ -17,6 +17,10 @@
 --organic-arrow-color: green!important;
 }
 
+.awssld__controls{
+visibility: visible!important;    
+}
+
 .awssld__controls__arrow-right::before{
 background-color: var(--primary-highlight-color);
 }
@@ -40,3 +44,4 @@ background-color: var(--primary-highlight-color);
 .awssld__content > img {
     object-fit: contain;
 }
+
