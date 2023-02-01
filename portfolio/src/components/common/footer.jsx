@@ -7,6 +7,7 @@ import SocialMedia from "./socialMedia";
 
 const Footer = ({ elements, paths }) => {
   const footer = useRef();
+  const copyright = useRef();
   const documentScroll = () => {
     var scrollMaxY =
       window.scrollMaxY ||
@@ -18,20 +19,24 @@ const Footer = ({ elements, paths }) => {
       "footer--scroll",
       window.scrollY >= scrollMaxY - 256
     );
+    copyright.current?.classList.toggle(
+      "footer--copyright-scroll",
+      window.scrollY >= scrollMaxY - 256
+    );
   };
 
   document.addEventListener("scroll", documentScroll);
 
   return (
-    <div className="footer" ref={footer}>
-      <footer className="container ">
-        <div className="row ">
-          <div className="col-4 d-flex d-flex--center">
-            <div className="row">
+    <footer className="footer" ref={footer}>
+      <div className="container pb-3">
+        <div className="row">
+          <div className="col-4">
+            <div className="row d-flex d-flex--center">
               <p>Web designed and developed by: Gonzalo Garcia Martinez</p>
             </div>
             <div className="row">
-              <Link to="/portfolio/">
+              <Link className="d-flex d-flex--center" to="/portfolio/">
                 <img src={logo} alt="Logo" className="footer__logo" />
               </Link>
             </div>
@@ -50,15 +55,17 @@ const Footer = ({ elements, paths }) => {
             />
           </div>
         </div>
-      </footer>
-      <div className="row pt-3"></div>
-      <p className="text-center text-highlight">
-        I can fix the World 🌎, but they won't give me the source code 💻
-      </p>
-      <p className="text-center text-highlight">
-        © 2023 Gonzalo Garcia Martinez. All rights reserved.
-      </p>
-    </div>
+      </div>
+
+      <div ref={copyright} className="pt-4">
+        <p className="text-center text-highlight">
+          I can fix the World 🌎, but they won't give me the source code 💻
+        </p>
+        <p className="text-center text-highlight">
+          © 2023 Gonzalo Garcia Martinez. All rights reserved.
+        </p>
+      </div>
+    </footer>
   );
 };
 

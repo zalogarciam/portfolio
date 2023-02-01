@@ -12,8 +12,14 @@
   &--scroll {
     background-color: var(--primary-theme-color);
     border-top: solid;
-  // border-bottom: solid;
-  border-color: var(--primary-highlight-color);
+    border-color: var(--primary-highlight-color);
+  }
+
+  &--copyright-scroll {
+    
+    background-color: var(--primary-theme-color);
+    border-top: solid;
+    border-color: var(--primary-highlight-color);
   }
 
   &__logo {
