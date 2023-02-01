@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layouts/mainLayout";
+import AboutMe from "../pages/aboutMe";
 import Home from "../pages/home";
 export const mainRoutes = createBrowserRouter([
   {
@@ -13,15 +14,7 @@ export const mainRoutes = createBrowserRouter([
       },
       {
         path: "/portfolio/about",
-        element: (
-          <div>
-            <h1>About Me</h1>
-            <h1>About Me</h1>
-            <h1>About Me</h1>
-            <h1>About Me</h1>
-            <h1>About Me</h1>
-          </div>
-        ),
+        element: <AboutMe />,
       },
       {
         path: "/portfolio/experience",

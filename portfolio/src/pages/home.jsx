@@ -5,6 +5,7 @@ import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import Typewriter from "typewriter-effect";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+
 const Home = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -34,21 +35,21 @@ const Home = () => {
         />
       </div>
 
-      <div>
+      <div className="slider-contain">
         <AutoplaySlider
           animation="scaleOutAnimation"
           play={true}
           cancelOnInteraction={true} // should stop playing on user interaction
           interval={1000}
         >
-          <div className="text-center">
-            <img src="../src/assets/img/snowboard.webp" />
+          <div className="text-center ">
+            <img
+              className="banner-img"
+              src="../src/assets/img/snowboard.webp"
+            />
           </div>
-          <div className="text-center text-highlight">
-            <img src="../src/assets/img/code.webp" />
-          </div>
-          <div className="text-center text-highlight">
-            <img src="../src/assets/img/cross.webp" />
+          <div className="text-center banner-img">
+            <img className="banner-img" src="../src/assets/img/code.webp" />
           </div>
         </AutoplaySlider>
       </div>

@@ -41,14 +41,17 @@ p {
 }
 
 .subtitle-highlight-text {
-    font-size: 1.5rem;
-    font-family: var(--primary-font-family);
+    font-size: 1rem;
+    font-family: var(--italic-font-family);
     color: var(--primary-highlight-color);
+    @include desktop {
+        font-size: 1.5rem;
+      }
 }
 
 .title-highlight-text {
     font-size: 2rem;
-    font-family: var(--primary-font-family);
+    font-family: var(--italic-font-family);
     color: var(--primary-highlight-color);
 }
 

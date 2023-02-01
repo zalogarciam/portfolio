@@ -2,32 +2,41 @@
 .awssld__content{
     background-color: transparent!important;
   }
+ 
 
-  .awssld__bullets{
-    &--active {
-        background-color: var(--primary-highlight-color)!important;
-
-      }
-  }
-
-  .awssld__bullets{
-    --control-bullet-color: var(--primary-text-color)!important;
-    --control-bullet-active-color: var(--primary-highlight-color)!important;
-    --organic-arrow-color: green!important;
-  }
-
-  .awssld__controls__arrow-right::before{
+.awssld__bullets{
+&--active {
     background-color: var(--primary-highlight-color)!important;
-  }
 
-  .awssld__controls__arrow-right::after{
-    background-color: var(--primary-highlight-color)!important;
-  }
+    }
+}
 
-  .awssld__controls__arrow-left::before{
-    background-color: var(--primary-highlight-color)!important;
-  }
+.awssld__bullets{
+--control-bullet-color: var(--primary-text-color)!important;
+--control-bullet-active-color: var(--primary-highlight-color)!important;
+--organic-arrow-color: green!important;
+}
 
-  .awssld__controls__arrow-left::after{
-    background-color: var(--primary-highlight-color)!important;
-  }
+.awssld__controls__arrow-right::before{
+background-color: var(--primary-highlight-color);
+}
+
+.awssld__controls__arrow-right::after{
+background-color: var(--primary-highlight-color);
+}
+
+.awssld__controls__arrow-left::before{
+background-color: var(--primary-highlight-color);
+}
+
+.awssld__controls__arrow-left::after{
+background-color: var(--primary-highlight-color);
+}
+
+.awssld__timer{
+    display: none!important;
+}
+
+.awssld__content > img {
+    object-fit: contain;
+}

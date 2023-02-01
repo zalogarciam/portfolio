@@ -1,0 +1,11 @@
+.banner-img {
+    width:512px;
+
+    @include tablet {
+        width:640px;
+      }
+
+    @include desktop {
+        width:auto;
+      }
+}
