@@ -4,13 +4,16 @@ import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import Typewriter from "typewriter-effect";
-
+import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 const Home = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
 
   return (
     <div className="pt-5">
-      <div className="container text-center subtitle-highlight-text pb-5">
+      <div
+        className="container text-center subtitle-highlight-text pb-5"
+        style={{ height: "12rem" }}
+      >
         <Typewriter
           options={{
             delay: 50,
@@ -33,27 +36,20 @@ const Home = () => {
 
       <div>
         <AutoplaySlider
-          className="test"
+          animation="scaleOutAnimation"
           play={true}
-          cancelOnInteraction={false} // should stop playing on user interaction
-          interval={20000}
+          cancelOnInteraction={true} // should stop playing on user interaction
+          interval={1000}
         >
-          <div
-            className="text-center text-highlight"
-            style={{ backGroundColor: "red" }}
-          >
-            <p className="text-highlight">
-              Software Developer with 7+ years of experience
-            </p>
-            <p className="text-highlight">
-              Feel free to take a look at my latest projects.
-            </p>
-            <p className="text-highlight">
-              Remotely available (GMT-5). gegarciam95@gmail.com
-            </p>
+          <div className="text-center">
+            <img src="../src/assets/img/snowboard.webp" />
           </div>
-          <div>2</div>
-          <div>3</div>
+          <div className="text-center text-highlight">
+            <img src="../src/assets/img/code.webp" />
+          </div>
+          <div className="text-center text-highlight">
+            <img src="../src/assets/img/cross.webp" />
+          </div>
         </AutoplaySlider>
       </div>
     </div>
