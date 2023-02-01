@@ -1,9 +1,14 @@
 .link {
     color: var(--primary-text-color);
     text-decoration: none;
+    font-size: 0.55rem;
     &:hover
     {
       color: var(--primary-highlight-color);
       text-decoration: underline;
+    }
+
+    @include desktop {
+      font-size: 1rem;
     }
 }

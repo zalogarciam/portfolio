@@ -30,7 +30,8 @@
     }
 
     &--hide{
-      display:none!important;
+      // display:hidden!important;
+      visibility: hidden!important;
     }
 
     &--menu,
@@ -41,6 +42,10 @@
     }
 
     &--social-media{
+      @include desktop {
+        font-size: 2rem;
+      }
+      font-size: 1.3rem;
       color: var(--secondary-highlight-color);
 
       &:hover {

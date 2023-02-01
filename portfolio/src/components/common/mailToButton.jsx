@@ -12,7 +12,7 @@ const MailToButton = ({ mailTo }) => {
           e.preventDefault();
         }}
       >
-        {"Email: " + mailTo}
+        {mailTo}
       </Link>
     </div>
   );
