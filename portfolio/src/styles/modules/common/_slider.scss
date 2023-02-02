@@ -38,10 +38,8 @@ background-color: var(--primary-highlight-color);
 }
 
 .awssld__timer{
-    display: none!important;
+    --timer-height: 0.5rem!important;
+    --timer-background-color: var(--primary-highlight-color)!important;
 }
 
-.awssld__content > img {
-    object-fit: contain;
-}
 

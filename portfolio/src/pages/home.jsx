@@ -4,7 +4,7 @@ import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import Typewriter from "typewriter-effect";
-import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import "react-awesome-slider/dist/custom-animations/cube-animation.css";
 
 const Home = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -24,7 +24,7 @@ const Home = () => {
             typeWriter
               .typeString("Hello, my name is Gonzalo Garcia Martinez.<br/>")
               .typeString(
-                "I am a Software Developer with 7+ years of experience.<br/>"
+                "I am a Full Stack Software Developer with 7+ years of experience.<br/>"
               )
               .typeString(
                 "Feel free to take a look at my latest projects.<br/>"
@@ -37,10 +37,10 @@ const Home = () => {
 
       <div className="slider-contain">
         <AutoplaySlider
-          animation="scaleOutAnimation"
+          animation="cubeAnimation"
           play={true}
           cancelOnInteraction={true} // should stop playing on user interaction
-          interval={1000}
+          interval={10000}
         >
           <div className="text-center ">
             <img
