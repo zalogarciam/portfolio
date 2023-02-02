@@ -1,0 +1,62 @@
+// Rotation Aninmation in AboutMe section
+
+@keyframes t-rotate {
+    to{
+        transform: rotate(360deg);
+    }
+}
+.rotation-container {
+    position: relative;
+    max-width: 512px;
+  }
+
+  .rotation-decorators {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    animation: t-rotate 10s linear infinite;
+  }
+
+.rotation-decorator {
+    position: absolute;
+    display: flex;
+  }
+  
+  .rotation-decorator:nth-child(1) { // HTML
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  
+  .rotation-decorator:nth-child(2) { // CSS
+    top: 75%;
+    left: 100%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+  }
+  
+  .rotation-decorator:nth-child(3) { // JS
+    top: 75%;
+    left: 0%;
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  .rotation-decorator:nth-child(4) { //REACT
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+
+  .rotation-decorator:nth-child(5) { // C#
+    top: 25%;
+    left: 100%;
+    transform: translate(-50%, -50%) rotate(225deg);
+  }
+  
+  .rotation-decorator:nth-child(6) { // PYTHON
+    top: 25%;
+    left: 0%;
+    transform: translate(-50%, -50%) rotate(-225deg);
+  }
