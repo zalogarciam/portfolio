@@ -7,7 +7,9 @@ const ThemeSelector = () => {
     document.documentElement.className = e.target.value;
     localStorage.setItem("theme", e.target.value);
     setTheme(e.target.value);
+    console.log(theme);
   };
+
 
   return (
     <select
