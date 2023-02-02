@@ -33,7 +33,9 @@ const Footer = ({ elements, paths }) => {
         <div className="row">
           <div className="col-4">
             <div className="row d-flex d-flex--center">
-              <p>Web designed and developed by: Gonzalo Garcia Martinez</p>
+              <p className="paragraph-text">
+                Web designed and developed by: Gonzalo Garcia Martinez
+              </p>
             </div>
             <div className="row">
               <Link className="d-flex d-flex--center" to="/portfolio/">
@@ -42,11 +44,15 @@ const Footer = ({ elements, paths }) => {
             </div>
           </div>
           <div className="col-4 d-flex d--flex-center d-flex--direction-column text-center">
-            <h5 className="text-center">Useful Links</h5>
+            <h5 className="text-center subtitle-highlight-text">
+              Useful Links
+            </h5>
             <List elements={elements} paths={paths}></List>
           </div>
           <div className="col-4">
-            <h5 className="text-center">Social Media</h5>
+            <h5 className="text-center subtitle-highlight-text">
+              Social Media
+            </h5>
             <SocialMedia />
             <ContactInformation
               email={"gegarciam95@gmail.com"}

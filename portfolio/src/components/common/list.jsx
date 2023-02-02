@@ -3,7 +3,9 @@ import { NavLink } from "react-router-dom";
 const List = ({
   className = "",
   handleClickList = () => {},
-  handleClickNavLink = () => {},
+  handleClickNavLink = () => {
+    window.scrollTo(0, 0);
+  },
   elements,
   paths,
 }) => {

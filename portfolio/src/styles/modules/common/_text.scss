@@ -1,42 +1,6 @@
-h5 {
-    font-family: var(--bold-font-family);
-    color: var(--primary-highlight-color);
-    font-size: 1.2rem;
-}
-
-h4 {
-    font-family: var(--primary-font-family);
-    color: var(--primary-highlight-color);
-}
-
-h3 {
-    font-family: var(--primary-font-family);
-    color: var(--primary-highlight-color);
-}
-
-h2 {
-    font-family: var(--primary-font-family);
-    color: var(--primary-highlight-color);
-}
-
-h1 {
-    font-family: var(--primary-font-family);
-    color: var(--primary-highlight-color);
-
-}
-
-p {
-    font-family: var(--primary-font-family);
-    color: var(--primary-text-color);
-    font-size: 0.75rem;
-    @include desktop {
-        font-size: 1rem;
-      }
-}
-
 .paragraph-highlight-text {
     font-size: 1rem;
-    font-family: var(--primary-font-family);
+    font-family: var(--italic-font-family);
     color: var(--primary-highlight-color);
 }
 
@@ -56,9 +20,12 @@ p {
 }
 
 .paragraph-text {
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-family: var(--primary-font-family);
     color: var(--primary-text-color);
+    @include desktop {
+        font-size: 1rem;
+      }
 }
 
 .subtitle-text {
