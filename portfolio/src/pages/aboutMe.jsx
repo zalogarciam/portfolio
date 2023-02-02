@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 
 const AboutMe = () => {
@@ -18,10 +19,58 @@ const AboutMe = () => {
         />
       </div>
       <div className="row">
-        <div className="col-sm-12 col-md-6">
-          <p className="paragraph-text">hola como estas</p>
+        <div className="col-sm-12 col-md-6 format-text">
+          <p className="paragraph-text">
+            Hi, I am a peruvian developer living in Arequipa, Peru.
+          </p>
+          <div className="row">
+            <div className="col-sm-12 col-md-6">
+              <p className="paragraph-text">
+                I studied Software Engineering at Universidad Catolica de Santa
+                Maria, Peru and a Master of Computer Science at The University
+                of Melbourne, Australia.
+              </p>
+            </div>
+            <div className="col-sm-12 col-md-6 d-flex d-flex--center d-flex--direction-column gap-md pb-4">
+              <div className="d-flex d-flex--center">
+                <img
+                  src="../src/assets/img/ucsm.webp"
+                  width="256"
+                  className="studies-img"
+                  alt="Gonzalo Garcia"
+                />
+              </div>
+              <div className="d-flex d-flex--center">
+                <img
+                  src="../src/assets/img/unimelb.webp"
+                  width="256"
+                  className="studies-img"
+                  alt="Gonzalo Garcia"
+                />
+              </div>
+            </div>
+          </div>
+
+          <p className="paragraph-text">
+            Currently, I am working at Baires Dev, USA as a Software Engineer as
+            a Web/Desktop developer.
+          </p>
+          <p className="paragraph-text">
+            I have a strong deep problem solving knowledge in Algorithms and
+            Data Structures. Furthermore, I have Research Experience focused on
+            Artificial Intelligence and Human-Computer Interaction. You can find
+            related projects{" "}
+            <Link className="link" to="/portfolio/projects">
+              here
+            </Link>
+            .
+          </p>
+          <p className="paragraph-text">
+            I love programming, and I do have hobbies of my interest that I
+            enjoy such as Snowboard and Crossfit
+          </p>
         </div>
-        <div className="col-sm-12 col-md-6">
+        <div className="col-sm-12 col-md-6 d-flex d-flex--center">
           <div className="d-flex d-flex--center">
             <div className="rotation-container">
               <img

@@ -5,9 +5,15 @@ import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import Typewriter from "typewriter-effect";
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
+import { useEffect } from "react";
 
 const Home = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
+  if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
+    console.info("This page is reloaded");
+  } else {
+    console.info("This page is not reloaded");
+  }
 
   return (
     <div className="pt-5">
@@ -23,7 +29,7 @@ const Home = () => {
           onInit={(typeWriter) => {
             typeWriter
               .pauseFor(8000)
-              .typeString("Hello, my name is Gonzalo Garcia Martinez.<br/>")
+              .typeString("Hi! My name is Gonzalo Garcia Martinez.<br/>")
               .typeString(
                 "I am a Full Stack Software Developer with 7+ years of experience.<br/>"
               )

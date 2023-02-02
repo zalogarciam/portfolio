@@ -11,6 +11,14 @@
 }
 
 .rotate-img{
-  width: 352px;
+  width: 256px;
   border-radius: 50%;
+
+  @include desktop {
+    width: 352px;  }
+}
+
+.studies-img {
+  border-radius: 4%;
+  width: 176px;
 }
