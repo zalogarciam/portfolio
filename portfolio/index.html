@@ -104,7 +104,7 @@
     :root.code {
       --primary-text-color: #fff;
 
-      --primary-theme-color: #38393d;
+      --primary-theme-color: #000;
       --primary-highlight-color: #00ff00;
       --secondary-highlight-color: #fff;
 
@@ -129,16 +129,77 @@
       padding: 0;
       height: 100%; */
     }
+
+    .loader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.25s;
+      font-size: 2rem;
+      color: var(--primary-highlight-color);
+      text-shadow: 0px 0px 10px var(--primary-highlight-color);
+      font-family: var(--bold-font-family) !important;
+
+      opacity: 1;
+      -webkit-transition: opacity 1000ms linear;
+      transition: opacity 1000ms linear;
+    }
+
+    .loader--modal {
+      position: fixed;
+      z-index: 50;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: var(--primary-theme-color);
+    }
+
+    .loader span {
+      display: inline-block;
+      padding: 0 1rem;
+    }
+
+    @media (min-width: 768px) {
+      .loader {
+        font-size: 4rem;
+      }
+    }
   </style>
 </head>
 
 <body class="body">
-  <div id="root"></div>
+
+  <section class="loader loader--modal text-center " id="loader">
+    <div class="loader__spinner loader__spinner--modal" id="loading"> LOADING</div>
+  </section>
+
+  <div id="root">
+  </div>
   <script type="module" src="/src/main.jsx"></script>
+
+  <script src="./src/animations/loader.js"></script>
+
+  <!-- Setting theme -->
   <script>
-    const theme = localStorage.getItem('theme');
+    document.body.style.overflow = "hidden";
+
+    window.addEventListener('load', () => {
+      const loader = document.getElementById('loader');
+      setTimeout(() => {
+        loader.style.opacity = '0';
+        setTimeout(() => loader.remove(), 2000);
+      }, 5000);
+      setInterval(function () {
+        document.body.style.overflow = "auto";
+      }, 5000);
+
+    });
+
+
+    const theme = localStorage.getItem("theme");
     if (theme === "dark" || theme === "light" || theme === "code") {
-      document.documentElement.className = theme
+      document.documentElement.className = theme;
     }
   </script>
 </body>

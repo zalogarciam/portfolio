@@ -22,6 +22,7 @@ const Home = () => {
           }}
           onInit={(typeWriter) => {
             typeWriter
+              .pauseFor(8000)
               .typeString("Hello, my name is Gonzalo Garcia Martinez.<br/>")
               .typeString(
                 "I am a Full Stack Software Developer with 7+ years of experience.<br/>"
@@ -40,7 +41,7 @@ const Home = () => {
           animation="cubeAnimation"
           play={true}
           cancelOnInteraction={true} // should stop playing on user interaction
-          interval={10000}
+          interval={7000}
         >
           <div className="text-center ">
             <img

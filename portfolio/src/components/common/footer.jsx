@@ -13,8 +13,6 @@ const Footer = ({ elements, paths }) => {
       window.scrollMaxY ||
       document.documentElement.scrollHeight -
         document.documentElement.clientHeight;
-
-    console.log(scrollMaxY, window.scrollY);
     footer.current?.classList.toggle(
       "footer--scroll",
       window.scrollY >= scrollMaxY - 256

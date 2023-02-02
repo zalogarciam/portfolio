@@ -25,7 +25,7 @@ const MainLayout = () => {
           style={{
             paddingTop: "5rem",
             paddingBottom: "5rem",
-            minHeight: "90vh",
+            minHeight: "60vh",
           }}
         >
           <Outlet />
