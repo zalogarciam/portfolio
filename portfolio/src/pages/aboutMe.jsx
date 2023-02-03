@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
+import zalo from "../assets/img/zalo.svg";
+import ucsm from "../assets/img/ucsm.svg";
+import unimelb from "../assets/img/unimelb.svg";
 import html from "../assets/img/svg/html.svg";
+import css from "../assets/img/svg/css.svg";
+import js from "../assets/img/svg/js.svg";
+import react from "../assets/img/svg/react.svg";
+import python from "../assets/img/svg/python.svg";
+import csharp from "../assets/img/svg/csharp.svg";
 
 const AboutMe = () => {
   return (
@@ -35,7 +43,7 @@ const AboutMe = () => {
             <div className="col-sm-12 col-md-6 d-flex d-flex--center d-flex--direction-column gap-md pb-4">
               <div className="d-flex d-flex--center">
                 <img
-                  src="../src/assets/img/ucsm.webp"
+                  src={ucsm}
                   width="256"
                   className="studies-img"
                   alt="Gonzalo Garcia"
@@ -43,7 +51,7 @@ const AboutMe = () => {
               </div>
               <div className="d-flex d-flex--center">
                 <img
-                  src="../src/assets/img/unimelb.webp"
+                  src={unimelb}
                   width="256"
                   className="studies-img"
                   alt="Gonzalo Garcia"
@@ -75,7 +83,7 @@ const AboutMe = () => {
           <div className="d-flex d-flex--center">
             <div className="rotation-container">
               <img
-                src="../src/assets/img/zalo.webp"
+                src={zalo}
                 width="256"
                 alt="Gonzalo Garcia"
                 className="rotate-img"
@@ -89,35 +97,35 @@ const AboutMe = () => {
                   className="rotation-decorator"
                 />
                 <img
-                  src="../src/assets/img/svg/css.svg"
+                  src={css}
                   alt="css"
                   width="64"
                   height="64"
                   className="rotation-decorator"
                 />
                 <img
-                  src="../src/assets/img/svg/js.svg"
+                  src={js}
                   alt="js"
                   width="64"
                   height="64"
                   className="rotation-decorator"
                 />
                 <img
-                  src="../src/assets/img/svg/react.svg"
+                  src={react}
                   alt="react"
                   width="64"
                   height="64"
                   className="rotation-decorator"
                 />
                 <img
-                  src="../src/assets/img/svg/csharp.svg"
+                  src={csharp}
                   alt="csharp"
                   width="64"
                   height="64"
                   className="rotation-decorator"
                 />
                 <img
-                  src="../src/assets/img/svg/python.svg"
+                  src={python}
                   alt="python"
                   width="64"
                   height="64"
