@@ -82,7 +82,7 @@ const AboutMe = () => {
               />
               <figure className="rotation-decorators">
                 <img
-                  src="../src/assets/img/svg/html.svg"
+                  src={html}
                   alt="html"
                   width="64"
                   height="64"
