@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
+import html from "../assets/img/svg/html.svg";
 
 const AboutMe = () => {
   return (
