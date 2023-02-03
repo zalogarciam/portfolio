@@ -28,7 +28,7 @@ const AboutMe = () => {
         />
       </div>
       <div className="row">
-        <div className="col-sm-12 col-md-6 format-text">
+        <div className="col-sm-12 col-md-6 format-text pb-5">
           <p className="paragraph-text">
             Hi, I am a peruvian developer living in Arequipa, Peru.
           </p>
@@ -79,7 +79,7 @@ const AboutMe = () => {
             enjoy such as Snowboard and Crossfit
           </p>
         </div>
-        <div className="col-sm-12 col-md-6 d-flex d-flex--center">
+        <div className="col-sm-12 col-md-6 d-flex d-flex--center pb-5">
           <div className="d-flex d-flex--center">
             <div className="rotation-container">
               <img
