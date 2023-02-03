@@ -2,19 +2,11 @@ import Typewriter from "typewriter-effect";
 import { AiFillMessage } from "react-icons/ai";
 import { BiWorld } from "react-icons/bi";
 import { useState } from "react";
-import GoogleMapReact from "google-map-react";
+import { withGoogleMap, GoogleMap, Marker } from "react-google-maps";
+import MyMapComponent from "../components/common/map";
 
 const Contact = () => {
   const [formStatus, setFormStatus] = useState("Send");
-
-  const AnyReactComponent = ({ text }) => <div>{text}</div>;
-  const defaultProps = {
-    center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
-    },
-    zoom: 11,
-  };
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -27,6 +19,7 @@ const Contact = () => {
     };
     console.log(conFom);
   };
+
   return (
     <div className="container">
       <div className="container text-center title-highlight-text pb-5">
@@ -97,14 +90,7 @@ const Contact = () => {
             {"?"}
           </p>
           <div>
-            {" "}
-            {/* <div style={{ height: "500px", width: "500px" }}>
-              <GoogleMapReact
-                style={{ width: "500px", height: "500px" }}
-                defaultCenter={defaultProps.center}
-                defaultZoom={defaultProps.zoom}
-              />
-            </div> */}
+            <MyMapComponent isMarkerShown />
           </div>
         </div>
       </div>
