@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
-import zalo from "../assets/img/zalo.svg";
-import ucsm from "../assets/img/ucsm.svg";
-import unimelb from "../assets/img/unimelb.svg";
+import zalo from "../assets/img/zalo.webp";
+import ucsm from "../assets/img/ucsm.webp";
+import unimelb from "../assets/img/unimelb.webp";
 import html from "../assets/img/svg/html.svg";
 import css from "../assets/img/svg/css.svg";
 import js from "../assets/img/svg/js.svg";
