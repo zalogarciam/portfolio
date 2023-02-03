@@ -15,7 +15,7 @@ const AboutMe = () => {
     <div className="container">
       <div
         className="text-center title-highlight-text pb-5"
-        style={{ height: "12rem" }}
+        style={{ height: "8rem" }}
       >
         <Typewriter
           options={{

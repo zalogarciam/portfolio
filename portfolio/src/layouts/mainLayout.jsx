@@ -23,8 +23,8 @@ const MainLayout = () => {
         <Header elements={headerElements} paths={headerPaths} />
         <main
           style={{
-            paddingTop: "5rem",
-            paddingBottom: "5rem",
+            paddingTop: "8rem",
+            paddingBottom: "2rem",
             minHeight: "60vh",
           }}
         >
