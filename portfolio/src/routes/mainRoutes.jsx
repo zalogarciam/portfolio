@@ -1,10 +1,11 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, createHashRouter } from "react-router-dom";
 import MainLayout from "../layouts/mainLayout";
 import AboutMe from "../pages/aboutMe";
 import Contact from "../pages/contact";
 import Experience from "../pages/experience";
 import Home from "../pages/home";
 import Projects from "../pages/projects";
+
 export const mainRoutes = createBrowserRouter([
   {
     path: "/portfolio/",
