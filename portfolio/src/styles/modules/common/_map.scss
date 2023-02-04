@@ -1,0 +1,12 @@
+.google-map {
+    width:  256px;
+    height: 256px;
+    @include tablet {
+        width:320px;
+        height: 320px;
+      }
+    @include desktop {
+        width:  384px;
+        height: 384px;
+      }
+}

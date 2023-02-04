@@ -4,9 +4,12 @@ import { BiWorld } from "react-icons/bi";
 import { useState } from "react";
 import GoogleMapReact from "google-map-react";
 
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
 const Contact = () => {
   const [formStatus, setFormStatus] = useState("Send");
-  const AnyReactComponent = ({ text }) => <div>{text}</div>;
+  const MySwal = withReactContent(Swal)
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -17,7 +20,11 @@ const Contact = () => {
       email: email.value,
       message: message.value,
     };
-    console.log(conFom);
+    MySwal.fire({
+      html: <p className="paragraph-text">Your message has been sent! You will hear from me shortly.</p>,
+      icon: 'success',
+      confirmButtonText: 'Ok',
+    })
   };
 
   const mapConfig = {
@@ -98,8 +105,8 @@ const Contact = () => {
             {"?"}
           </p>
           <div>
-            <div style={{ height: "450px", width: "450px" }}>
-              <GoogleMapReact
+            <div className="google-map">
+                <GoogleMapReact
                 bootstrapURLKeys={{
                   key:import.meta.env.VITE_GOOGLE_API_KEY
                 }}
