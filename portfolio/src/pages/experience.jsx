@@ -1,5 +1,20 @@
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
+import html from "../assets/img/svg/html.svg";
+import css from "../assets/img/svg/css.svg";
+import js from "../assets/img/svg/js.svg";
+import react from "../assets/img/svg/react.svg";
+import python from "../assets/img/svg/python.svg";
+import csharp from "../assets/img/svg/csharp.svg";
+import django from "../assets/img/svg/django.svg";
+import net from "../assets/img/svg/net.svg";
+import mysql from "../assets/img/svg/mysql.svg";
+import postgresql from "../assets/img/svg/postgresql.svg";
+import redux from "../assets/img/svg/redux.svg";
+import sqlserver from "../assets/img/svg/sqlserver.svg";
+import unity from "../assets/img/svg/unity.svg";
+import vite from "../assets/img/svg/vite.svg";
+import telerik from "../assets/img/svg/telerik.svg";
 
 const Experience = () => {
   return (
@@ -20,9 +35,55 @@ const Experience = () => {
       </div>
       <div>
         <div className="row">
-          <div className="col-sm-12 col-md-6 format-text pb-5"> 
-            
+          <div className="col-sm-12 col-md-6 format-text pb-5 d-flex d-flex--center d-flex--direction-column">
+            <div>
+              <p className="subtitle-highlight-text">Back End</p>
+            </div>
+            <div className="row pt-3 pb-3">
+              <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
+                <img src={csharp} width="64" className="tech-img" />
+              </div>
+              <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
+                <img src={python} width="64" className="tech-img" />
+              </div>
+              <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
+                <img src={net} width="64" className="tech-img" />
+              </div>
+              <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
+                <img src={django} width="64" className="tech-img" />
+              </div>
+              <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
+                <img src={sqlserver} width="64" className="tech-img" />
+              </div>
+              <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
+                <img src={unity} width="64" className="tech-img" />
+              </div>
+            </div>
+            <div>
+              <p className="subtitle-highlight-text">Front End</p>
+            </div>
+            <div className="row pt-3 pb-3">
+              <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
+                <img src={react} width="64" className="tech-img" />
+              </div>
+              <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
+                <img src={css} width="64" className="tech-img" />
+              </div>
+              <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
+                <img src={html} width="64" className="tech-img" />
+              </div>
+              <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
+                <img src={redux} width="64" className="tech-img" />
+              </div>
+              <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
+                <img src={js} width="64" className="tech-img" />
+              </div>
+              <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
+                <img src={telerik} width="64" className="tech-img" />
+              </div>
+            </div>
           </div>
+
           <div className="col-sm-12 col-md-6 format-text pb-5">
             <p className="paragraph-text">
               As a software engineer with 7 years of experience in the industry,
