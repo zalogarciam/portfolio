@@ -4,9 +4,12 @@ import { BiWorld } from "react-icons/bi";
 import { useState } from "react";
 import { withGoogleMap, GoogleMap, Marker } from "react-google-maps";
 import MyMapComponent from "../components/common/map";
+import MapWithAMarker from "../components/common/map";
+import GoogleMapReact from "google-map-react";
 
 const Contact = () => {
   const [formStatus, setFormStatus] = useState("Send");
+  const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -20,6 +23,15 @@ const Contact = () => {
     console.log(conFom);
   };
 
+  const defaultProps = {
+    center: {
+      lat: 10.99835602,
+      lng: 77.01502627,
+    },
+    zoom: 11,
+  };
+
+  console.log(import.meta.env.GOOGLE_API_KEY);
   return (
     <div className="container">
       <div className="container text-center title-highlight-text pb-5">
@@ -90,7 +102,21 @@ const Contact = () => {
             {"?"}
           </p>
           <div>
-            <MyMapComponent isMarkerShown />
+            <div style={{ height: "450px", width: "450px" }}>
+              <GoogleMapReact
+                bootstrapURLKeys={{
+                  key: import.meta.env.GOOGLE_API_KEY,
+                }}
+                defaultCenter={defaultProps.center}
+                defaultZoom={defaultProps.zoom}
+              >
+                <AnyReactComponent
+                  lat={59.955413}
+                  lng={30.337844}
+                  text="My Marker"
+                />
+              </GoogleMapReact>
+            </div>
           </div>
         </div>
       </div>
