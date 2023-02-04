@@ -2,9 +2,6 @@ import Typewriter from "typewriter-effect";
 import { AiFillMessage } from "react-icons/ai";
 import { BiWorld } from "react-icons/bi";
 import { useState } from "react";
-import { withGoogleMap, GoogleMap, Marker } from "react-google-maps";
-import MyMapComponent from "../components/common/map";
-import MapWithAMarker from "../components/common/map";
 import GoogleMapReact from "google-map-react";
 
 const Contact = () => {
@@ -23,15 +20,14 @@ const Contact = () => {
     console.log(conFom);
   };
 
-  const defaultProps = {
+  const mapConfig = {
     center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
+      lat: -16.408672332278844, 
+      lng:-71.53720913891807,
     },
-    zoom: 11,
+    zoom: 12,
   };
 
-  console.log(import.meta.env.GOOGLE_API_KEY);
   return (
     <div className="container">
       <div className="container text-center title-highlight-text pb-5">
@@ -105,16 +101,11 @@ const Contact = () => {
             <div style={{ height: "450px", width: "450px" }}>
               <GoogleMapReact
                 bootstrapURLKeys={{
-                  key: import.meta.env.GOOGLE_API_KEY,
+                  key:import.meta.env.VITE_GOOGLE_API_KEY
                 }}
-                defaultCenter={defaultProps.center}
-                defaultZoom={defaultProps.zoom}
+                defaultCenter={mapConfig.center}
+                defaultZoom={mapConfig.zoom}
               >
-                <AnyReactComponent
-                  lat={59.955413}
-                  lng={30.337844}
-                  text="My Marker"
-                />
               </GoogleMapReact>
             </div>
           </div>
