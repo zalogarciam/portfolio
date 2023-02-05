@@ -52,6 +52,9 @@ const Contact = () => {
           }}
         />
       </div>
+      <div>
+        <p className="subtitle-text">You have an idea or project in mind? Interested in working together? Let's have a talk.</p>
+      </div>
       <div className="row">
         <div className="col-md-6 col-12 d-flex d-flex--direction-column pt-5">
           <p className="regular-highlight-text pb-4 text-center">

@@ -13,7 +13,6 @@ import postgresql from "../assets/img/svg/postgresql.svg";
 import redux from "../assets/img/svg/redux.svg";
 import sqlserver from "../assets/img/svg/sqlserver.svg";
 import unity from "../assets/img/svg/unity.svg";
-import vite from "../assets/img/svg/vite.svg";
 import telerik from "../assets/img/svg/telerik.svg";
 import resume from "../assets/pdf/resume.pdf";
 
