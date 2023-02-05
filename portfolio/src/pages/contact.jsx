@@ -4,12 +4,12 @@ import { BiWorld } from "react-icons/bi";
 import { useState } from "react";
 import GoogleMapReact from "google-map-react";
 
-import Swal from 'sweetalert2'
-import withReactContent from 'sweetalert2-react-content'
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
 const Contact = () => {
   const [formStatus, setFormStatus] = useState("Send");
-  const MySwal = withReactContent(Swal)
+  const MySwal = withReactContent(Swal);
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -21,16 +21,20 @@ const Contact = () => {
       message: message.value,
     };
     MySwal.fire({
-      html: <p className="paragraph-text">Your message has been sent! You will hear from me shortly.</p>,
-      icon: 'success',
-      confirmButtonText: 'Ok',
-    })
+      html: (
+        <p className="paragraph-text">
+          Your message has been sent! You will hear from me shortly.
+        </p>
+      ),
+      icon: "success",
+      confirmButtonText: "Ok",
+    });
   };
 
   const mapConfig = {
     center: {
-      lat: -16.408672332278844, 
-      lng:-71.53720913891807,
+      lat: -16.408672332278844,
+      lng: -71.53720913891807,
     },
     zoom: 12,
   };
@@ -92,7 +96,7 @@ const Contact = () => {
               />
             </div>
             <div className="d-flex d-flex--center">
-              <button className="btn btn-primary" type="submit">
+              <button className="btn btn-secondary" type="submit">
                 {formStatus}
               </button>
             </div>
@@ -106,14 +110,13 @@ const Contact = () => {
           </p>
           <div>
             <div className="google-map">
-                <GoogleMapReact
+              <GoogleMapReact
                 bootstrapURLKeys={{
-                  key:import.meta.env.VITE_GOOGLE_API_KEY
+                  key: import.meta.env.VITE_GOOGLE_API_KEY,
                 }}
                 defaultCenter={mapConfig.center}
                 defaultZoom={mapConfig.zoom}
-              >
-              </GoogleMapReact>
+              ></GoogleMapReact>
             </div>
           </div>
         </div>

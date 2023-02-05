@@ -15,6 +15,9 @@ import sqlserver from "../assets/img/svg/sqlserver.svg";
 import unity from "../assets/img/svg/unity.svg";
 import vite from "../assets/img/svg/vite.svg";
 import telerik from "../assets/img/svg/telerik.svg";
+import resume from "../assets/pdf/resume.pdf";
+
+import { BsDownload } from "react-icons/bs";
 
 const Experience = () => {
   return (
@@ -35,7 +38,7 @@ const Experience = () => {
       </div>
       <div>
         <div className="row">
-          <div className="col-sm-12 col-md-6 format-text pb-5 d-flex d-flex--center d-flex--direction-column">
+          <div className="col-sm-12 col-md-12 format-text pb-5 d-flex d-flex--center d-flex--direction-column">
             <div>
               <p className="subtitle-highlight-text">Back End</p>
             </div>
@@ -84,7 +87,7 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="col-sm-12 col-md-6 format-text pb-5">
+          <div className="col-sm-12 col-md-12 format-text pb-5">
             <p className="paragraph-text">
               As a software engineer with 7 years of experience in the industry,
               I have honed my skills in developing high-quality, scalable and
@@ -109,12 +112,13 @@ const Experience = () => {
               <button className="btn btn-secondary">
                 <Link
                   className="link-download"
-                  to="/files/myfile.pdf"
+                  to={resume}
                   target="_blank"
                   download
                 >
                   Download Resume
                 </Link>
+                <BsDownload className="icon--secondary" />
               </button>
             </div>
           </div>
