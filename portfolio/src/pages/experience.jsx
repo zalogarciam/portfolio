@@ -20,6 +20,18 @@ import resume from "../assets/pdf/resume.pdf";
 import { BsDownload } from "react-icons/bs";
 
 const Experience = () => {
+  const onButtonClick = () => {
+    fetch("GONZALO_RESUME.pdf").then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = resume;
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "GONZALO_RESUME.pdf";
+        alink.click();
+      });
+    });
+  };
+
   return (
     <div className="container">
       <div
@@ -109,15 +121,8 @@ const Experience = () => {
               technologies.
             </p>
             <div className="d-flex d-flex--center pt-2">
-              <button className="btn btn-secondary">
-                <Link
-                  className="link-download"
-                  to={resume}
-                  target="_blank"
-                  download
-                >
-                  Download Resume
-                </Link>
+              <button className="btn btn-secondary" onClick={onButtonClick}>
+                Download Resume
                 <BsDownload className="icon--secondary" />
               </button>
             </div>
