@@ -10,6 +10,8 @@ import melbourne2100 from "../assets/img/projects/melbourne2100.webp";
 import pacman from "../assets/img/projects/pacman.webp";
 import textanalysis from "../assets/img/projects/textanalysis.webp";
 import twitter from "../assets/img/projects/twitter.webp";
+import ugel from "../assets/img/projects/ugel.webp";
+import misinformation from "../assets/img/projects/misinformation.webp";
 import portfolio from "../assets/img/logo.png";
 
 const Projects = () => {
@@ -32,10 +34,12 @@ const Projects = () => {
       <div className="row">
         <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container">
-            <img src={restlens} className="card-img" alt="Restaurant Lens" />
-            <div className="card-header">
+            <div className="card-img-container">
+              <img src={portfolio} className="card-img" alt="Restaurant Lens" />
+            </div>
+            <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
-                Restaurant lens
+                Mi Portfolio
               </h5>
             </div>
             <div className="card-body">
@@ -49,18 +53,16 @@ const Projects = () => {
               </p>
             </div>
             <div className="card-footer d-flex d-flex--center">
-              <p className="paragraph-highlight-text">
-                Last updated 3 years ago
-              </p>
+              <p className="paragraph-highlight-text">Last updated today</p>
             </div>
           </div>
         </div>
         <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container">
-            <img src={restlens} className="card-img" alt="Restaurant Lens" />
-            <div className="card-header">
+            <img src={algorithms} className="card-img" alt="Restaurant Lens" />
+            <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
-                Restaurant lens
+                Algorithms and Data Structures
               </h5>
             </div>
             <div className="card-body">
@@ -75,17 +77,95 @@ const Projects = () => {
             </div>
             <div className="card-footer paragraph-text d-flex d-flex--center">
               <p className="paragraph-highlight-text">
-                Last updated 3 years ago
+                Last updated months ago
               </p>
             </div>
           </div>
         </div>
         <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container">
-            <img src={restlens} className="card-img" alt="Restaurant Lens" />
-            <div className="card-header">
+            <img src={dinosaur} className="card-img" alt="Restaurant Lens" />
+            <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
-                Restaurant lens
+                AI Dinosaur
+              </h5>
+            </div>
+            <div className="card-body">
+              <p className="paragraph-text format-text">
+                Mobile application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision
+              </p>
+            </div>
+            <div className="card-footer paragraph-text d-flex d-flex--center">
+              <p className="paragraph-highlight-text">
+                Last updated months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
+          <div className="card-container">
+            <img src={cova} className="card-img" alt="Restaurant Lens" />
+            <div className="card-header d-flex d-flex--center">
+              <h5 className="subtitle-highlight-text pb-3 pt-3 ">COVA</h5>
+            </div>
+            <div className="card-body">
+              <p className="paragraph-text format-text">
+                Mobile application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision
+              </p>
+            </div>
+            <div className="card-footer paragraph-text d-flex d-flex--center">
+              <p className="paragraph-highlight-text">
+                Last updated 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
+          <div className="card-container">
+            <img
+              src={melbourne2100}
+              className="card-img"
+              alt="Restaurant Lens"
+            />
+            <div className="card-header d-flex d-flex--center">
+              <h5 className="subtitle-highlight-text pb-3 pt-3 ">
+                Melbourne 2100
+              </h5>
+            </div>
+            <div className="card-body">
+              <p className="paragraph-text format-text">
+                Mobile application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision
+              </p>
+            </div>
+            <div className="card-footer paragraph-text d-flex d-flex--center">
+              <p className="paragraph-highlight-text">
+                Last updated 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
+          <div className="card-container">
+            <img src={coauthor} className="card-img" alt="Restaurant Lens" />
+            <div className="card-header d-flex d-flex--center">
+              <h5 className="subtitle-highlight-text pb-3 pt-3 ">
+                Co-authorship Network Link Prediction
               </h5>
             </div>
             <div className="card-body">
@@ -108,10 +188,14 @@ const Projects = () => {
 
         <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container">
-            <img src={restlens} className="card-img" alt="Restaurant Lens" />
-            <div className="card-header">
+            <img
+              src={misinformation}
+              className="card-img"
+              alt="Restaurant Lens"
+            />
+            <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
-                Restaurant lens
+                Misinformtion Detection
               </h5>
             </div>
             <div className="card-body">
@@ -133,11 +217,9 @@ const Projects = () => {
         </div>
         <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container">
-            <img src={restlens} className="card-img" alt="Restaurant Lens" />
-            <div className="card-header">
-              <h5 className="subtitle-highlight-text pb-3 pt-3 ">
-                Restaurant lens
-              </h5>
+            <img src={pacman} className="card-img" alt="Restaurant Lens" />
+            <div className="card-header d-flex d-flex--center">
+              <h5 className="subtitle-highlight-text pb-3 pt-3 ">AI Pacman</h5>
             </div>
             <div className="card-body">
               <p className="paragraph-text format-text">
@@ -159,7 +241,7 @@ const Projects = () => {
         <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container">
             <img src={restlens} className="card-img" alt="Restaurant Lens" />
-            <div className="card-header">
+            <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
                 Restaurant lens
               </h5>
@@ -176,83 +258,7 @@ const Projects = () => {
             </div>
             <div className="card-footer paragraph-text d-flex d-flex--center">
               <p className="paragraph-highlight-text">
-                Last updated 3 years ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
-          <div className="card-container">
-            <img src={restlens} className="card-img" alt="Restaurant Lens" />
-            <div className="card-header">
-              <h5 className="subtitle-highlight-text pb-3 pt-3 ">
-                Restaurant lens
-              </h5>
-            </div>
-            <div className="card-body">
-              <p className="paragraph-text format-text">
-                Mobile application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision
-              </p>
-            </div>
-            <div className="card-footer paragraph-text d-flex d-flex--center">
-              <p className="paragraph-highlight-text">
-                Last updated 3 years ago
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
-          <div className="card-container">
-            <img src={restlens} className="card-img" alt="Restaurant Lens" />
-            <div className="card-header">
-              <h5 className="subtitle-highlight-text pb-3 pt-3 ">
-                Restaurant lens
-              </h5>
-            </div>
-            <div className="card-body">
-              <p className="paragraph-text format-text">
-                Mobile application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision
-              </p>
-            </div>
-            <div className="card-footer paragraph-text d-flex d-flex--center">
-              <p className="paragraph-highlight-text">
-                Last updated 3 years ago
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
-          <div className="card-container">
-            <img src={restlens} className="card-img" alt="Restaurant Lens" />
-            <div className="card-header">
-              <h5 className="subtitle-highlight-text pb-3 pt-3 ">
-                Restaurant lens
-              </h5>
-            </div>
-            <div className="card-body">
-              <p className="paragraph-text format-text">
-                Mobile application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision Mobile
-                application in Android that uses Computer Vision
-              </p>
-            </div>
-            <div className="card-footer paragraph-text d-flex d-flex--center">
-              <p className="paragraph-highlight-text">
-                Last updated 3 years ago
+                Last updated 4 years ago
               </p>
             </div>
           </div>
@@ -260,8 +266,64 @@ const Projects = () => {
 
         <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container">
-            <img src={restlens} className="card-img" alt="Restaurant Lens" />
-            <div className="card-header">
+            <img src={twitter} className="card-img" alt="Restaurant Lens" />
+            <div className="card-header d-flex d-flex--center">
+              <h5 className="subtitle-highlight-text pb-3 pt-3 ">
+                Sentiment Analysis - Twitter
+              </h5>
+            </div>
+            <div className="card-body">
+              <p className="paragraph-text format-text">
+                Mobile application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision
+              </p>
+            </div>
+            <div className="card-footer paragraph-text d-flex d-flex--center">
+              <p className="paragraph-highlight-text">
+                Last updated 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
+          <div className="card-container">
+            <img
+              src={textanalysis}
+              className="card-img"
+              alt="Restaurant Lens"
+            />
+            <div className="card-header d-flex d-flex--center">
+              <h5 className="subtitle-highlight-text pb-3 pt-3 ">
+                SW Requirements Text Analysis
+              </h5>
+            </div>
+            <div className="card-body">
+              <p className="paragraph-text format-text">
+                Mobile application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision Mobile
+                application in Android that uses Computer Vision
+              </p>
+            </div>
+            <div className="card-footer paragraph-text d-flex d-flex--center">
+              <p className="paragraph-highlight-text">
+                Last updated 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
+          <div className="card-container">
+            <img src={ugel} className="card-img" alt="Restaurant Lens" />
+            <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
                 Restaurant lens
               </h5>
@@ -278,18 +340,16 @@ const Projects = () => {
             </div>
             <div className="card-footer paragraph-text d-flex d-flex--center">
               <p className="paragraph-highlight-text">
-                Last updated 3 years ago
+                Last updated 6 years ago
               </p>
             </div>
           </div>
         </div>
         <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container">
-            <img src={restlens} className="card-img" alt="Restaurant Lens" />
-            <div className="card-header">
-              <h5 className="subtitle-highlight-text pb-3 pt-3 ">
-                Restaurant lens
-              </h5>
+            <img src={autodema} className="card-img" alt="Restaurant Lens" />
+            <div className="card-header d-flex d-flex--center">
+              <h5 className="subtitle-highlight-text pb-3 pt-3 ">Autodema</h5>
             </div>
             <div className="card-body">
               <p className="paragraph-text format-text">
@@ -303,18 +363,16 @@ const Projects = () => {
             </div>
             <div className="card-footer paragraph-text d-flex d-flex--center">
               <p className="paragraph-highlight-text">
-                Last updated 3 years ago
+                Last updated 7 years ago
               </p>
             </div>
           </div>
         </div>
         <div className="col-md-4 col-sm-6 col-12 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container">
-            <img src={restlens} className="card-img" alt="Restaurant Lens" />
-            <div className="card-header">
-              <h5 className="subtitle-highlight-text pb-3 pt-3 ">
-                Restaurant lens
-              </h5>
+            <img src={maxlenz} className="card-img" alt="Restaurant Lens" />
+            <div className="card-header d-flex d-flex--center">
+              <h5 className="subtitle-highlight-text pb-3 pt-3 ">Max Lenz</h5>
             </div>
             <div className="card-body">
               <p className="paragraph-text format-text">
@@ -328,7 +386,7 @@ const Projects = () => {
             </div>
             <div className="card-footer paragraph-text d-flex d-flex--center">
               <p className="paragraph-highlight-text">
-                Last updated 3 years ago
+                Last updated 8 years ago
               </p>
             </div>
           </div>
