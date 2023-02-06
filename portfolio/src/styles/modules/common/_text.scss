@@ -12,8 +12,12 @@
 
 .paragraph-highlight-text {
     font-size: 1rem;
-    font-family: var(--italic-font-family);
+    font-family: var(--primary-font-family);
     color: var(--primary-highlight-color);
+    margin: auto;
+    @include desktop {
+        font-size: 1rem;
+      }
 }
 
 .subtitle-highlight-text {
@@ -35,6 +39,7 @@
     font-size: 0.75rem;
     font-family: var(--primary-font-family);
     color: var(--primary-text-color);
+    margin: auto;
     @include desktop {
         font-size: 1rem;
       }

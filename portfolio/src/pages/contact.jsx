@@ -53,7 +53,10 @@ const Contact = () => {
         />
       </div>
       <div>
-        <p className="subtitle-text">You have an idea or project in mind? Interested in working together? Let's have a talk.</p>
+        <p className="subtitle-text">
+          You have an idea or project in mind? Interested in working together?
+          Let's have a talk.
+        </p>
       </div>
       <div className="row">
         <div className="col-md-6 col-12 d-flex d-flex--direction-column pt-5">
@@ -106,7 +109,7 @@ const Contact = () => {
           </form>
         </div>
 
-        <div className="col-md-6 col-12 d-flex d-flex--center d-flex--direction-column pt-5">
+        <div className="col-md-6 col-12 d-flex d-flex--center d-flex--direction-column">
           <p className="regular-highlight-text pb-4 text-center">
             Where am I in this world <BiWorld></BiWorld>
             {"?"}
