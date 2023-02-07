@@ -41,21 +41,17 @@ const Projects = () => {
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
-                Mi Portfolio
+                My Portfolio
               </h5>
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-5 card-img-container">
+            <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
               <img src={portfolio} className="card-img" alt="Mi Portfolio" />
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-7">
-              <div className="card-body">
+            <div className="col-md-7 col-sm-12 col-12 col-lg-7">
+              <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
-                  Mobile application in Android that uses Computer Vision Mobile
-                  application in Android that uses Computer Vision Mobile
-                  application in Android that uses Computer Vision Mobile
-                  application in Android that uses Computer Vision Mobile
-                  application in Android that uses Computer Vision Mobile
-                  application in Android that uses Computer Vision
+                  The project you are looking right now! I have built this web to show a little bit about myself, my work experience and personal projects.
+                  I designed it with a mobile first approach with used React JS and Redux for the front end and Python for the back end.
                 </p>
               </div>
             </div>
@@ -102,11 +98,11 @@ const Projects = () => {
                 Algorithms and Data Structures
               </h5>
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-5 card-img-container">
+            <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
               <img src={algorithms} className="card-img" alt="Mi Portfolio" />
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-7">
-              <div className="card-body">
+            <div className="col-md-7 col-sm-12 col-12 col-lg-7">
+            <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
                   Mobile application in Android that uses Computer Vision Mobile
                   application in Android that uses Computer Vision Mobile
@@ -162,11 +158,11 @@ const Projects = () => {
                 AI Dinosaur
               </h5>
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-5 card-img-container">
+            <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
               <img src={dinosaur} className="card-img" alt="Mi Portfolio" />
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-7">
-              <div className="card-body">
+            <div className="col-md-7 col-sm-12 col-12 col-lg-7">
+            <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
                   Mobile application in Android that uses Computer Vision Mobile
                   application in Android that uses Computer Vision Mobile
@@ -220,11 +216,11 @@ const Projects = () => {
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">COVA</h5>
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-5 card-img-container">
+            <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
               <img src={cova} className="card-img" alt="Mi Portfolio" />
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-7">
-              <div className="card-body">
+            <div className="col-md-7 col-sm-12 col-12 col-lg-7">
+            <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
                   Mobile application in Android that uses Computer Vision Mobile
                   application in Android that uses Computer Vision Mobile
@@ -280,11 +276,11 @@ const Projects = () => {
                 Co-authorship Link Network Prediction
               </h5>
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-5 card-img-container">
+            <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
               <img src={coauthor} className="card-img" alt="Mi Portfolio" />
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-7">
-              <div className="card-body">
+            <div className="col-md-7 col-sm-12 col-12 col-lg-7">
+            <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
                   Mobile application in Android that uses Computer Vision Mobile
                   application in Android that uses Computer Vision Mobile
@@ -340,15 +336,15 @@ const Projects = () => {
                 Misinformation Detection{" "}
               </h5>
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-5 card-img-container">
+            <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
               <img
                 src={misinformation}
                 className="card-img"
                 alt="Mi Portfolio"
               />
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-7">
-              <div className="card-body">
+            <div className="col-md-7 col-sm-12 col-12 col-lg-7">
+            <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
                   Mobile application in Android that uses Computer Vision Mobile
                   application in Android that uses Computer Vision Mobile
@@ -405,11 +401,11 @@ const Projects = () => {
                 Restaurant Lens
               </h5>
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-5 card-img-container">
+            <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
               <img src={restlens} className="card-img" alt="Mi Portfolio" />
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-7">
-              <div className="card-body">
+            <div className="col-md-7 col-sm-12 col-12 col-lg-7">
+            <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
                   Mobile application in Android that uses Computer Vision Mobile
                   application in Android that uses Computer Vision Mobile
@@ -466,11 +462,11 @@ const Projects = () => {
                 Sentiment Analysis in Twitter
               </h5>
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-5 card-img-container">
+            <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
               <img src={twitter} className="card-img" alt="Mi Portfolio" />
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-7">
-              <div className="card-body">
+            <div className="col-md-7 col-sm-12 col-12 col-lg-7">
+            <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
                   Mobile application in Android that uses Computer Vision Mobile
                   application in Android that uses Computer Vision Mobile
@@ -527,11 +523,11 @@ const Projects = () => {
                 SW Requirements Text Analysis
               </h5>
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-5 card-img-container">
+            <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
               <img src={textanalysis} className="card-img" alt="Mi Portfolio" />
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-7">
-              <div className="card-body">
+            <div className="col-md-7 col-sm-12 col-12 col-lg-7">
+            <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
                   Mobile application in Android that uses Computer Vision Mobile
                   application in Android that uses Computer Vision Mobile
@@ -588,11 +584,11 @@ const Projects = () => {
                 UGEL
               </h5>
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-5 card-img-container">
+            <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
               <img src={ugel} className="card-img" alt="Mi Portfolio" />
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-7">
-              <div className="card-body">
+            <div className="col-md-7 col-sm-12 col-12 col-lg-7">
+            <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
                   Mobile application in Android that uses Computer Vision Mobile
                   application in Android that uses Computer Vision Mobile
@@ -649,11 +645,11 @@ const Projects = () => {
                 Autodema
               </h5>
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-5 card-img-container">
+            <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
               <img src={autodema} className="card-img" alt="Mi Portfolio" />
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-7">
-              <div className="card-body">
+            <div className="col-md-7 col-sm-12 col-12 col-lg-7">
+            <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
                   Mobile application in Android that uses Computer Vision Mobile
                   application in Android that uses Computer Vision Mobile
@@ -710,11 +706,11 @@ const Projects = () => {
                 Max Lenz
               </h5>
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-5 card-img-container">
+            <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
               <img src={maxlenz} className="card-img" alt="Mi Portfolio" />
             </div>
-            <div className="col-md-12 col-sm-12 col-12 col-lg-7">
-              <div className="card-body">
+            <div className="col-md-7 col-sm-12 col-12 col-lg-7">
+            <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
                   Mobile application in Android that uses Computer Vision Mobile
                   application in Android that uses Computer Vision Mobile

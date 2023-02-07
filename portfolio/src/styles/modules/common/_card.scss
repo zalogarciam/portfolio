@@ -11,9 +11,13 @@
     // height: 24rem;   
     border-color: var(--primary-highlight-color);
 
-    height: 23rem;
+    height: 15rem;
     width: 100%;
     object-fit: contain;
+
+    @include desktop {
+        height: 22rem;
+    }
   }
   
   .card-img-container {  
@@ -34,8 +38,14 @@
     border-left: solid;
     border-top: solid;
     border-color: var(--primary-highlight-color);
-    padding: var(--container-padding)!important;
-    height: 23rem;
+    padding: var(--section-padding)!important;
+    height: 15rem;
+    @include tablet {
+        height: 18rem;
+    }
+    @include desktop {
+        height: 22rem;
+    }
 }
 
 .card-tech-footer{
