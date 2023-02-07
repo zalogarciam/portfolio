@@ -10,11 +10,6 @@ import code from "../assets/img/code.webp";
 
 const Home = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
-  if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
-    console.info("This page is reloaded");
-  } else {
-    console.info("This page is not reloaded");
-  }
 
   return (
     <div className="pt-5">

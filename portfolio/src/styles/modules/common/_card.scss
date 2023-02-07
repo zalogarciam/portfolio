@@ -1,13 +1,14 @@
 .card-container {
-    width: 23rem;
+    width: auto;
+    margin: 1rem!important;
 }
 
 .card-img {  
     background-color: var(--primary-theme-color);
     border: solid;
-    // object-fit: cover;
+    // object-fit: cover;       
     // width: 20rem;
-    // height: 24rem;
+    // height: 24rem;   
     border-color: var(--primary-highlight-color);
 
     height: 23rem;
@@ -29,11 +30,24 @@
 
 .card-body{
     border-bottom: solid;
-    border-left: solid;
     border-right: solid;
+    border-left: solid;
+    border-top: solid;
     border-color: var(--primary-highlight-color);
     padding: var(--container-padding)!important;
     height: 23rem;
+}
+
+.card-tech-footer{
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    color: var(--primary-highlight-color)!important;
+    border-color: var(--primary-highlight-color);
+    padding: var(--container-padding)!important;
+    text-align: left;
+    background-color: var(--primary-theme-color)!important;
+    height: 4rem !important;
 }
 
 .card-footer{
@@ -44,15 +58,15 @@
     border-color: var(--primary-highlight-color);
     padding: var(--container-padding)!important;
     text-align: left;
-    background-color: var(--primary-text-color)!important;
+    background-color: var(--primary-shadow-color)!important;
     height: 4rem !important;
 }
 
 .card-header{
-    border-bottom: solid!important;   
     border-left: solid;
     border-right: solid;
+    border-top: solid;
     border-color: var(--primary-highlight-color)!important;
-    background-color: var(--primary-text-color)!important;
+    background-color: var(--primary-shadow-color)!important;
     height: 6rem;
 }

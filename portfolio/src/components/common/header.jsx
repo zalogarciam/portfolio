@@ -30,6 +30,7 @@ const Header = ({ elements, paths }) => {
     sidebar.current.classList.remove("sidebar--show");
     menu.current.classList.add("icon--display");
     menu.current.classList.remove("icon--hide");
+    window.scrollTo(0, 0);
   };
 
   document.addEventListener("scroll", documentScroll);
