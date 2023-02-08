@@ -5,7 +5,7 @@ const ContactInformation = ({ email, email2, phone }) => {
     <div className="text-center">
       <MailToButton mailTo={email}></MailToButton>
       <MailToButton mailTo={email2}></MailToButton>
-      <a className=" link text-center" href={"tel:" + phone}>
+      <a className=" link--xs text-center" href={"tel:" + phone}>
         {phone}
       </a>
     </div>

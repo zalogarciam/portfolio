@@ -29,14 +29,16 @@ const Footer = ({ elements, paths }) => {
     <footer className="footer" ref={footer}>
       <div className="container pb-3">
         <div className="row">
-          <div className="col-4">
+          <div className="col-4 d-flex d-flex--center d-flex--direction-column">
             <div className="row d-flex d-flex--center">
-              <p className="paragraph-text">
-                Web designed and developed by: Gonzalo Garcia Martinez
-              </p>
+              <p className="paragraph-text--xs">Web designed and</p>
+              <p className="paragraph-text--xs">developed by</p>
             </div>
             <div className="row">
-              <Link className="d-flex d-flex--center" to="/portfolio/">
+              <Link
+                className="d-flex d-flex--center font-size-xs"
+                to="/portfolio/"
+              >
                 <img src={logo} alt="Logo" className="footer__logo" />
               </Link>
             </div>

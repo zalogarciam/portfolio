@@ -5,7 +5,7 @@ const MailToButton = ({ mailTo }) => {
   return (
     <div>
       <Link
-        className="link"
+        className="link__xs"
         to="#"
         onClick={(e) => {
           window.location.href = "mailto:" + mailTo;
