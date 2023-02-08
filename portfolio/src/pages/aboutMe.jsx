@@ -43,7 +43,7 @@ const AboutMe = () => {
               </p>
             </div>
             <div className="col-sm-12 col-md-6 d-flex d-flex--center d-flex--direction-column gap-md pb-4">
-              <div className="d-flex d-flex--center">
+              <div className="d-flex d-flex--center pt-1 pb-1">
                 <img
                   src={ucsm}
                   width="256"
@@ -51,7 +51,7 @@ const AboutMe = () => {
                   alt="Gonzalo Garcia"
                 />
               </div>
-              <div className="d-flex d-flex--center">
+              <div className="d-flex d-flex--center pt-1 pb-1">
                 <img
                   src={unimelb}
                   width="256"
