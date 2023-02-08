@@ -33,7 +33,9 @@ const AboutMe = () => {
             Hi, I am a peruvian developer living in Arequipa, Peru.
           </p>
           <div className="row">
-            <div className="col-sm-12 col-md-6">
+            <div
+              className="col-sm-12 col-md-6 row-padding"
+            >
               <p className="paragraph-text">
                 I studied Software Engineering at Universidad Catolica de Santa
                 Maria, Peru and a Master of Computer Science at The University
