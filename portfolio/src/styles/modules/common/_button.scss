@@ -8,7 +8,7 @@
 
 .btn-secondary {
   background-color: var(--primary-highlight-color)!important;
-  color: var(--primary-text-color)!important;
+  color: var(--secondary-highlight-color)!important;
   font-size: 0.75rem!important;
   width: auto!important;
   padding: var(--container-padding)!important;
@@ -27,7 +27,7 @@
 
   &:after {
     content: "";
-    background: var(--primary-text-color);
+    background: var(--secondary-highlight-color);
     display: block;
     position: absolute;
     padding-top: 300%;
