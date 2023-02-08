@@ -39,7 +39,7 @@ const Header = ({ elements, paths }) => {
     <header className="header" ref={header}>
       <nav className="nav" ref={nav}>
         <div className="container d-flex d-flex--space-between">
-          <Link to="/">
+          <Link to="/portfolio">
             <img src={logo} alt="Logo" className="nav__logo" />
           </Link>
           <div
