@@ -4,6 +4,7 @@
         "title": "My Portfolio",
         "description": "The project you are looking right now! I have built this web to show a little bit about myself, my work experience and personal projects. I designed it with a mobile first approach with used React JS and Redux for the front end and Python for the back end.",
         "date": "2/10/2023",
+        "image": "http://clipart-library.com/data_images/6103.png",
         "links": [
             {
                 "github": "https://github.com/zalogarciam/portfolio",
@@ -15,6 +16,7 @@
         "title": "Algorithms and Data Structures",
         "description": "Interested in algorithms and data structures? I have completed almost all of the problems in Cracking The Code Interview Book using Python. I am really into this challenging problems and I am always up to improve my problem-solving skills.",
         "date": "1/10/2023",
+        "image": "http://clipart-library.com/data_images/6103.png",
         "links": [
             {
                 "github": "https://github.com/zalogarciam/data-structures-and-algorithms",
