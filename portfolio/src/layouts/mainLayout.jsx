@@ -1,6 +1,4 @@
-import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
-import WebFont from "webfontloader";
 import Footer from "../components/common/footer";
 import Header from "../components/common/header";
 

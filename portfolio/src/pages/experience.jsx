@@ -17,8 +17,20 @@ import telerik from "../assets/img/svg/telerik.svg";
 import resume from "../assets/pdf/resume.pdf";
 
 import { BsDownload } from "react-icons/bs";
+import useExperience from "../hooks/useExperience";
+import { fetchExperienceData } from "../redux/thunks/experienceThunk";
+import { useDispatch } from "react-redux";
+import { useEffect } from "react";
 
 const Experience = () => {
+  const dispatch = useDispatch();
+  const { loading, experienceData } = useExperience();
+
+  useEffect(() => {
+    document.title = "Experience - Gonzalo Garcia Martinez";
+    Object.keys(experienceData).length === 0 && dispatch(fetchExperienceData());
+  }, []);
+
   const onButtonClick = () => {
     fetch("GONZALO_RESUME.pdf").then((response) => {
       response.blob().then((blob) => {
@@ -99,26 +111,9 @@ const Experience = () => {
           </div>
 
           <div className="col-sm-12 col-md-12 format-text pb-5">
-            <p className="paragraph-text">
-              As a software engineer with 7 years of experience in the industry,
-              I have honed my skills in developing high-quality, scalable and
-              efficient software solutions. I have a strong understanding of C#,
-              Python and SQL for the back end; and also with React JS, CSS, HTML
-              and Javascript for the front-end.
-            </p>
-            <p className="paragraph-text">
-              I have had the opportunity to work on a variety of projects
-              including those that involved cutting-edge research in the fields
-              of Artificial Intelligence and Human-Computer Interaction. I work
-              collaboratively with cross-functional teams, analyze user
-              requirements, and deliver effective solutions has enabled me to
-              make significant contributions to the success of my past projects.
-            </p>
-            <p className="paragraph-text">
-              You can check some of them in my resume below. I am always eager
-              to learn and stay up-to-date with the latest industry trends and
-              technologies.
-            </p>
+            <p className="paragraph-text">{experienceData[0]}</p>
+            <p className="paragraph-text">{experienceData[1]}</p>
+            <p className="paragraph-text">{experienceData[2]}</p>
             <div className="d-flex d-flex--center pt-2">
               <button className="btn btn-secondary" onClick={onButtonClick}>
                 Download Resume
