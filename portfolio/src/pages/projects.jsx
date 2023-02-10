@@ -13,8 +13,9 @@ import twitter from "../assets/img/projects/twitter.webp";
 import ugel from "../assets/img/projects/ugel.webp";
 import misinformation from "../assets/img/projects/misinformation.webp";
 import portfolio from "../assets/img/logo.png";
-import { DiGithubFull } from "react-icons/di";
 import { BsGithub, BsYoutube, BsNewspaper } from "react-icons/bs";
+import { TfiWorld } from "react-icons/tfi";
+
 import { FaKaggle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -37,7 +38,7 @@ const Projects = () => {
         />
       </div>
       <div className="row">
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+      <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
@@ -61,32 +62,18 @@ const Projects = () => {
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//zalogarciam.github.io/portfolio/"}
+                target="_blank"
+              >
+                <TfiWorld className="icon--xl"></TfiWorld>
+              </Link>{" "}
+              <Link
+                className="link"
+                to={"//github.com/zalogarciam/portfolio"}
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
               </Link>{" "}
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>{" "}
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>{" "}
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <FaKaggle className="icon--xl"></FaKaggle>
-              </Link>
             </div>
             <div className="card-footer d-flex d-flex--center">
               <p className="paragraph-highlight-text">Last updated today</p>
@@ -94,7 +81,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
@@ -117,31 +104,17 @@ const Projects = () => {
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//github.com/zalogarciam/CrackingTheCodeInterview"}
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
               </Link>
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//github.com/zalogarciam/data-structures-and-algorithms"}
                 target="_blank"
               >
-                <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <FaKaggle className="icon--xl"></FaKaggle>
+                <BsGithub className="icon--xl"></BsGithub>
               </Link>
             </div>
             <div className="card-footer d-flex d-flex--center">
@@ -152,7 +125,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
@@ -166,42 +139,20 @@ const Projects = () => {
               <div className="card-body d-flex d-flex--center">
                 <p className="paragraph-text format-text">
                   Have you ever played the Dinosaur game on your browser when
-                  you did not have internet connection? I did, and I really
-                  liked it. This project involves the implementation of this
-                  game from scratch using Unity and C#. I am also including AI,
-                  specifically Reinforcement Learning algorithms to make the
-                  dinosaur smart enough to play by itself.
+                  you did not have internet connection? This project involves
+                  the implementation of this game from scratch using Unity and
+                  C#. I am including Reinforcement Learning algorithms to make
+                  the dinosaur smart enough to play by itself.
                 </p>
               </div>
             </div>
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//github.com/zalogarciam/ChromeDinosaur"}
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <FaKaggle className="icon--xl"></FaKaggle>
               </Link>
             </div>
             <div className="card-footer d-flex d-flex--center">
@@ -212,7 +163,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">COVA</h5>
@@ -235,32 +186,16 @@ const Projects = () => {
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//github.com/zalogarciam/COVA"}
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
               </Link>
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//youtube.com/watch?v=EWCEY91tV2w"}
                 target="_blank"
-              >
-                <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <FaKaggle className="icon--xl"></FaKaggle>
-              </Link>
+              ></Link>
             </div>
             <div className="card-footer d-flex d-flex--center">
               <p className="paragraph-highlight-text">
@@ -270,7 +205,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
@@ -299,31 +234,35 @@ const Projects = () => {
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//github.com/zalogarciam/MELBOURNE2100"}
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
               </Link>
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//youtube.com/watch?v=gXTdP2iMpTA&t=8s"}
                 target="_blank"
               >
                 <BsYoutube className="icon--xl"></BsYoutube>
               </Link>
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={
+                  "//researchgate.net/publication/349256220_Melbourne_2100_Dystopian_Virtual_Reality_to_provoke_civic_engagement_with_climate_change"
+                }
                 target="_blank"
               >
                 <BsNewspaper className="icon--xl"></BsNewspaper>
               </Link>
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={
+                  "//researchgate.net/publication/350740304_Evaluating_the_User_Experience_of_Mobile_VR?_sg%5B0%5D=xBgRTCHbfIe_-5d6bxWvzIZK6RGPP1LBjOEGFhZnMzQEU8UY4TksXhKYunDoXpRJCaeXdmXcFxQslZddmpBEfOW4_LmG3p2AiH0sZvv7._moS2_6EHIoxhqqZOiokPnb-0uexT2pUT0tioZ6zFwVa8mP_mzRSjNhA1bROybgzKFyruPqz0L3EFkq05alcZg"
+                }
                 target="_blank"
               >
-                <FaKaggle className="icon--xl"></FaKaggle>
+                <BsNewspaper className="icon--xl"></BsNewspaper>
               </Link>
             </div>
             <div className="card-footer d-flex d-flex--center">
@@ -334,7 +273,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">AI Pacman</h5>
@@ -356,31 +295,19 @@ const Projects = () => {
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={
+                  "//github.com/orgs/COMP90054-classroom/teams/infinite-monkeys"
+                }
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
               </Link>
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//youtube.com/watch?v=JfiKNlN8nE8&t=1s"}
                 target="_blank"
               >
                 <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <FaKaggle className="icon--xl"></FaKaggle>
               </Link>
             </div>
             <div className="card-footer d-flex d-flex--center">
@@ -391,7 +318,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
@@ -416,28 +343,14 @@ const Projects = () => {
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//github.com/zalogarciam/link_prediction"}
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
               </Link>
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//kaggle.com/competitions/comp90051-2020-sem1-project-1"}
                 target="_blank"
               >
                 <FaKaggle className="icon--xl"></FaKaggle>
@@ -451,7 +364,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
@@ -462,7 +375,7 @@ const Projects = () => {
               <img
                 src={misinformation}
                 className="card-img"
-                alt="Mi Portfolio"
+                alt="Misinformation Detection"
               />
             </div>
             <div className="col-md-7 col-sm-12 col-12 col-lg-7">
@@ -479,28 +392,16 @@ const Projects = () => {
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//github.com/zalogarciam/misinformation-detection"}
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
               </Link>
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
+                to={
+                  "//competitions.codalab.org/competitions/24205?secret_key=#results"
+                }
                 target="_blank"
               >
                 <FaKaggle className="icon--xl"></FaKaggle>
@@ -514,7 +415,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
@@ -538,31 +439,17 @@ const Projects = () => {
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//github.com/zalogarciam/mobile-computing"}
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
               </Link>
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//youtube.com/watch?v=UaMjRyU8l78&t=48s"}
                 target="_blank"
               >
                 <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <FaKaggle className="icon--xl"></FaKaggle>
               </Link>
             </div>
             <div className="card-footer d-flex d-flex--center">
@@ -573,7 +460,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
@@ -597,31 +484,10 @@ const Projects = () => {
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//github.com/zalogarciam/sentiment-analysis"}
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <FaKaggle className="icon--xl"></FaKaggle>
               </Link>
             </div>
             <div className="card-footer d-flex d-flex--center">
@@ -632,7 +498,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">
@@ -658,31 +524,17 @@ const Projects = () => {
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//github.com/zalogarciam/MAIC"}
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
               </Link>
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//ieeexplore.ieee.org/document/9073957/"}
                 target="_blank"
               >
                 <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <FaKaggle className="icon--xl"></FaKaggle>
               </Link>
             </div>
             <div className="card-footer d-flex d-flex--center">
@@ -693,7 +545,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">UGEL</h5>
@@ -713,31 +565,10 @@ const Projects = () => {
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//github.com/zalogarciam/SistemaDeResolucionesUGEL"}
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <FaKaggle className="icon--xl"></FaKaggle>
               </Link>
             </div>
             <div className="card-footer d-flex d-flex--center">
@@ -748,7 +579,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">Autodema</h5>
@@ -774,27 +605,6 @@ const Projects = () => {
               >
                 <BsGithub className="icon--xl"></BsGithub>
               </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <FaKaggle className="icon--xl"></FaKaggle>
-              </Link>
             </div>
             <div className="card-footer d-flex d-flex--center">
               <p className="paragraph-highlight-text">
@@ -804,7 +614,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-sm-12 col-12 col-lg-6 d-flex d-flex--center pt-3 pb-3">
+        <div className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3">
           <div className="card-container row">
             <div className="card-header d-flex d-flex--center">
               <h5 className="subtitle-highlight-text pb-3 pt-3 ">Max Lenz</h5>
@@ -825,31 +635,10 @@ const Projects = () => {
             <div className="card-tech-footer d-flex d-flex--center">
               <Link
                 className="link"
-                to={"//github.com/zalogarciam"}
+                to={"//github.com/zalogarciam/MaxLenz"}
                 target="_blank"
               >
                 <BsGithub className="icon--xl"></BsGithub>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsYoutube className="icon--xl"></BsYoutube>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <BsNewspaper className="icon--xl"></BsNewspaper>
-              </Link>
-              <Link
-                className="link"
-                to={"//github.com/zalogarciam"}
-                target="_blank"
-              >
-                <FaKaggle className="icon--xl"></FaKaggle>
               </Link>
             </div>
             <div className="card-footer d-flex d-flex--center">
