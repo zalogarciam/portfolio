@@ -1,7 +1,7 @@
 import Typewriter from "typewriter-effect";
 import { AiFillMessage } from "react-icons/ai";
 import { BiWorld } from "react-icons/bi";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import GoogleMapReact from "google-map-react";
 
 import Swal from "sweetalert2";
@@ -10,6 +10,10 @@ import withReactContent from "sweetalert2-react-content";
 const Contact = () => {
   const [formStatus, setFormStatus] = useState("Send");
   const MySwal = withReactContent(Swal);
+
+  useEffect(() => {
+    document.title = "Contact - Gonzalo Garcia Martinez";
+  }, []);
 
   const onSubmit = (e) => {
     e.preventDefault();
