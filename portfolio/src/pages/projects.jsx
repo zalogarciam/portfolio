@@ -1,27 +1,9 @@
 import Typewriter from "typewriter-effect";
-import restlens from "../assets/img/projects/reslens.webp";
-import algorithms from "../assets/img/projects/algorithms.webp";
-import autodema from "../assets/img/projects/autodema.webp";
-import coauthor from "../assets/img/projects/coauthor.webp";
-import cova from "../assets/img/projects/cova.webp";
-import dinosaur from "../assets/img/projects/dinosaur.webp";
-import maxlenz from "../assets/img/projects/maxlenz.webp";
-import melbourne2100 from "../assets/img/projects/melbourne2100.webp";
-import pacman from "../assets/img/projects/pacman.webp";
-import textanalysis from "../assets/img/projects/textanalysis.webp";
-import twitter from "../assets/img/projects/twitter.webp";
-import ugel from "../assets/img/projects/ugel.webp";
-import misinformation from "../assets/img/projects/misinformation.webp";
-import portfolio from "../assets/img/logo.png";
-import { BsGithub, BsYoutube, BsNewspaper } from "react-icons/bs";
-import { TfiWorld } from "react-icons/tfi";
-
-import { FaKaggle } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import useProjects from "../hooks/useProjects";
 import { fetchProjectsData } from "../redux/thunks/projectsThunk";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
+import ProjectLinks from "../components/projects/projectLinks";
 
 const Projects = () => {
   const dispatch = useDispatch();
@@ -30,7 +12,6 @@ const Projects = () => {
   useEffect(() => {
     document.title = "Projects - Gonzalo Garcia Martinez";
     Object.keys(projectsData).length === 0 && dispatch(fetchProjectsData());
-    console.log(projectsData);
   }, []);
 
   return (
@@ -77,23 +58,12 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className="card-tech-footer d-flex d-flex--center">
-                  <Link
-                    className="link"
-                    to={"//zalogarciam.github.io/portfolio/"}
-                    target="_blank"
-                  >
-                    <TfiWorld className="icon--xl"></TfiWorld>
-                  </Link>{" "}
-                  <Link
-                    className="link"
-                    to={"//github.com/zalogarciam/portfolio"}
-                    target="_blank"
-                  >
-                    <BsGithub className="icon--xl"></BsGithub>
-                  </Link>{" "}
+                  <ProjectLinks links={project[1].links}></ProjectLinks>
                 </div>
                 <div className="card-footer d-flex d-flex--center">
-                  <p className="paragraph-highlight-text">Last updated {project[1].date}</p>
+                  <p className="paragraph-highlight-text">
+                    Last updated {project[1].date}
+                  </p>
                 </div>
               </div>
             </div>
