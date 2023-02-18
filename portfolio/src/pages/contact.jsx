@@ -1,38 +1,68 @@
 import Typewriter from "typewriter-effect";
 import { AiFillMessage } from "react-icons/ai";
 import { BiWorld } from "react-icons/bi";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import GoogleMapReact from "google-map-react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import axios from "axios";
 
 const Contact = () => {
   const [formStatus, setFormStatus] = useState("Send");
   const MySwal = withReactContent(Swal);
+  const captchaRef = useRef(null);
 
   useEffect(() => {
     document.title = "Contact - Gonzalo Garcia Martinez";
   }, []);
 
+  const verifyToken = async (token) => {
+    const res = await axios.post(
+      `https://www.google.com/recaptcha/api/siteverify?secret=${
+        import.meta.env.VITE_GOOGLE_RECAPTCHA_SECRET_KEY_DEV
+      }&response=${token}`
+    );
+    console.log(res);
+  };
+
   const onSubmit = (e) => {
     e.preventDefault();
-    setFormStatus("Message Sent");
-    const { name, email, message } = e.target.elements;
-    let conFom = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-    MySwal.fire({
-      html: (
-        <p className="paragraph-text">
-          Your message has been sent! You will hear from me shortly.
-        </p>
-      ),
-      icon: "success",
-      confirmButtonText: "Ok",
-    });
+
+    let token = captchaRef.current.getValue();
+
+    if (token) {
+      // let valid_token = awaitverifyToken(token);
+
+      const { name, email, message } = e.target.elements;
+      let conFom = {
+        name: name.value,
+        email: email.value,
+        message: message.value,
+      };
+
+      setFormStatus("Message submitted");
+      MySwal.fire({
+        html: (
+          <p className="paragraph-highlight-text">
+            Your message has been sent! You will hear from me shortly.
+          </p>
+        ),
+        icon: "success",
+        confirmButtonText: "Ok",
+      });
+    } else {
+      MySwal.fire({
+        html: (
+          <p className="paragraph-highlight-text">
+            You must confirm you are not a robot
+          </p>
+        ),
+        icon: "error",
+        confirmButtonText: "Ok",
+      });
+    }
   };
 
   const mapConfig = {
@@ -105,10 +135,18 @@ const Contact = () => {
                 required
               />
             </div>
-            <div className="d-flex d-flex--center">
-              <button className="btn btn-secondary" type="submit">
-                {formStatus}
-              </button>
+            <div className="d-flex d-flex--center d-flex--direction-column">
+              <div className="pb-3">
+                <ReCAPTCHA
+                  sitekey={import.meta.env.VITE_GOOGLE_RECAPTCHA_SITE_KEY_DEV}
+                  ref={captchaRef}
+                />
+              </div>
+              <div>
+                <button className="btn btn-secondary" type="submit">
+                  {formStatus}
+                </button>
+              </div>
             </div>
           </form>
         </div>
