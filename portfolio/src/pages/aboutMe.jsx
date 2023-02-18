@@ -1,14 +1,5 @@
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
-import zalo from "../assets/img/zalo.webp";
-import ucsm from "../assets/img/ucsm.webp";
-import unimelb from "../assets/img/unimelb.webp";
-import html from "../assets/img/svg/html.svg";
-import css from "../assets/img/svg/css.svg";
-import js from "../assets/img/svg/js.svg";
-import react from "../assets/img/svg/react.svg";
-import python from "../assets/img/svg/python.svg";
-import csharp from "../assets/img/svg/csharp.svg";
 import { fetchAboutMeData } from "../redux/thunks/aboutMeThunk";
 import useAboutMe from "../hooks/useAboutMe";
 import { useDispatch } from "react-redux";
@@ -49,7 +40,7 @@ const AboutMe = () => {
             <div className="col-sm-12 col-md-6 d-flex d-flex--center d-flex--direction-column gap-md pb-4">
               <div className="d-flex d-flex--center pt-1 pb-1">
                 <img
-                  src={ucsm}
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/ucsm.webp"
                   width="256"
                   className="studies-img"
                   alt="Gonzalo Garcia"
@@ -57,7 +48,7 @@ const AboutMe = () => {
               </div>
               <div className="d-flex d-flex--center pt-1 pb-1">
                 <img
-                  src={unimelb}
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/unimelb.webp"
                   width="256"
                   className="studies-img"
                   alt="Gonzalo Garcia"
@@ -80,49 +71,49 @@ const AboutMe = () => {
           <div className="d-flex d-flex--center">
             <div className="rotation-container">
               <img
-                src={zalo}
+                src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/zalo.webp"
                 width="256"
                 alt="Gonzalo Garcia"
                 className="rotate-img"
               />
               <figure className="rotation-decorators">
                 <img
-                  src={html}
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg"
                   alt="html"
                   width="64"
                   height="64"
                   className="rotation-decorator"
                 />
                 <img
-                  src={css}
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg"
                   alt="css"
                   width="64"
                   height="64"
                   className="rotation-decorator"
                 />
                 <img
-                  src={js}
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg"
                   alt="js"
                   width="64"
                   height="64"
                   className="rotation-decorator"
                 />
                 <img
-                  src={react}
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg"
                   alt="react"
                   width="64"
                   height="64"
                   className="rotation-decorator"
                 />
                 <img
-                  src={csharp}
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/csharp.svg"
                   alt="csharp"
                   width="64"
                   height="64"
                   className="rotation-decorator"
                 />
                 <img
-                  src={python}
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg"
                   alt="python"
                   width="64"
                   height="64"

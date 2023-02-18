@@ -4,6 +4,7 @@ import { fetchProjectsData } from "../redux/thunks/projectsThunk";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import ProjectLinks from "../components/projects/projectLinks";
+import ProjectTechs from "../components/projects/projectTechs";
 
 const Projects = () => {
   const dispatch = useDispatch();
@@ -11,7 +12,7 @@ const Projects = () => {
 
   useEffect(() => {
     document.title = "Projects - Gonzalo Garcia Martinez";
-    Object.keys(projectsData).length === 0 && dispatch(fetchProjectsData());
+    projectsData.length === 0 && dispatch(fetchProjectsData());
   }, []);
 
   return (
@@ -31,38 +32,41 @@ const Projects = () => {
         />
       </div>
       <div className="row">
-        {Object.entries(projectsData).map((project) => {
+        {projectsData.map((project) => {
           return (
             <div
-              key={project[1].id}
+              key={project.id}
               className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3"
             >
               <div className="card-container row">
                 <div className="card-header d-flex d-flex--center">
                   <h5 className="subtitle-highlight-text pb-3 pt-3 ">
-                    {project[1].title}
+                    {project.title}
                   </h5>
                 </div>
                 <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
                   <img
-                    src={project[1].image}
+                    src={project.image}
                     className="card-img"
-                    alt={project[1].title}
+                    alt={project.title}
                   />
                 </div>
                 <div className="col-md-7 col-sm-12 col-12 col-lg-7">
                   <div className="card-body d-flex d-flex--center">
                     <p className="paragraph-text format-text">
-                      {project[1].description}
+                      {project.description}
                     </p>
                   </div>
                 </div>
                 <div className="card-tech-footer d-flex d-flex--center">
-                  <ProjectLinks links={project[1].links}></ProjectLinks>
+                  <ProjectLinks links={project.links}></ProjectLinks>
+                </div>
+                <div className="card-tech-footer d-flex d-flex--center">
+                  <ProjectTechs techs={project.tech}></ProjectTechs>
                 </div>
                 <div className="card-footer d-flex d-flex--center">
                   <p className="paragraph-highlight-text">
-                    Last updated {project[1].date}
+                    Last updated {project.date}
                   </p>
                 </div>
               </div>

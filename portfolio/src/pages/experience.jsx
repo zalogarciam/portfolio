@@ -1,21 +1,5 @@
-import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
-import html from "../assets/img/svg/html.svg";
-import css from "../assets/img/svg/css.svg";
-import js from "../assets/img/svg/js.svg";
-import react from "../assets/img/svg/react.svg";
-import python from "../assets/img/svg/python.svg";
-import csharp from "../assets/img/svg/csharp.svg";
-import django from "../assets/img/svg/django.svg";
-import net from "../assets/img/svg/net.svg";
-import mysql from "../assets/img/svg/mysql.svg";
-import postgresql from "../assets/img/svg/postgresql.svg";
-import redux from "../assets/img/svg/redux.svg";
-import sqlserver from "../assets/img/svg/sqlserver.svg";
-import unity from "../assets/img/svg/unity.svg";
-import telerik from "../assets/img/svg/telerik.svg";
 import resume from "../assets/pdf/resume.pdf";
-
 import { BsDownload } from "react-icons/bs";
 import useExperience from "../hooks/useExperience";
 import { fetchExperienceData } from "../redux/thunks/experienceThunk";
@@ -67,22 +51,46 @@ const Experience = () => {
             </div>
             <div className="row pt-3 pb-3">
               <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
-                <img src={csharp} width="64" className="tech-img" />
+                <img
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/csharp.svg"
+                  width="64"
+                  className="tech-img"
+                />
               </div>
               <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
-                <img src={python} width="64" className="tech-img" />
+                <img
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg"
+                  width="64"
+                  className="tech-img"
+                />
               </div>
               <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
-                <img src={net} width="64" className="tech-img" />
+                <img
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/net.svg"
+                  width="64"
+                  className="tech-img"
+                />
               </div>
               <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
-                <img src={django} width="64" className="tech-img" />
+                <img
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/django.svg"
+                  width="64"
+                  className="tech-img"
+                />
               </div>
               <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
-                <img src={sqlserver} width="64" className="tech-img" />
+                <img
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sqlserver.svg"
+                  width="64"
+                  className="tech-img"
+                />
               </div>
               <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
-                <img src={unity} width="64" className="tech-img" />
+                <img
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/unity.svg"
+                  width="64"
+                  className="tech-img"
+                />
               </div>
             </div>
             <div>
@@ -90,22 +98,46 @@ const Experience = () => {
             </div>
             <div className="row pt-3 pb-3">
               <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
-                <img src={react} width="64" className="tech-img" />
+                <img
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg"
+                  width="64"
+                  className="tech-img"
+                />
               </div>
               <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
-                <img src={css} width="64" className="tech-img" />
+                <img
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg"
+                  width="64"
+                  className="tech-img"
+                />
               </div>
               <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
-                <img src={html} width="64" className="tech-img" />
+                <img
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg"
+                  width="64"
+                  className="tech-img"
+                />
               </div>
               <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
-                <img src={redux} width="64" className="tech-img" />
+                <img
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/redux.svg"
+                  width="64"
+                  className="tech-img"
+                />
               </div>
               <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
-                <img src={js} width="64" className="tech-img" />
+                <img
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg"
+                  width="64"
+                  className="tech-img"
+                />
               </div>
               <div className="col-md-2 col-4 d-flex d-flex--center pt-2 pb-2">
-                <img src={telerik} width="64" className="tech-img" />
+                <img
+                  src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/telerik.svg"
+                  width="64"
+                  className="tech-img"
+                />
               </div>
             </div>
           </div>

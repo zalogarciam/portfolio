@@ -17,7 +17,6 @@ export const projectsSlice = createSlice({
     builder.addCase(fetchProjectsData.fulfilled, (state, action) => {
       state.loading = false;
       state.error = {};
-      console.log(action);
       state.projectsData = action.payload.data;
     });
     builder.addCase(fetchProjectsData.rejected, (state, action) => {

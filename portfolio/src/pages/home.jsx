@@ -5,8 +5,6 @@ import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import Typewriter from "typewriter-effect";
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
-import snowboard from "../assets/img/snowboard.webp";
-import code from "../assets/img/code.webp";
 
 const Home = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -46,10 +44,16 @@ const Home = () => {
           interval={7000}
         >
           <div className="text-center ">
-            <img className="banner-img" src={snowboard} />
+            <img
+              className="banner-img"
+              src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/snowboard.webp"
+            />
           </div>
           <div className="text-center banner-img">
-            <img className="banner-img" src={code} />
+            <img
+              className="banner-img"
+              src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/code.webp"
+            />
           </div>
         </AutoplaySlider>
       </div>
