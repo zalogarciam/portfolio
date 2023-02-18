@@ -61,6 +61,8 @@
     text-align: left;
     background-color: var(--primary-shadow-color)!important;
     height: 4rem !important;
+    border-bottom-left-radius: 1rem!important;
+    border-bottom-right-radius: 1rem!important;
 }
 
 .card-header{
@@ -70,4 +72,7 @@
     border-color: var(--primary-highlight-color)!important;
     background-color: var(--primary-shadow-color)!important;
     height: 6rem;
+    border-top-left-radius: 1rem!important;
+    border-top-right-radius: 1rem!important;
+    
 }

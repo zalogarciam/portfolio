@@ -158,13 +158,15 @@ const Contact = () => {
           </p>
           <div>
             <div className="google-map">
-              <GoogleMapReact
-                bootstrapURLKeys={{
-                  key: import.meta.env.VITE_GOOGLE_API_KEY,
-                }}
-                defaultCenter={mapConfig.center}
-                defaultZoom={mapConfig.zoom}
-              ></GoogleMapReact>
+              {
+                <GoogleMapReact
+                  bootstrapURLKeys={{
+                    key: import.meta.env.VITE_GOOGLE_API_KEY,
+                  }}
+                  defaultCenter={mapConfig.center}
+                  defaultZoom={mapConfig.zoom}
+                ></GoogleMapReact>
+              }
             </div>
           </div>
         </div>

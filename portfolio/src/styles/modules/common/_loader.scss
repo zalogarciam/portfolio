@@ -1,0 +1,39 @@
+.loading-container{
+    position: fixed;
+    z-index: 49;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--light-secondary-shadow-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loading {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--primary-theme-color);
+    box-shadow: 32px 0 var(--primary-theme-color), -32px 0 var(--primary-theme-color);
+    position: relative;
+    animation: flash 0.5s ease-out infinite alternate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  @keyframes flash {
+    0% {
+      background-color: var(--light-secondary-shadow-color);
+      box-shadow: 32px 0 var(--light-secondary-shadow-color), -32px 0 var(--light-secondary-shadow-color);
+    }
+    50% {
+      background-color: var(--primary-theme-color);
+      box-shadow: 32px 0 var(--light-secondary-shadow-color), -32px 0 var(--light-secondary-shadow-color);
+    }
+    100% {
+      background-color: var(--primary-theme-color), -32px 0 var(--light-secondary-shadow-color);
+    }
+  }

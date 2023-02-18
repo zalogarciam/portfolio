@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import ProjectLinks from "../components/projects/projectLinks";
 import ProjectTechs from "../components/projects/projectTechs";
+import LoadingContainer from "../components/loader/loading";
 
 const Projects = () => {
   const dispatch = useDispatch();
@@ -17,6 +18,7 @@ const Projects = () => {
 
   return (
     <div className="container">
+      {loading && <LoadingContainer />}
       <div
         className="row text-center title-highlight-text pb-5"
         style={{ height: "12rem" }}
