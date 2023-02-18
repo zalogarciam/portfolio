@@ -1,182 +1,315 @@
 {
-    "data": [
-      {
-        "id": 1,
-        "title": "My Portfolio",
-        "description": "The project you are looking right now! I have built this web to show a little bit about myself, my work experience and personal projects. I designed it with a mobile first approach with used React JS and Redux for the front end and Python for the back end.",
-        "date": "2/10/2023",
-        "image": "https://i.postimg.cc/nC5sQd3j/logo.png",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam/portfolio",
-                "web": "//zalogarciam.github.io/portfolio/"
-            }
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Algorithms and Data Structures",
-        "description": "Interested in algorithms and data structures? I have completed almost all of the problems in Cracking The Code Interview Book using Python. I am really into this challenging problems and I am always up to improve my problem-solving skills.",
-        "date": "1/10/2023",
-        "image": "https://i.postimg.cc/T5dbCpbK/algorithms.webp",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam/data-structures-and-algorithms",
-                "github2": "//github.com/zalogarciam/CrackingTheCodeInterview"
-            }
-        ]
-      },
-      {
-        "id": 3,
-        "title": "AI Dinosaur",
-        "description": "Have you ever played the Dinosaur game on your browser when you did not have internet connection? This project involves the implementation of this game from scratch using Unity and C#. I am including Reinforcement Learning algorithms to make the dinosaur smart enough to play by itself.",
-        "date": "1/10/2023",
-        "image": "https://i.postimg.cc/zVPhFDGf/dinosaur.webp",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam/ChromeDinosaur"
-            }
-        ]
-      },
-      {
-        "id": 4,
-        "title": "COVA",
-        "description": "Web application project presented in a startup accelerator program at the Universidad Catolica de Santa Maria. In an nutshell, COVA is a tinder application for students who are looking for thesis projects from academics or companies. It is a WIN-WIN idea that can help students who are struggling to start their research.",
-        "date": "7/6/2022",
-        "image": "https://i.postimg.cc/kDqWnhH7/cova.webp",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam/COVA"
-            }
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Melbourne 2100",
-        "description": "VR project I built for my postgraduate thesis using C# and Unity. The app replicates flooding in Melbourne, Australia and contains agents simulations and interactive tasks that the user has to follow. These helped us to investigate and evaluate the UX and user behaviour against Climate Change. I could publish two papers for OzCHI (2020) and CHI (2020).",
-        "date": "12/12/2020",
-        "image": "https://i.postimg.cc/WD0JVM6D/melbourne2100.webp",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam/MELBOURNE2100",
-                "youtube": "//youtube.com/watch?v=gXTdP2iMpTA&t=8s",
-                "paper": "//researchgate.net/publication/349256220_Melbourne_2100_Dystopian_Virtual_Reality_to_provoke_civic_engagement_with_climate_change",
-                "paper2": "//reseax`rchgate.net/publication/350740304_Evaluating_the_User_Experience_of_Mobile_VR?_sg%5B0%5D=xBgRTCHbfIe_-5d6bxWvzIZK6RGPP1LBjOEGFhZnMzQEU8UY4TksXhKYunDoXpRJCaeXdmXcFxQslZddmpBEfOW4_LmG3p2AiH0sZvv7._moS2_6EHIoxhqqZOiokPnb-0uexT2pUT0tioZ6zFwVa8mP_mzRSjNhA1bROybgzKFyruPqz0L3EFkq05alcZg"
-            }
-        ]
-      },
-      {
-        "id": 6,
-        "title": "AI Pacman",
-        "description": "AI project that uses Reinforcement Learning algorithms such as A* algorithm, Monte Carlo Tree Search, Approximate Q Learning, and Minimax in Python. Pacman competition where the agent needs to eat the food of the enemy, but also protect the food of its territory",
-        "date": "6/10/2020",
-        "image": "https://i.postimg.cc/tZyn4Y2B/pacman.webp",
-        "links": [
-            {
-                "github": "//github.com/orgs/COMP90054-classroom/teams/infinite-monkeys",
-                "youtube": "//youtube.com/watch?v=JfiKNlN8nE8&t=1s"
-            }
-        ]
-      },
-      {
-        "id": 7,
-        "title": "Misinformation Detection",
-        "description": "NLP project that uses language models and latest transformers to diffentiate fake articles about Climate Change. I performed scrapping to find truthful data and used it to train an AI model. Furthermore, I cleaned this data and compared several algorithms to make it more accurate and get the best score.",
-        "date": "11/29/2023",
-        "image": "https://i.postimg.cc/PCpw3GCQ/misinformation.webp",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam/misinformation-detection",
-                "kaggle": "//competitions.codalab.org/competitions/24205?secret_key=?secret_key=#results"
-            }
-        ]
-      },
-      {
-        "id": 8,
-        "title": "Co-authorship Link Network Prediction",
-        "description": "AI project that uses Machine Learning algorithms such as Logistic Regression, K-Neighbors, Decision Trees, Naive Bayes, and SVM to predict future collaborations between authors. I built a Python with feature engineering using math operations in a graph where each node represented an author and each node a relationships between the author and of coauthorship.",
-        "date": "5/6/2020",
-        "image": "https://i.postimg.cc/3W1mWFMm/coauthor.webp",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam/link_prediction",
-                "kaggle": "//kaggle.com/competitions/comp90051-2020-sem1-project-1"
-            }
-        ]
-      },
-      {
-        "id": 9,
-        "title": "Restaurant Lens",
-        "description": "Mobile application in Android and Java that uses Computer Vision to recognize restaurants around the city of Melbourne, Australia. This applications uses an trained model built in Python that uses photo as input and displays full information of the restaurant that the user plans to visit.",
-        "date": "10/19/2019",
-        "image": "https://i.postimg.cc/Pp4ppT7T/reslens.webp",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam/mobile-computing",
-                "youtube": "//youtube.com/watch?v=UaMjRyU8l78&t=48s"
-            }
-        ]
-      },
-      {
-        "id": 10,
-        "title": "Sentiment Analysis in Twitter",
-        "description": "Machine Learning project that uses algorithms such as Logistic Regression, K-Neighbors, Decision Trees, Random Forest, Naive Bayes and SVM to predict if a tweet is negative, neutral or positive. I trained the model using Python and I extracted the data from a public dataset found on internet.",
-        "date": "6/20/2023",
-        "image": "https://i.postimg.cc/V5fby0S6/twitter.webp",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam/sentiment-analysis"
-            }
-        ]
-      },
-      {
-        "id": 11,
-        "title": "SW Requirements Text Analysis",
-        "description": "Web Application developed for my undergraduate thesis. Built in .NET and C#. It takes as a input software documentation. Then, it uses Elastic Search as a search engine to process and manage this data. Performs text analysis to detect conflicts and dependencies between non-functional requirements and finally, shows the results using Kibana. I published a paper at CLEI in 2019.",
-        "date": "12/30/2019",
-        "image": "https://i.postimg.cc/T53ynB8m/textanalysis.webp",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam/MAIC",
-                "github2": "//ieeexplore.ieee.org/document/9073957/"
-            }
-        ]
-      },
-      {
-        "id": 12,
-        "title": "UGEL",
-        "description": "Desktop application built in C# and SQL Server to register data at UGEL. This app replaced a manual process of return of interests by teachers to the Ministry of Education.",
-        "date": "9/8/2015",
-        "image": "https://i.postimg.cc/w3wR9xJk/ugel.webp",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam/SistemaDeResolucionesUGEL"
-            }
-        ]
-      },
-      {
-        "id": 13,
-        "title": "Autodema",
-        "description": "Developed a web and desktop application in C# and SQL Server that improved the management of the water resource. It generates reports that were helpful for decision making by the Head Department.",
-        "date": "4/15/2015",
-        "image": "https://i.postimg.cc/nCL7m9Z5/autodema.webp",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam"
-            }
-        ]
-      },
-      {
-        "id": 14,
-        "title": "Max-Lenz",
-        "description": "Developed a desktop application in C# and SQL Server for the registration of all air conditioning machines of Coke Company. This app reduced drastically the loss and theft of these machines.",
-        "date": "3/3/2014",
-        "image": "https://i.postimg.cc/TKzWBkmM/maxlenz.webp",
-        "links": [
-            {
-                "github": "//github.com/zalogarciam/MaxLenz"
-            }
-        ]
-      }
-    ]
+  "data": [
+    {
+      "id": 1,
+      "title": "My Portfolio",
+      "description": "The project you are looking right now! I have built this web to show a little bit about myself, my work experience and personal projects. I designed it with a mobile first approach with used React JS and Redux for the front end and Python for the back end.",
+      "date": "2/10/2023",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/logo.png",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/portfolio",
+          "web": "//zalogarciam.github.io/portfolio/"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Escalapp",
+      "description": "Passionate about scale cars? This is a desktop application that registers car collections of the 'Club de Coleccionistas de Autos Escala Arequipa' members. Developed in C#, and WPF with SQL Server database in Azure. It has an innovative and user-friendly design.",
+      "date": "2/10/2023",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/logo_escalapp.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/escalapp",
+          "youtube": "//youtu.be/TXlH8U366c8"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Algorithms and Data Structures",
+      "description": "Interested in algorithms and data structures? I have completed almost all of the problems in Cracking The Code Interview Book using Python. I am really into this challenging problems and I am always up to improve my problem-solving skills.",
+      "date": "1/10/2023",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/algorithms.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/data-structures-and-algorithms",
+          "github2": "//github.com/zalogarciam/CrackingTheCodeInterview"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "AI Dinosaur",
+      "description": "Have you ever played the Dinosaur game on your browser when you did not have internet connection? This project involves the implementation of this game from scratch using Unity and C#. I am including Reinforcement Learning algorithms to make the dinosaur smart enough to play by itself.",
+      "date": "1/10/2023",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/dinosaur.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/ChromeDinosaur"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "COVA",
+      "description": "Web application project presented in a startup accelerator program at the Universidad Catolica de Santa Maria. In an nutshell, COVA is a tinder application for students who are looking for thesis projects from academics or companies. It is a WIN-WIN idea that can help students who are struggling to start their research.",
+      "date": "7/6/2022",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/cova.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/COVA"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Melbourne 2100",
+      "description": "VR project I built for my postgraduate thesis using C# and Unity. The app replicates flooding in Melbourne, Australia and contains agents simulations and interactive tasks that the user has to follow. These helped us to investigate and evaluate the UX and user behaviour against Climate Change. I could publish two papers for OzCHI (2020) and CHI (2020).",
+      "date": "12/12/2020",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/melbourne2100.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/MELBOURNE2100",
+          "youtube": "//youtube.com/watch?v=gXTdP2iMpTA&t=8s",
+          "paper": "//researchgate.net/publication/349256220_Melbourne_2100_Dystopian_Virtual_Reality_to_provoke_civic_engagement_with_climate_change",
+          "paper2": "//reseax`rchgate.net/publication/350740304_Evaluating_the_User_Experience_of_Mobile_VR?_sg%5B0%5D=xBgRTCHbfIe_-5d6bxWvzIZK6RGPP1LBjOEGFhZnMzQEU8UY4TksXhKYunDoXpRJCaeXdmXcFxQslZddmpBEfOW4_LmG3p2AiH0sZvv7._moS2_6EHIoxhqqZOiokPnb-0uexT2pUT0tioZ6zFwVa8mP_mzRSjNhA1bROybgzKFyruPqz0L3EFkq05alcZg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "AI Pacman",
+      "description": "AI project that uses Reinforcement Learning algorithms such as A* algorithm, Monte Carlo Tree Search, Approximate Q Learning, and Minimax in Python. Pacman competition where the agent needs to eat the food of the enemy, but also protect the food of its territory",
+      "date": "6/10/2020",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/pacman.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/orgs/COMP90054-classroom/teams/infinite-monkeys",
+          "youtube": "//youtube.com/watch?v=JfiKNlN8nE8&t=1s"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Misinformation Detection",
+      "description": "NLP project that uses language models and latest transformers to diffentiate fake articles about Climate Change. I performed scrapping to find truthful data and used it to train an AI model. Furthermore, I cleaned this data and compared several algorithms to make it more accurate and get the best score.",
+      "date": "11/29/2023",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/misinformation.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/misinformation-detection",
+          "kaggle": "//competitions.codalab.org/competitions/24205?secret_key=?secret_key=#results"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Co-authorship Link Network Prediction",
+      "description": "AI project that uses Machine Learning algorithms such as Logistic Regression, K-Neighbors, Decision Trees, Naive Bayes, and SVM to predict future collaborations between authors. I built a Python with feature engineering using math operations in a graph where each node represented an author and each node a relationships between the author and of coauthorship.",
+      "date": "5/6/2020",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/coauthor.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/link_prediction",
+          "kaggle": "//kaggle.com/competitions/comp90051-2020-sem1-project-1"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Restaurant Lens",
+      "description": "Mobile application in Android and Java that uses Computer Vision to recognize restaurants around the city of Melbourne, Australia. This applications uses an trained model built in Python that uses photo as input and displays full information of the restaurant that the user plans to visit.",
+      "date": "10/19/2019",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/reslens.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/mobile-computing",
+          "youtube": "//youtube.com/watch?v=UaMjRyU8l78&t=48s"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Sentiment Analysis in Twitter",
+      "description": "Machine Learning project that uses algorithms such as Logistic Regression, K-Neighbors, Decision Trees, Random Forest, Naive Bayes and SVM to predict if a tweet is negative, neutral or positive. I trained the model using Python and I extracted the data from a public dataset found on internet.",
+      "date": "6/20/2023",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/twitter.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/sentiment-analysis"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "SW Requirements Text Analysis",
+      "description": "Web Application developed for my undergraduate thesis. Built in .NET and C#. It takes as a input software documentation. Then, it uses Elastic Search as a search engine to process and manage this data. Performs text analysis to detect conflicts and dependencies between non-functional requirements and finally, shows the results using Kibana. I published a paper at CLEI in 2019.",
+      "date": "12/30/2019",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/textanalysis.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/MAIC",
+          "github2": "//ieeexplore.ieee.org/document/9073957/"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "UGEL",
+      "description": "Desktop application built in C# and SQL Server to register data at UGEL. This app replaced a manual process of return of interests by teachers to the Ministry of Education.",
+      "date": "9/8/2015",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/ugel.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/SistemaDeResolucionesUGEL"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Autodema",
+      "description": "Developed a web and desktop application in C# and SQL Server that improved the management of the water resource. It generates reports that were helpful for decision making by the Head Department.",
+      "date": "4/15/2015",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/autodema.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Max-Lenz",
+      "description": "Developed a desktop application in C# and SQL Server for the registration of all air conditioning machines of Coke Company. This app reduced drastically the loss and theft of these machines.",
+      "date": "3/3/2014",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/maxlenz.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "github": "//github.com/zalogarciam/MaxLenz"
+        }
+      ]
+    }
+  ]
 }
