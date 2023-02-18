@@ -8,6 +8,8 @@
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/logo.png",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/redux.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/vite.svg",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
@@ -28,12 +30,10 @@
       "date": "2/10/2023",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/logo_escalapp.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/net.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/csharp.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sqlserver.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/azure.svg"
       ],
       "links": [
         {
@@ -49,12 +49,7 @@
       "date": "1/10/2023",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/algorithms.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg"
       ],
       "links": [
         {
@@ -70,12 +65,9 @@
       "date": "1/10/2023",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/dinosaur.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/csharp.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/unity.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/net.svg"
       ],
       "links": [
         {
@@ -90,12 +82,11 @@
       "date": "7/6/2022",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/cova.webp",
       "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/csharp.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/net.svg",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sqlserver.svg"
       ],
       "links": [
         {
@@ -110,12 +101,9 @@
       "date": "12/12/2020",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/melbourne2100.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/csharp.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/unity.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/net.svg"
       ],
       "links": [
         {
@@ -133,12 +121,7 @@
       "date": "6/10/2020",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/pacman.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg"
       ],
       "links": [
         {
@@ -154,12 +137,11 @@
       "date": "11/29/2023",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/misinformation.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/tensorflow.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/keras.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/jupyter.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/colab.svg"
       ],
       "links": [
         {
@@ -175,12 +157,9 @@
       "date": "5/6/2020",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/coauthor.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/jupyter.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/colab.svg"
       ],
       "links": [
         {
@@ -196,17 +175,15 @@
       "date": "10/19/2019",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/reslens.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/android.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/java.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/firebase.svg"
       ],
       "links": [
         {
           "github": "//github.com/zalogarciam/mobile-computing",
-          "youtube": "//youtube.com/watch?v=UaMjRyU8l78&t=48s"
+          "youtube": "//youtube.com/watch?v=UaMjRyU8l78&t"
         }
       ]
     },
@@ -217,12 +194,9 @@
       "date": "6/20/2023",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/twitter.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/jupyter.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/colab.svg"
       ],
       "links": [
         {
@@ -237,12 +211,11 @@
       "date": "12/30/2019",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/textanalysis.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/net.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/csharp.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sqlserver.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/elasticsearch.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/kibana.svg"
       ],
       "links": [
         {
@@ -258,12 +231,9 @@
       "date": "9/8/2015",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/ugel.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/csharp.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/net.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sqlserver.svg"
       ],
       "links": [
         {
@@ -278,12 +248,9 @@
       "date": "4/15/2015",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/autodema.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/csharp.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/net.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sqlserver.svg"
       ],
       "links": [
         {
@@ -298,12 +265,9 @@
       "date": "3/3/2014",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/maxlenz.webp",
       "tech": [
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/csharp.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/net.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sqlserver.svg"
       ],
       "links": [
         {
