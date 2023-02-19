@@ -8,6 +8,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 import axios from "axios";
+import LoadingContainer from "../components/loader/loading";
 
 const Contact = () => {
   const [formStatus, setFormStatus] = useState("Send");

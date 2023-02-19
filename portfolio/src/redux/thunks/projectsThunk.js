@@ -2,8 +2,10 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import axiosInstance from "../../config/axiosInstance";
 
 export const fetchProjectsData = createAsyncThunk(
+  
   "aboutMe/fetchProjectsData",
   async (_, { rejectWithValue }) => {
+    
     try {
       const options = {
         method: "GET",

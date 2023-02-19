@@ -5,6 +5,7 @@ import useExperience from "../hooks/useExperience";
 import { fetchExperienceData } from "../redux/thunks/experienceThunk";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
+import LoadingContainer from "../components/loader/loading";
 
 const Experience = () => {
   const dispatch = useDispatch();
@@ -29,6 +30,7 @@ const Experience = () => {
 
   return (
     <div className="container">
+      {loading && <LoadingContainer />}
       <div
         className="container text-center title-highlight-text pb-5"
         style={{ height: "12rem" }}

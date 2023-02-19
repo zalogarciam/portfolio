@@ -5,6 +5,7 @@ import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import Typewriter from "typewriter-effect";
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
+import LoadingContainer from "../components/loader/loading";
 
 const Home = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);

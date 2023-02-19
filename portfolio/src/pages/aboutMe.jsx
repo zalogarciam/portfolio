@@ -4,6 +4,7 @@ import { fetchAboutMeData } from "../redux/thunks/aboutMeThunk";
 import useAboutMe from "../hooks/useAboutMe";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
+import LoadingContainer from "../components/loader/loading";
 
 const AboutMe = () => {
   const dispatch = useDispatch();
