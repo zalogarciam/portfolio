@@ -1,11 +1,84 @@
 {
-    "data": 
-    [
-        "Hi, I am a peruvian developer living in Arequipa, Peru.",
-        "I studied Software Engineering at Universidad Catolica de Santa Maria, Peru and a Master of Computer Science at The University of Melbourne, Australia.",
-        "Currently, I am working at Baires Dev, USA as a Software Engineer as a Web/Desktop developer.",
-        "I have a strong deep problem solving knowledge in Algorithms and Data Structures. Furthermore, I have Research Experience focused on Artificial Intelligence and Human-Computer Interaction. You can find related projects",
-        "I love programming, and I do have hobbies of my interest that I enjoy such as Snowboard and Crossfit"
-    ]
+  "data": [
+    {
+      "images": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/snowboard.webp",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/code.webp"
+      ],
+      "activities": [
+        {
+          "month": "December 2022",
+          "introduction": "Presentation at IV Virtual Job Fair named: 'Higher Studies Abroad' (Masters and PhD)",
+          "link": "https://www.unsa.edu.pe",
+          "institution": "Universidad Nacional de San Agustin (UNSA)",
+          "description": "",
+          "date": "Arequipa, Peru from december 12 to december 16, 2022"
+        },
+        {
+          "month": "November 2022",
+          "introduction": "Mentored startups that are incubated in universities. Organized by:",
+          "link": "http://www.koica.go.kr",
+          "institution": "KOICA (Korea International Cooperation Agency), Inha University",
+          "description": "",
+          "date": "Arequipa, Peru on november, 2022"
+        },
+        {
+          "month": "April 2022",
+          "introduction": " Taught Software Engineering courses Web Programming with Python and Game Development in Unity at",
+          "link": "https://www.iestp-ppd.edu.pe",
+          "institution": "Instituto Pedro P. Diaz",
+          "description": "",
+          "date": "Arequipa, Peru from march 1st to april 30, 2022"
+        },
+        {
+          "month": "October 2021",
+          "introduction": "Participated with startup ideas at at",
+          "link": "https://www.facebook.com/expoemprendeaqp/",
+          "institution": "Expo Emprende 2021",
+          "description": "",
+          "date": "Arequipa, Peru from october 20 to october 24, 20212"
+        },
+        {
+          "month": "June 2021",
+          "introduction": "Gave talks at",
+          "link": "https://www.facebook.com/bpraustralia",
+          "institution": "BPR Australia - Education Website",
+          "description": "",
+          "date": "Melbourne, Victoria, Australia from june to october, 2021"
+        },
+        {
+          "month": "May 2021",
+          "introduction": "Published a paper at",
+          "link": "https://chi2021.acm.org",
+          "institution": "Conference on Human Factors in Computing Systems (CHI)",
+          "description": "",
+          "date": "Yokohama, Japan from may 8 to may 13, 2021"
+        },
+        {
+          "month": "December 2020",
+          "introduction": "Webinar presentation: Simulation of climate change with virtual reality at",
+          "link": "https://www.ulasalle.edu.pe",
+          "institution": "Universidad La Salle",
+          "description": "",
+          "date": "Arequipa, Peru on December 21, 2020"
+        },
+        {
+          "month": "December 2020",
+          "introduction": "Published a paper at",
+          "link": "http://www.ozchi.org/2020/",
+          "institution": "32nd Australian Conference On Human-Computer Interaction (OzCHI)",
+          "description": "",
+          "date": "Sydney NSW Australia from december 2 to december 4, 2020"
+        },
+        {
+          "month": "September 2019",
+          "introduction": "Published a paper at",
+          "link": "https://clei.org/clei2019/en/index.html",
+          "institution": "XLV Latin American Computing Conference (CLEI)",
+          "description": "",
+          "date": "Wyndham Panama Albrook Mall Panama City, Panama from september 30 to october 4, 2019"
+        }
+      ]
+    }
+  ]
 }
-  

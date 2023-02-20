@@ -67,7 +67,7 @@ const Home = () => {
           <ul className="list-group">
             <li className="paragraph-text list-item">
               <span className="paragraph-highlight-text">December 2022: </span>{" "}
-              Presentation at IV Virtual Job Fair name Higher studies abroad
+              Presentation at IV Virtual Job Fair named Higher studies abroad
               (masters and PhD){" "}
               <Link
                 className="link"
