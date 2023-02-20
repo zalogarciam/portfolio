@@ -10,7 +10,6 @@ export const fetchHomeData = createAsyncThunk(
         url: "/home.json",
       };
       const { data } = await axiosInstance(options);
-      console.log(data);
       return data;
     } catch (error) {
       return rejectWithValue(error);
