@@ -79,6 +79,12 @@
     color: var(--primary-text-color);
 }
 
+.highlight-title-xl{
+    font-size: 6rem;
+    font-family: var(--primary-font-family);
+    color: var(--primary-highlight-color);
+}
+
 .format-text {
     text-align: justify;
 }

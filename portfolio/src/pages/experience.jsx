@@ -6,6 +6,7 @@ import { fetchExperienceData } from "../redux/thunks/experienceThunk";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import LoadingContainer from "../components/loader/loading";
+import CountUp from "react-countup";
 
 const Experience = () => {
   const dispatch = useDispatch();
@@ -148,11 +149,41 @@ const Experience = () => {
             <p className="paragraph-text">{experienceData[0]}</p>
             <p className="paragraph-text">{experienceData[1]}</p>
             <p className="paragraph-text">{experienceData[2]}</p>
-            <div className="d-flex d-flex--center pt-2">
+            <div className="d-flex d-flex--center pt-5">
               <button className="btn btn-secondary" onClick={onButtonClick}>
                 Download Resume
                 <BsDownload className="icon--secondary" />
               </button>
+            </div>
+          </div>
+
+          <div>
+            <div className="row pt-5 pb-5">
+              <div className="col-12 col-sm-12 col-md-4 text-center">
+                <CountUp
+                  className="highlight-title-xl"
+                  end={7}
+                  duration={0.5}
+                />{" "}
+                <span className="highlight-title-xl">+</span>
+                <p className="subtitle-text">Years of Experience</p>
+              </div>
+              <div className="col-12 col-sm-12 col-md-4 text-center">
+                <CountUp className="highlight-title-xl" end={30} duration={2} />
+                {"+"}
+                <span className="highlight-title-xl">+</span>
+                <p className="subtitle-text">Projects Done</p>
+              </div>
+              <div className="col-12 col-sm-12 col-md-4 text-center">
+                <CountUp
+                  className="highlight-title-xl"
+                  end={3}
+                  duration={0.5}
+                />
+                <span className="highlight-title-xl">+</span>
+
+                <p className="subtitle-text"> Published Papers</p>
+              </div>
             </div>
           </div>
         </div>
