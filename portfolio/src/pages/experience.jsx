@@ -46,7 +46,7 @@ const Experience = () => {
         />
       </div>
       <div>
-        <div className="row">
+        <div className=" px-4 row">
           <div className="col-sm-12 col-md-12 format-text pb-5 d-flex d-flex--center d-flex--direction-column">
             <div>
               <p className="subtitle-highlight-text">Back End</p>

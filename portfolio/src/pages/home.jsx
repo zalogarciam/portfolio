@@ -75,10 +75,10 @@ const Home = () => {
           Recent Activities
         </p>
 
-        <div className="container">
+        <div className="px-4 container">
           {homeData[0]?.activities?.map((activity) => {
             return (
-              <ul className="list-group">
+              <ul className="list-group format-text">
                 <li className="paragraph-text list-item">
                   <span className="paragraph-highlight-text">
                     {activity.month}:{" "}

@@ -31,7 +31,7 @@ const AboutMe = () => {
           }}
         />
       </div>
-      <div className="row">
+      <div className="px-4 row">
         <div className="col-sm-12 col-md-6 format-text pb-5">
           <p className="paragraph-text">{aboutMeData[0]}</p>
           <div className="row">

@@ -33,7 +33,7 @@ const Projects = () => {
           }}
         />
       </div>
-      <div className="row">
+      <div className="row ">
         {projectsData.map((project) => {
           return (
             <div
