@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
@@ -7,8 +7,19 @@ import Typewriter from "typewriter-effect";
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
 import LoadingContainer from "../components/loader/loading";
 import { Link } from "react-router-dom";
+import { fetchHomeData } from "../redux/thunks/homeThunk";
+import { useDispatch } from "react-redux";
+import useHome from "../hooks/useHome";
 
 const Home = () => {
+  const dispatch = useDispatch();
+  const { loading, homeData } = useHome();
+
+  useEffect(() => {
+    document.title = "Home - Gonzalo Garcia Martinez";
+    homeData.length === 0 && dispatch(fetchHomeData());
+  }, []);
+
   const AutoplaySlider = withAutoplay(AwesomeSlider);
 
   return (
