@@ -15,7 +15,7 @@ const List = ({
         return (
           <li className="list__element" key={element}>
             <NavLink
-              to={"/portfolio/" + paths[index]}
+              to={"/" + paths[index]}
               className={({ isActive }) =>
                 isActive ? "list__link list__link--active" : "list__link"
               }

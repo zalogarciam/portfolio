@@ -9,7 +9,7 @@ import Projects from "../pages/projects";
 
 export const mainRoutes = createBrowserRouter([
   {
-    path: "/portfolio/",
+    path: "/",
     element: <MainLayout />,
     errorElement: <NotFound />,
     children: [
@@ -21,23 +21,23 @@ export const mainRoutes = createBrowserRouter([
             element: <Home />,
           },
           {
-            path: "/portfolio/about",
+            path: "/about",
             element: <AboutMe />,
           },
           {
-            path: "/portfolio/experience",
+            path: "/experience",
             element: <Experience />,
           },
           {
-            path: "/portfolio/projects",
+            path: "/projects",
             element: <Projects />,
           },
           {
-            path: "/portfolio/contact",
+            path: "/contact",
             element: <Contact />,
           },
           {
-            path: "/portfolio/*",
+            path: "/*",
             element: <NotFound />,
           },
         ],
