@@ -43,12 +43,23 @@ const Projects = () => {
                 className="col-md-12 col-sm-12 col-12 col-lg-12 col-xl-6 d-flex d-flex--center pt-3 pb-3"
               >
                 <div className="card-container row">
+                  <div>
+                    <div
+                      className={
+                        "ribbon ribbon__" + project.status + " ribbon-top-right"
+                      }
+                    >
+                      <span className={"ribbon-span-" + project.status}>
+                        {project.status}
+                      </span>
+                    </div>
+                  </div>
                   <div className="card-header d-flex d-flex--center">
                     <h5 className="subtitle-highlight-text pb-3 pt-3 ">
                       {project.title}
                     </h5>
                   </div>
-                  <div className="col-md-5 col-sm-12 col-12 col-lg-5 card-img-container">
+                  <div className="col-md-5 col-sm-12 col-12 col-lg-5">
                     <img
                       src={project.image}
                       className="card-img"
