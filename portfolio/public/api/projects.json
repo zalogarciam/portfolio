@@ -76,6 +76,26 @@
       ]
     },
     {
+      "id": 17,
+      "title": "KOICA",
+      "description": "Web application that presents events strengthen innovative entrepreneurship based on ICT and the competitiveness of Peru through the National Innovation Network.",
+      "date": "13/11/2022",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/koica.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/django.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/jss.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg"
+      ],
+      "links": [
+        {
+          "web": "//cinnovation-prod.herokuapp.com",
+          "youtube" : "//youtube.com/watch?v=0QtVsHZmTdE"
+        }
+      ]
+    },
+    {
       "id": 4,
       "title": "COVA",
       "description": "Web application project presented in a startup accelerator program at the Universidad Catolica de Santa Maria. In an nutshell, COVA is a tinder application for students who are looking for thesis projects from academics or companies. It is a WIN-WIN idea that can help students who are struggling to start their research.",
@@ -134,7 +154,7 @@
       "id": 7,
       "title": "Misinformation Detection",
       "description": "NLP project that uses language models and latest transformers to diffentiate fake articles about Climate Change. I performed scrapping to find truthful data and used it to train an AI model. Furthermore, I cleaned this data and compared several algorithms to make it more accurate and get the best score.",
-      "date": "11/29/2023",
+      "date": "11/29/2020",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/misinformation.webp",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
@@ -191,7 +211,7 @@
       "id": 10,
       "title": "Sentiment Analysis in Twitter",
       "description": "Machine Learning project that uses algorithms such as Logistic Regression, K-Neighbors, Decision Trees, Random Forest, Naive Bayes and SVM to predict if a tweet is negative, neutral or positive. I trained the model using Python and I extracted the data from a public dataset found on internet.",
-      "date": "6/20/2023",
+      "date": "6/20/2019",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/twitter.webp",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
