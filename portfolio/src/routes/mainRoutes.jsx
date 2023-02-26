@@ -7,7 +7,7 @@ import Home from "../pages/home";
 import NotFound from "../pages/notFound";
 import Projects from "../pages/projects";
 
-export const mainRoutes = createBrowserRouter([
+export const mainRoutes = createHashRouter([
   {
     path: "/",
     element: <MainLayout />,
