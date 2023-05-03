@@ -1,181 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gonzalo Garcia - Portfolio</title>
+    <base href="/" />
 
-  <title>Gonzalo Garcia - Portfolio</title>
+    <link rel="stylesheet" href="" />
+    <style>
+      @font-face {
+        font-family: "Cartograph CF";
+        src: url("/fonts/CartographCF-Regular.otf");
+      }
 
-  <link rel="stylesheet" href="">
-  <style>
-    @font-face {
-      font-family: "Cartograph CF";
-      src: url("/fonts/CartographCF-Regular.otf");
-    }
+      @font-face {
+        font-family: "Cartograph CF Italic";
+        src: url("/fonts/CartographCF-RegularItalic.otf");
+      }
 
-    @font-face {
-      font-family: "Cartograph CF Italic";
-      src: url("/fonts/CartographCF-RegularItalic.otf");
-    }
+      @font-face {
+        font-family: "Cartograph CF Bold";
+        src: url("/CartographCF-ExtraBold.otf");
+      }
 
-    @font-face {
-      font-family: "Cartograph CF Bold";
-      src: url("/CartographCF-ExtraBold.otf");
-    }
-
-    :root {
-      --primary-font-family: "Cartograph CF";
-      --italic-font-family: "Cartograph CF Italic";
-      --bold-font-family: "Cartograph CF Bold";
-
-      --section-padding: 1.5rem;
-      --container-padding: 1rem;
-
-      --primary-text-color: #fff;
-
-      --primary-theme-color: #000;
-      --primary-highlight-color: #00ff00;
-      --secondary-highlight-color: #fff;
-
-      --light-primary-shadow-color: #00000077;
-      --light-secondary-shadow-color: #00000052;
-      --container-max-width: 1024px !important;
-    }
-
-    :root.code {
-      --primary-text-color: #b1b1b1;
-
-      --primary-theme-color: #000;
-      --primary-highlight-color: #00ff00;
-      --secondary-highlight-color: #fff;
-
-      --light-primary-shadow-color: #00000077;
-      --light-secondary-shadow-color: #00000052;
-
-      --primary-shadow-color: #b1b1b180;
-
-      --container-max-width: 1024px !important;
-    }
-
-    :root.dark {
-      --primary-text-color: #fff;
-
-      --primary-theme-color: #1b1b1b;
-      --primary-highlight-color: #8c0027;
-      --secondary-highlight-color: #fff;
-
-      --light-primary-shadow-color: #ffffff80;
-      --light-secondary-shadow-color: #00000040;
-
-      --primary-shadow-color: #ffffff80;
-
-      --container-max-width: 1024px !important;
-    }
-
-    :root.light {
-      --primary-text-color: #000;
-
-      --primary-theme-color: #fff;
-      --primary-highlight-color: #a200ff;
-      --secondary-highlight-color: #000;
-
-      --light-primary-shadow-color: #00e7ff00;
-      --light-secondary-shadow-color: #00b8ff52;
-
-      --primary-shadow-color: #000000;
-
-      --container-max-width: 1024px !important;
-    }
-
-    @media (min-width: 768px) {
       :root {
+        --primary-font-family: "Cartograph CF";
+        --italic-font-family: "Cartograph CF Italic";
+        --bold-font-family: "Cartograph CF Bold";
+
+        --section-padding: 1.5rem;
+        --container-padding: 1rem;
+
+        --primary-text-color: #fff;
+
+        --primary-theme-color: #000;
+        --primary-highlight-color: #00ff00;
+        --secondary-highlight-color: #fff;
+
+        --light-primary-shadow-color: #00000077;
+        --light-secondary-shadow-color: #00000052;
         --container-max-width: 1024px !important;
-        --container-padding: 0.75rem;
-        --section-padding: 2rem;
       }
-    }
 
-    .body {
-      background-color: var(--primary-theme-color);
-      font-family: var(--primary-font-family) !important;
-    }
+      :root.code {
+        --primary-text-color: #b1b1b1;
 
-    .loader {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: opacity 0.25s;
-      font-size: 2rem;
-      color: var(--primary-highlight-color);
-      text-shadow: 0px 0px 10px var(--primary-highlight-color);
-      font-family: var(--bold-font-family) !important;
+        --primary-theme-color: #000;
+        --primary-highlight-color: #00ff00;
+        --secondary-highlight-color: #fff;
 
-      opacity: 1;
-      -webkit-transition: opacity 1000ms linear;
-      transition: opacity 1000ms linear;
-    }
+        --light-primary-shadow-color: #00000077;
+        --light-secondary-shadow-color: #00000052;
 
-    .loader--modal {
-      position: fixed;
-      z-index: 50;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-color: var(--primary-theme-color);
-    }
+        --primary-shadow-color: #b1b1b180;
 
-    .loader span {
-      display: inline-block;
-      padding: 0 1rem;
-    }
+        --container-max-width: 1024px !important;
+      }
 
-    @media (min-width: 768px) {
+      :root.dark {
+        --primary-text-color: #fff;
+
+        --primary-theme-color: #1b1b1b;
+        --primary-highlight-color: #8c0027;
+        --secondary-highlight-color: #fff;
+
+        --light-primary-shadow-color: #ffffff80;
+        --light-secondary-shadow-color: #00000040;
+
+        --primary-shadow-color: #ffffff80;
+
+        --container-max-width: 1024px !important;
+      }
+
+      :root.light {
+        --primary-text-color: #000;
+
+        --primary-theme-color: #fff;
+        --primary-highlight-color: #a200ff;
+        --secondary-highlight-color: #000;
+
+        --light-primary-shadow-color: #00e7ff00;
+        --light-secondary-shadow-color: #00b8ff52;
+
+        --primary-shadow-color: #000000;
+
+        --container-max-width: 1024px !important;
+      }
+
+      @media (min-width: 768px) {
+        :root {
+          --container-max-width: 1024px !important;
+          --container-padding: 0.75rem;
+          --section-padding: 2rem;
+        }
+      }
+
+      .body {
+        background-color: var(--primary-theme-color);
+        font-family: var(--primary-font-family) !important;
+      }
+
       .loader {
-        font-size: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: opacity 0.25s;
+        font-size: 2rem;
+        color: var(--primary-highlight-color);
+        text-shadow: 0px 0px 10px var(--primary-highlight-color);
+        font-family: var(--bold-font-family) !important;
+
+        opacity: 1;
+        -webkit-transition: opacity 1000ms linear;
+        transition: opacity 1000ms linear;
       }
-    }
-  </style>
-  <script type="module" crossorigin src="/assets/index-110cbeec.js"></script>
-  <link rel="stylesheet" href="/assets/index-fc8af07a.css">
-</head>
 
-<body class="body">
+      .loader--modal {
+        position: fixed;
+        z-index: 50;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: var(--primary-theme-color);
+      }
 
-  <section class="loader loader--modal text-center " id="loader">
-    <div class="loader__spinner loader__spinner--modal" id="loading"> LOADING</div>
-  </section>
+      .loader span {
+        display: inline-block;
+        padding: 0 1rem;
+      }
 
-  <div id="root">
-  </div>
-  
+      @media (min-width: 768px) {
+        .loader {
+          font-size: 4rem;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-23082e00.js"></script>
+    <link rel="stylesheet" href="/assets/index-57f01b41.css">
+  </head>
 
-  
+  <body class="body">
+    <section class="loader loader--modal text-center" id="loader">
+      <div class="loader__spinner loader__spinner--modal" id="loading">
+        LOADING
+      </div>
+    </section>
 
-  <!-- Setting theme -->
-  <script>
-    document.body.style.overflow = "hidden";
+    <div id="root"></div>
+    
 
-    window.addEventListener('load', () => {
-      const loader = document.getElementById('loader');
-      setTimeout(() => {
-        loader.style.opacity = '0';
-        setTimeout(() => loader.remove(), 1000);
-      }, 5000);
-      setInterval(function () {
-        document.body.style.overflow = "auto";
-      }, 5000);
+    
 
-    });
+    <!-- Setting theme -->
+    <script>
+      document.body.style.overflow = "hidden";
+      window.scrollTo(0, 0);
+      window.addEventListener("load", () => {
+        const loader = document.getElementById("loader");
+        setTimeout(() => {
+          loader.style.opacity = "0";
+          setTimeout(() => loader.remove(), 1000);
+        }, 5000);
+        setInterval(function () {
+          document.body.style.overflow = "auto";
+        }, 5000);
+      });
 
-    const theme = localStorage.getItem("theme");
-    if (theme === "dark" || theme === "light" || theme === "code") {
-      document.documentElement.className = theme;
-    }
-  </script>
-
-</body>
-
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark" || theme === "light" || theme === "code") {
+        document.documentElement.className = theme;
+      }
+    </script>
+  </body>
 </html>
