@@ -14,6 +14,7 @@ const Projects = () => {
   useEffect(() => {
     document.title = "Projects - Gonzalo Garcia Martinez";
     projectsData.length === 0 && dispatch(fetchProjectsData());
+    console.log(projectsData);
   }, []);
 
   return (
