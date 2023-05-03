@@ -79,7 +79,10 @@ const Home = () => {
           {homeData[0]?.activities?.map((activity, index) => {
             return (
               <ul key={index} className="list-group format-text">
-                <li className="paragraph-text list-item">
+                <li
+                  className="paragraph-text list-item"
+                  style={{ margin: "0" }}
+                >
                   <span className="paragraph-highlight-text">
                     {activity.month}:{" "}
                   </span>{" "}
