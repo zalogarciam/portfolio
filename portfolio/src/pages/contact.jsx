@@ -19,20 +19,11 @@ const Contact = () => {
     document.title = "Contact - Gonzalo Garcia Martinez";
   }, []);
 
-  const verifyToken = async (token) => {
-    const res = await axios.post(
-      `https://www.google.com/recaptcha/api/siteverify?secret=${
-        import.meta.env.VITE_GOOGLE_RECAPTCHA_SECRET_KEY_DEV
-      }&response=${token}`
-    );
-    console.log(res);
-  };
-
   const onSubmit = (e) => {
     e.preventDefault();
 
     let token = captchaRef.current.getValue();
-
+    console.log(token);
     if (token) {
       // let valid_token = awaitverifyToken(token);
 
