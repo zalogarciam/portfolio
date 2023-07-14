@@ -1,6 +1,26 @@
 {
   "data": [
     {
+      "id": 16,
+      "title": "RUI",
+      "description": "The project you are looking right now! I have built this web to show a little bit about myself, my work experience and personal projects. I designed it with a mobile first approach with used React JS and Redux for the front end and Python for the back end.",
+      "status": "inprogress",
+      "date": "7/14/2023",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/rui.png",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/redux.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/postgresql.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "web": "https://rui-production-d739.up.railway.app/"
+        }
+      ]
+    },
+    {
       "id": 1,
       "title": "My Portfolio",
       "description": "The project you are looking right now! I have built this web to show a little bit about myself, my work experience and personal projects. I designed it with a mobile first approach with used React JS and Redux for the front end and Python for the back end.",
@@ -96,7 +116,7 @@
       "links": [
         {
           "web": "//cinnovation-prod.herokuapp.com",
-          "youtube" : "//youtube.com/watch?v=0QtVsHZmTdE"
+          "youtube": "//youtube.com/watch?v=0QtVsHZmTdE"
         }
       ]
     },

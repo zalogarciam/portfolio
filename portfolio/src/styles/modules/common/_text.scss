@@ -22,7 +22,7 @@
 
 .subtitle-highlight-text {
     font-size: 1rem;
-    font-family: var(--italic-font-family);
+    font-family: var(--primary-font-family);
     color: var(--primary-highlight-color);
     margin: auto;
     @include desktop {
@@ -32,7 +32,7 @@
 
 .title-highlight-text {
     font-size: 2rem;
-    font-family: var(--italic-font-family);
+    font-family: var(--primary-font-family);
     color: var(--primary-highlight-color);
 }
 
