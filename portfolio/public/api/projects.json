@@ -3,7 +3,7 @@
     {
       "id": 16,
       "title": "RUI",
-      "description": "The project you are looking right now! I have built this web to show a little bit about myself, my work experience and personal projects. I designed it with a mobile first approach with used React JS and Redux for the front end and Python for the back end.",
+      "description": "Web developed for an Innovation University Network dedicated to the promotion of entrepreneurship and innovation derived from university scientific research, complementing this support with programs and funds aimed at promoting the Peruvian entrepreneurial Ecosystem.",
       "status": "inprogress",
       "date": "7/14/2023",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/rui.webp",
