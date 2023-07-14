@@ -6,7 +6,7 @@
       "description": "The project you are looking right now! I have built this web to show a little bit about myself, my work experience and personal projects. I designed it with a mobile first approach with used React JS and Redux for the front end and Python for the back end.",
       "status": "inprogress",
       "date": "7/14/2023",
-      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/rui.png",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/rui.webp",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/redux.svg",
