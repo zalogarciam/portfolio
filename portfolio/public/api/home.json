@@ -8,6 +8,14 @@
       "activities": [
         {
           "month": "July 2023",
+          "introduction": "Conference at V Virtual Job Fair named: 'University Studies Abroad'",
+          "link": "https://www.unsa.edu.pe",
+          "institution": "Universidad Nacional de San Agustin (UNSA)",
+          "description": "",
+          "date": "Arequipa, Peru from july 17th to july 22th, 2023"
+        },
+        {
+          "month": "July 2023",
           "introduction": "Accepted as a teacher in the Design and Software Enginnering career at ",
           "link": "https://www.tecsup.edu.pe/",
           "institution": "Tecsup - Instituto de Educación Superior en Perú",
@@ -20,7 +28,7 @@
           "link": "https://www.facebook.com/photo.php?fbid=575211091485782&set=pb.100069906881512.-2207520000.&type=3",
           "institution": "Colegio de Ingenieros del Perú",
           "description": "",
-          "date": "Arequipa, Peru June 28, 2023"
+          "date": "Arequipa, Peru June 28th, 2023"
         },
         {
           "month": "December 2022",
@@ -28,7 +36,7 @@
           "link": "https://www.unsa.edu.pe",
           "institution": "Universidad Nacional de San Agustin (UNSA)",
           "description": "",
-          "date": "Arequipa, Peru from december 12 to december 16, 2022"
+          "date": "Arequipa, Peru from december 12th to december 16th, 2022"
         },
         {
           "month": "November 2022",
@@ -44,7 +52,7 @@
           "link": "https://www.iestp-ppd.edu.pe",
           "institution": "Instituto Pedro P. Diaz",
           "description": "",
-          "date": "Arequipa, Peru from march 1st to april 30, 2022"
+          "date": "Arequipa, Peru from march 1st to april 30th, 2022"
         },
         {
           "month": "October 2021",
@@ -52,7 +60,7 @@
           "link": "https://www.facebook.com/expoemprendeaqp/",
           "institution": "Expo Emprende 2021",
           "description": "",
-          "date": "Arequipa, Peru from october 20 to october 24, 20212"
+          "date": "Arequipa, Peru from october 20th to october 24th, 20212"
         },
         {
           "month": "June 2021",
@@ -68,7 +76,7 @@
           "link": "https://chi2021.acm.org",
           "institution": "Conference on Human Factors in Computing Systems (CHI)",
           "description": "",
-          "date": "Yokohama, Japan from may 8 to may 13, 2021"
+          "date": "Yokohama, Japan from may 8th to may 13th, 2021"
         },
         {
           "month": "December 2020",
@@ -76,7 +84,7 @@
           "link": "https://www.ulasalle.edu.pe",
           "institution": "Universidad La Salle",
           "description": "",
-          "date": "Arequipa, Peru on December 21, 2020"
+          "date": "Arequipa, Peru on December 21st, 2020"
         },
         {
           "month": "December 2020",
@@ -84,7 +92,7 @@
           "link": "http://www.ozchi.org/2020/",
           "institution": "32nd Australian Conference On Human-Computer Interaction (OzCHI)",
           "description": "",
-          "date": "Sydney NSW Australia from december 2 to december 4, 2020"
+          "date": "Sydney NSW Australia from december 2nd to december 4th, 2020"
         },
         {
           "month": "September 2019",
@@ -92,7 +100,7 @@
           "link": "https://clei.org/clei2019/en/index.html",
           "institution": "XLV Latin American Computing Conference (CLEI)",
           "description": "",
-          "date": "Wyndham Panama Albrook Mall Panama City, Panama from september 30 to october 4, 2019"
+          "date": "Wyndham Panama Albrook Mall Panama City, Panama from september 30th to october 4th, 2019"
         }
       ]
     }
