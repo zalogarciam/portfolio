@@ -16,7 +16,7 @@
       ],
       "links": [
         {
-          "web": "https://rui-production-d739.up.railway.app/"
+          "web": "https://ruiperu.com"
         }
       ]
     },
@@ -102,7 +102,7 @@
       "title": "KOICA",
       "description": "Web application that presents events strengthen innovative entrepreneurship based on ICT and the competitiveness of Peru through the National Innovation Network.",
       "status": "completed",
-      "date": "13/11/2022",
+      "date": "28/08/2023",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/koica.webp",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
