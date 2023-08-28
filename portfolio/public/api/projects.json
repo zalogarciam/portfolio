@@ -108,13 +108,13 @@
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/django.svg",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/html.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/jss.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/js.svg",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/css.svg"
       ],
       "links": [
         {
-          "web": "//cinnovation-prod.herokuapp.com",
-          "youtube": "//youtube.com/watch?v=0QtVsHZmTdE"
+          "web": "//startupleague-kpsl.com/",
+          "youtube": "//youtu.be/-qQ3NfNGu_w"
         }
       ]
     },
