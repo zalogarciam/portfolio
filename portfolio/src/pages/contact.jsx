@@ -133,7 +133,7 @@ const Contact = () => {
             <div className="d-flex d-flex--center d-flex--direction-column">
               <div className="pb-3">
                 <ReCAPTCHA
-                  sitekey={import.meta.env.VITE_GOOGLE_RECAPTCHA_SITE_KEY_DEV}
+                  sitekey={import.meta.env.VITE_GOOGLE_RECAPTCHA_SITE_KEY_PROD}
                   ref={captchaRef}
                 />
               </div>
