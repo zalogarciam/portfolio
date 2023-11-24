@@ -1,6 +1,24 @@
 {
   "data": [
     {
+      "id": 17,
+      "title": "MaxCold",
+      "description": "Web developed for Max Cold Corp, company that offers services regarding installation, repair and maintenance of commercial and industrial refrigeration equipment, residential air conditioning equipment, ventilation systems and general services.",
+      "status": "inprogress",
+      "date": "11/24/2023",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/maxcold.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/tailwind.svg"
+      ],
+      "links": [
+        {
+          "web": "https://maxcoldcorporacion.com"
+        }
+      ]
+    },
+    {
       "id": 16,
       "title": "RUI",
       "description": "Web developed for an Innovation University Network dedicated to the promotion of entrepreneurship and innovation derived from university scientific research, complementing this support with programs and funds aimed at promoting the Peruvian entrepreneurial Ecosystem.",
