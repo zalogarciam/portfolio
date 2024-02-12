@@ -1,10 +1,32 @@
 {
   "data": [
     {
+      "id": 18,
+      "title": "Conexión Animal",
+      "description": "Web developed for Animal Connection, Passionate veterinarian committed to animal welfare, offering high-quality medical services ranging from preventive consultations to specialized surgeries. Focused on providing compassionate care and comprehensive care for pets of all species",
+      "status": "inprogress",
+      "date": "2/12/2024",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/animal-connection.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/redux.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/postgresql.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/django.svg"
+      ],
+      "links": [
+        {
+          "web": ""
+        }
+      ]
+    },
+    {
       "id": 17,
       "title": "MaxCold",
       "description": "Web developed for Max Cold Corp, company that offers services regarding installation, repair and maintenance of commercial and industrial refrigeration equipment, residential air conditioning equipment, ventilation systems and general services.",
-      "status": "inprogress",
+      "status": "completed",
       "date": "11/24/2023",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/maxcold.webp",
       "tech": [
@@ -30,7 +52,9 @@
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/redux.svg",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/postgresql.svg",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/django.svg"
       ],
       "links": [
         {
