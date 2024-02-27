@@ -1,6 +1,24 @@
 {
   "data": [
     {
+      "id": 19,
+      "title": "Claudia & Alonso",
+      "description": "Web developed for the wedding of Claudia and Alonso. Users can access wedding information and confirm their attendance via UI, creating a seamless and personalized experience for guests.",
+      "status": "inprogress",
+      "date": "2/27/2024",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/wedding.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/bootstrap.svg"
+      ],
+      "links": [
+        {
+          "web": "https://wedding-three-teal.vercel.app/"
+        }
+      ]
+    },
+    {
       "id": 18,
       "title": "Conexión Animal",
       "description": "Web developed for Animal Connection, Passionate veterinarian committed to animal welfare, offering high-quality medical services ranging from preventive consultations to specialized surgeries. Focused on providing compassionate care and comprehensive care for pets of all species",
