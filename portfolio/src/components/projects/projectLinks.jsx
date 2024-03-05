@@ -47,6 +47,12 @@ const ProjectLinks = ({ links }) => {
           <TfiWorld className="icon--xl"></TfiWorld>
         </Link>
       );
+    } else if (link[0] === "web2") {
+      return (
+        <Link key={link[1]} className="link" to={link[1]} target="_blank">
+          <TfiWorld className="icon--xl"></TfiWorld>
+        </Link>
+      );
     }
   };
 
