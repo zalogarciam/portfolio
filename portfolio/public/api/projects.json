@@ -4,7 +4,7 @@
       "id": 19,
       "title": "Claudia & Alonso",
       "description": "Web developed for the wedding of Claudia and Alonso. Users can access wedding information and confirm their attendance via UI, creating a seamless and personalized experience for guests.",
-      "status": "inprogress",
+      "status": "completed",
       "date": "2/27/2024",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/wedding.webp",
       "tech": [
@@ -15,7 +15,7 @@
       "links": [
         {
           "web": "https://wedding-three-teal.vercel.app/",
-          "web2": "bodaclaudiayalonso.com"
+          "web2": "https://bodaclaudiayalonso.com"
         }
       ]
     },
