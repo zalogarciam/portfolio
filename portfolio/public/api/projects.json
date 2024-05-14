@@ -63,8 +63,8 @@
       "id": 16,
       "title": "RUI",
       "description": "Web developed for an Innovation University Network dedicated to the promotion of entrepreneurship and innovation derived from university scientific research, complementing this support with programs and funds aimed at promoting the Peruvian entrepreneurial Ecosystem.",
-      "status": "inprogress",
-      "date": "7/14/2023",
+      "status": "completed",
+      "date": "3/13/2024",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/rui.webp",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/react.svg",

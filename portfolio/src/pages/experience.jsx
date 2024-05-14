@@ -160,26 +160,18 @@ const Experience = () => {
           <div>
             <div className="row pt-5 pb-5">
               <div className="col-12 col-sm-12 col-md-4 text-center">
-                <CountUp
-                  className="highlight-title-xl"
-                  end={7}
-                  duration={0.5}
-                />{" "}
+                <CountUp className="highlight-title-xl" end={8} duration={4} />{" "}
                 <span className="highlight-title-xl">+</span>
                 <p className="subtitle-text">Years of Experience</p>
               </div>
               <div className="col-12 col-sm-12 col-md-4 text-center">
-                <CountUp className="highlight-title-xl" end={30} duration={2} />
+                <CountUp className="highlight-title-xl" end={40} duration={4} />
                 {"+"}
                 <span className="highlight-title-xl">+</span>
                 <p className="subtitle-text">Projects Done</p>
               </div>
               <div className="col-12 col-sm-12 col-md-4 text-center">
-                <CountUp
-                  className="highlight-title-xl"
-                  end={3}
-                  duration={0.5}
-                />
+                <CountUp className="highlight-title-xl" end={3} duration={4} />
                 <span className="highlight-title-xl">+</span>
 
                 <p className="subtitle-text"> Published Papers</p>
