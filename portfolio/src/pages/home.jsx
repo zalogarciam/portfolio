@@ -18,6 +18,7 @@ const Home = () => {
   useEffect(() => {
     document.title = "Home - Gonzalo Garcia Martinez";
     Object.keys(homeData).length === 0 && dispatch(fetchHomeData());
+    console.log(homeData);
   }, []);
 
   const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -53,21 +54,14 @@ const Home = () => {
         <AutoplaySlider
           animation="cubeAnimation"
           play={true}
-          cancelOnInteraction={true} // should stop playing on user interaction
+          cancelOnInteraction={true}
           interval={7000}
         >
-          <div className="text-center ">
-            <img
-              className="banner-img"
-              src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/snowboard.webp"
-            />
-          </div>
-          <div className="text-center banner-img">
-            <img
-              className="banner-img"
-              src="https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/code.webp"
-            />
-          </div>
+          {homeData[0]?.images?.map((src, index) => (
+            <div className="text-center" key={index}>
+              <img className="banner-img" src={src} alt={`slide-${index}`} />
+            </div>
+          ))}
         </AutoplaySlider>
       </div>
       <div className="pt-5">

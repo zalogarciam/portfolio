@@ -2,10 +2,19 @@
   "data": [
     {
       "images": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/running.webp",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/snowboard.webp",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/code.webp"
       ],
       "activities": [
+        {
+          "month": "May 2024",
+          "introduction": "Dino AI - Videogames for Education at ",
+          "link": "https://www.utp.edu.pe/",
+          "institution": "Universidad Tecnológica Perú - UTP",
+          "description": "",
+          "date": "Arequipa, Peru. May 25th, 2024"
+        },
         {
           "month": "January 2024",
           "introduction": "Accepted as a teacher in the Design and Software Engineering career at ",
