@@ -24,7 +24,7 @@
       "title": "Conexión Animal",
       "description": "Web developed for Animal Connection, Passionate veterinarian committed to animal welfare, offering high-quality medical services ranging from preventive consultations to specialized surgeries. Focused on providing compassionate care and comprehensive care for pets of all species",
       "status": "inprogress",
-      "date": "2/12/2024",
+      "date": "6/24/2024",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/animal-connection.webp",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
@@ -37,7 +37,7 @@
       ],
       "links": [
         {
-          "web": ""
+          "web": "https://conexionanimal.vet/"
         }
       ]
     },
