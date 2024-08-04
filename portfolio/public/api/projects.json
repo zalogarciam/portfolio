@@ -1,6 +1,24 @@
 {
   "data": [
     {
+      "id": 20,
+      "title": "UPADI Sustainability Committee",
+      "description": "Web developed for the UPADI Sustainability Committee that seeks to advance climate resilience and sustainability throughout the Americas by support for National Round Tables including infrastructure professionals, and sustainability experts in financial institutions and governments at all levels.",
+      "status": "inprogress",
+      "date": "8/3/2024",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/upadi.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/tailwind.svg"
+      ],
+      "links": [
+        {
+          "web": "#"
+        }
+      ]
+    },
+    {
       "id": 19,
       "title": "Claudia & Alonso",
       "description": "Web developed for the wedding of Claudia and Alonso. Users can access wedding information and confirm their attendance via UI, creating a seamless and personalized experience for guests.",
@@ -23,8 +41,8 @@
       "id": 18,
       "title": "Conexión Animal",
       "description": "Web developed for Animal Connection, Passionate veterinarian committed to animal welfare, offering high-quality medical services ranging from preventive consultations to specialized surgeries. Focused on providing compassionate care and comprehensive care for pets of all species",
-      "status": "inprogress",
-      "date": "6/24/2024",
+      "status": "completed",
+      "date": "8/3/2024",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/animal-connection.webp",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
