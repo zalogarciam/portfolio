@@ -18,7 +18,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container pb-5">
       {loading && <LoadingContainer />}
       <div
         className="row text-center title-highlight-text pb-5"

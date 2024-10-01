@@ -36,7 +36,6 @@ const MainLayout = () => {
         <main
           style={{
             paddingTop: "8rem",
-            paddingBottom: "4rem",
             minHeight: "70vh",
           }}
         >

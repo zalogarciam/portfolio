@@ -16,7 +16,7 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container pb-5">
       <div
         className="text-center title-highlight-text pb-5"
         style={{ height: "8rem" }}
