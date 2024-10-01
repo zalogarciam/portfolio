@@ -4,7 +4,7 @@
       "id": 20,
       "title": "UPADI Sustainability Committee",
       "description": "Web developed for the UPADI Sustainability Committee that seeks to advance climate resilience and sustainability throughout the Americas by support for National Round Tables including infrastructure professionals, and sustainability experts in financial institutions and governments at all levels.",
-      "status": "inprogress",
+      "status": "completed",
       "date": "9/29/2024",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/upadi.webp",
       "tech": [
@@ -14,7 +14,8 @@
       ],
       "links": [
         {
-          "web": "https://sustainabilitycommittee.upadi.com"
+          "web": "https://sustainabilitycommittee.upadi.com",
+          "web2": "https://upadi-sustainability.vercel.app"
         }
       ]
     },
@@ -42,7 +43,7 @@
       "title": "Conexión Animal",
       "description": "Web developed for Animal Connection, Passionate veterinarian committed to animal welfare, offering high-quality medical services ranging from preventive consultations to specialized surgeries. Focused on providing compassionate care and comprehensive care for pets of all species",
       "status": "completed",
-      "date": "8/3/2024",
+      "date": "10/1/2024",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/animal-connection.webp",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
