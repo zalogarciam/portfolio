@@ -30,7 +30,7 @@ const Experience = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container pb-5">
       {loading && <LoadingContainer />}
       <div
         className="container text-center title-highlight-text pb-5"

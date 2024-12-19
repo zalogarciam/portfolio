@@ -24,7 +24,7 @@ const Home = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
 
   return (
-    <div className="pt-5">
+    <div className="py-5">
       <div
         className="container text-center subtitle-highlight-text pb-5"
         style={{ height: "12rem" }}
