@@ -1,6 +1,24 @@
 {
   "data": [
     {
+      "id": 21,
+      "title": "Aracelli & Diego",
+      "description": "Web developed for the wedding of Aracelli & Diego. Same as previous project, users can access wedding information and confirm their attendance via UI, creating a seamless and personalized experience for guests.",
+      "status": "inprogress",
+      "date": "3/5/2025",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/araydiego.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/bootstrap.svg"
+      ],
+      "links": [
+        {
+          "web": "https://www.aracelliydiego.com/",
+          "web2": "https://wedding-app-git-main-zalogarciams-projects.vercel.app/"
+        }
+      ]
+    },
+    {
       "id": 20,
       "title": "UPADI Sustainability Committee",
       "description": "Web developed for the UPADI Sustainability Committee that seeks to advance climate resilience and sustainability throughout the Americas by support for National Round Tables including infrastructure professionals, and sustainability experts in financial institutions and governments at all levels.",
