@@ -39,7 +39,7 @@ const Home = () => {
               .pauseFor(8000)
               .typeString("Hi! My name is Gonzalo Garcia Martinez.<br/>")
               .typeString(
-                "I am a Full Stack Software Developer with 7+ years of experience.<br/>"
+                "I am a Full Stack Software Developer with 9+ years of experience.<br/>"
               )
               .typeString(
                 "Feel free to take a look at my latest projects.<br/>"

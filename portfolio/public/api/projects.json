@@ -1,11 +1,30 @@
 {
   "data": [
     {
+      "id": 22,
+      "title": "Florence Chatbot",
+      "description": "Florence is an empathetic AI chatbot designed to provide emotional support to people experiencing depression and anxiety. Available 24/7, Florence offers a safe space to talk, share feelings, and receive gentle guidance through mindfulness tips, mood tracking, and coping strategies—always with kindness, without judgment.",
+      "status": "inprogress",
+      "date": "4/23/2025",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/florence.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/fastapi.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/postgresql.svg"
+      ],
+      "links": [
+        {
+          "web": "#"
+        }
+      ]
+    },
+    {
       "id": 21,
       "title": "Aracelli & Diego",
       "description": "Web developed for the wedding of Aracelli & Diego. Same as previous project, users can access wedding information and confirm their attendance via UI, creating a seamless and personalized experience for guests.",
-      "status": "inprogress",
-      "date": "3/5/2025",
+      "status": "completed",
+      "date": "3/15/2025",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/araydiego.webp",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
