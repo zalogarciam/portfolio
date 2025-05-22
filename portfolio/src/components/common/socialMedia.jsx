@@ -47,7 +47,7 @@ const SocialMedia = ({}) => {
           </Link>
         </div>
         <div className="col-3 d-flex d-flex--center">
-          <Link to={"//tiktok.com/@zalogarciam"} target="_blank">
+          <Link to={"//tiktok.com/@zalogarciam7"} target="_blank">
             <FaTiktok className="icon icon--social-media" />
           </Link>
         </div>
