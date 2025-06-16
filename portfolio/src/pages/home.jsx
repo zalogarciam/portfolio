@@ -5,7 +5,6 @@ import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import Typewriter from "typewriter-effect";
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
-import LoadingContainer from "../components/loader/loading";
 import { Link } from "react-router-dom";
 import { fetchHomeData } from "../redux/thunks/homeThunk";
 import { useDispatch } from "react-redux";

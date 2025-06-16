@@ -2,9 +2,10 @@
   "data": [
     {
       "images": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/glasses.webp",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/run.webp",
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/running.webp",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/snowboard.webp",
-        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/code.webp"
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/snowboard.webp"
       ],
       "activities": [
         {
