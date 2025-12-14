@@ -160,7 +160,7 @@ const Experience = () => {
           <div>
             <div className="row pt-5 pb-5">
               <div className="col-12 col-sm-12 col-md-4 text-center">
-                <CountUp className="highlight-title-xl" end={9} duration={4} />{" "}
+                <CountUp className="highlight-title-xl" end={10} duration={4} />{" "}
                 <span className="highlight-title-xl">+</span>
                 <p className="subtitle-text">Years of Experience</p>
               </div>

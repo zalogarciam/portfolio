@@ -4,8 +4,8 @@
       "id": 22,
       "title": "Florence Chatbot",
       "description": "Florence is an empathetic AI chatbot designed to provide emotional support to people experiencing depression and anxiety. Available 24/7, Florence offers a safe space to talk, share feelings, and receive gentle guidance through mindfulness tips, mood tracking, and coping strategies—always with kindness, without judgment.",
-      "status": "inprogress",
-      "date": "4/23/2025",
+      "status": "completed",
+      "date": "12/14/2025",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/florence.webp",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
