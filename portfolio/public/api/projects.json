@@ -1,6 +1,28 @@
 {
   "data": [
     {
+      "id": 23,
+      "title": "Powerwod",
+      "description": "Ecommerce platform focused on selling equipment and accessories for functional training and high-performance sports such as CrossFit. It features products like barbells, bumper plates, kettlebells, workout apparel, and training accessories, designed for athletes and fitness enthusiasts.",
+      "status": "inprogress",
+      "date": "3/13/2026",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/powerwod.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/redux.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/postgresql.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/django.svg"
+      ],
+      "links": [
+        {
+          "web": "https://powerwod-app.vercel.app/"
+        }
+      ]
+    },
+    {
       "id": 22,
       "title": "Florence Chatbot",
       "description": "Florence is an empathetic AI chatbot designed to provide emotional support to people experiencing depression and anxiety. Available 24/7, Florence offers a safe space to talk, share feelings, and receive gentle guidance through mindfulness tips, mood tracking, and coping strategies—always with kindness, without judgment.",
