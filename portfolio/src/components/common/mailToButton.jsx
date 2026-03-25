@@ -1,17 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
+import { BsEnvelope } from "react-icons/bs";
 
 const MailToButton = ({ mailTo }) => {
   return (
-    <div>
+    <div className="group">
       <Link
-        className="link__xs"
-        to="#"
+        className="flex items-center gap-2 text-muted hover:text-accent transition-colors text-sm font-mono"
+        href="#"
         onClick={(e) => {
           window.location.href = "mailto:" + mailTo;
           e.preventDefault();
         }}
       >
+        <BsEnvelope className="text-accent group-hover:scale-110 transition-transform" />
         {mailTo}
       </Link>
     </div>

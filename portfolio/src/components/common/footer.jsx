@@ -1,75 +1,69 @@
-import { useRef } from "react";
-import { Link } from "react-router-dom";
+"use client";
+
+import React from "react";
+import Link from "next/link";
 import logo from "../../assets/img/logo.png";
 import ContactInformation from "../contact/contactInformation";
 import List from "./list";
 import SocialMedia from "./socialMedia";
 
 const Footer = ({ elements, paths }) => {
-  const footer = useRef();
-  const copyright = useRef();
-  const documentScroll = () => {
-    var scrollMaxY =
-      window.scrollMaxY ||
-      document.documentElement.scrollHeight -
-        document.documentElement.clientHeight;
-    footer.current?.classList.toggle(
-      "footer--scroll",
-      window.scrollY >= scrollMaxY - 256
-    );
-    copyright.current?.classList.toggle(
-      "footer--copyright-scroll",
-      window.scrollY >= scrollMaxY - 256
-    );
-  };
-
-  document.addEventListener("scroll", documentScroll);
-
   return (
-    <footer className="footer" ref={footer}>
-      <div className="container pb-3">
-        <div className="row">
-          <div className="col-4 d-flex d-flex--center d-flex--direction-column">
-            <div className="row d-flex d-flex--center">
-              <p className="paragraph-text--xs">Web designed and</p>
-              <p className="paragraph-text--xs">developed by</p>
-            </div>
-            <div className="row">
-              <Link
-                className="d-flex d-flex--center font-size-xs"
-                to="/portfolio/"
-              >
-                <img src={logo} alt="Logo" className="footer__logo" />
-              </Link>
-            </div>
+    <footer className="mt-auto border-t border-foreground/10 bg-background-start/50 backdrop-blur-md">
+      <div className="section-container py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
+          {/* Logo and About */}
+          <div className="flex flex-col items-center md:items-start space-y-4">
+            <Link href="/" className="group">
+              <img 
+                src={logo.src || logo} 
+                alt="Logo" 
+                className="h-14 w-auto group-hover:scale-110 transition-transform duration-300" 
+              />
+            </Link>
+            <p className="text-muted text-sm leading-relaxed max-w-xs">
+              Web designed and developed by Gonzalo Garcia Martinez. 
+              Building modern digital experiences with passion.
+            </p>
           </div>
-          <div className="col-4 d-flex d--flex-center d-flex--direction-column text-center">
-            <h5 className="text-center subtitle-highlight-text">
-              Useful Links
+
+          {/* Quick Links */}
+          <div className="flex flex-col space-y-6">
+            <h5 className="text-foreground font-bold text-lg tracking-tight uppercase">
+              Quick Links
             </h5>
-            <List elements={elements} paths={paths}></List>
-          </div>
-          <div className="col-4">
-            <h5 className="text-center subtitle-highlight-text">
-              Social Media
-            </h5>
-            <SocialMedia />
-            <ContactInformation
-              email={"gegarciam95@gmail.com"}
-              email2={"zalogarciam@gmail.com"}
-              phone={"+51 957247055"}
+            <List 
+              elements={elements} 
+              paths={paths} 
+              className="flex-col !items-center md:!items-start space-y-3 !mx-0"
             />
           </div>
-        </div>
-      </div>
 
-      <div ref={copyright} className="pt-4">
-        <p className="text-center paragraph-highlight-text">
-          I can fix the World 🌎, but they won't give me the source code 💻
-        </p>
-        <p className="text-center paragraph-highlight-text">
-          © 2023 Gonzalo Garcia Martinez. All rights reserved.
-        </p>
+          {/* Social and Contact */}
+          <div className="flex flex-col space-y-6">
+            <h5 className="text-foreground font-bold text-lg tracking-tight uppercase">
+              Connect
+            </h5>
+            <SocialMedia />
+            <div className="pt-4">
+              <ContactInformation
+                email={"gegarciam95@gmail.com"}
+                email2={"zalogarciam@gmail.com"}
+                phone={"+51 957247055"}
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="mt-12 pt-8 border-t border-foreground/5 flex flex-col items-center space-y-4">
+          <p className="text-muted text-sm text-center">
+            "I can fix the World 🌎, but they won't give me the source code 💻"
+          </p>
+          <p className="text-muted text-sm text-center font-medium">
+            © {new Date().getFullYear()} Gonzalo Garcia Martinez. All rights reserved.
+          </p>
+        </div>
       </div>
     </footer>
   );

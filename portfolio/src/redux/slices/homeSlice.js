@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { fetchHomeData } from "../thunks/homeThunk";
+import { fetchHomeData } from "@/redux/thunks/homeThunk";
 
 const initialState = {
   loading: false,

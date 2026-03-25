@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const List = ({
   className = "",
@@ -9,20 +10,27 @@ const List = ({
   elements,
   paths,
 }) => {
+  const pathname = usePathname();
+
   return (
-    <ul className={`list ${className}`} onClick={handleClickList}>
+    <ul className={`flex items-center ${className}`} onClick={handleClickList}>
       {elements.map((element, index) => {
+        const path = paths[index] === "" ? "/" : "/" + paths[index];
+        const isActive = pathname === path;
+
         return (
-          <li className="list__element" key={element}>
-            <NavLink
-              to={"/" + paths[index]}
-              className={({ isActive }) =>
-                isActive ? "list__link list__link--active" : "list__link"
-              }
+          <li key={element} className="mx-2 lg:mx-4">
+            <Link
+              href={path}
+              className={`text-sm lg:text-base transition-all duration-300 hover:text-accent ${
+                isActive
+                  ? "text-accent font-semibold"
+                  : "text-muted"
+              }`}
               onClick={handleClickNavLink}
             >
               {element}
-            </NavLink>
+            </Link>
           </li>
         );
       })}

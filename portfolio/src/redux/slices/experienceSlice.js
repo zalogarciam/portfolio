@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { fetchExperienceData } from "../thunks/experienceThunk";
+import { fetchExperienceData } from "@/redux/thunks/experienceThunk";
 
 const initialState = {
   loading: false,

@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-start: 15, 0, 0;
+  --background-end: 2, 0, 0;
+  --foreground: 250, 235, 235;
+  --accent: 190, 18, 18; /* Dark Red Accent */
+  --accent-secondary: 85, 0, 0; /* Deep Maroon */
+  --glass-bg: 255, 50, 50, 0.05;
+  --text-muted: 180, 150, 150;
+}
+
+[data-theme='light'] {
+  --background-start: 248, 250, 252;
+  --background-end: 241, 245, 249;
+  --foreground: 15, 23, 42;
+  --accent: 79, 70, 229;
+  --accent-secondary: 8, 145, 178;
+  --glass-bg: 0, 0, 0, 0.05;
+  --text-muted: 71, 85, 105;
+}
+
+[data-theme='hacker'] {
+  --background-start: 0, 0, 0;
+  --background-end: 0, 0, 0;
+  --foreground: 0, 255, 65;
+  --accent: 0, 255, 65;
+  --accent-secondary: 0, 59, 0;
+  --glass-bg: 0, 255, 65, 0.1;
+  --text-muted: 0, 143, 0;
+  font-family: 'Courier New', Courier, monospace !important;
+}
+
+body {
+  color: rgb(var(--foreground));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(var(--background-start));
+  min-height: 100vh;
+  font-family: 'Cartograph CF', 'Inter', monospace;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+[data-theme='hacker'] * {
+  font-family: 'Cartograph CF', 'Courier New', monospace !important;
+}
+
+@layer base {
+  * {
+    font-style: normal !important;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+/* Solar System Animation Keyframes */
+@keyframes orbit {
+  from { transform: rotate(0deg) translateX(var(--orbit-radius)) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(var(--orbit-radius)) rotate(-360deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(var(--accent), 0.2); }
+  50% { box-shadow: 0 0 40px rgba(var(--accent), 0.4); }
+}
+
+.glass {
+  background: rgba(var(--glass-bg));
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(var(--foreground), 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, rgb(var(--accent)), rgb(var(--accent-secondary)));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.btn-primary {
+  @apply px-6 py-3 text-white rounded-xl transition-all duration-300 shadow-lg active:scale-95;
+  background: rgb(var(--accent));
+  box-shadow: 0 10px 15px -3px rgba(var(--accent), 0.3);
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 20px 25px -5px rgba(var(--accent), 0.4);
+}
+
+.section-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20;
+}
+
+.nav-link {
+  color: rgb(var(--text-muted));
+  @apply transition-colors duration-200;
+}
+
+.nav-link:hover {
+  color: rgb(var(--foreground));
+}
+
+.nav-link.active {
+  color: rgb(var(--foreground));
+  @apply font-medium;
+}
