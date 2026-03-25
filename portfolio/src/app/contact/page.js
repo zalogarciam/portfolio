@@ -5,6 +5,7 @@ import { AiFillMessage } from "react-icons/ai";
 import { BiWorld, BiMailSend } from "react-icons/bi";
 import GoogleMapReact from "google-map-react";
 import ReCAPTCHA from "react-google-recaptcha";
+import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 import LoadingContainer from "@/components/loader/loading";
@@ -19,32 +20,69 @@ const Contact = () => {
     setIsClient(true);
   }, []);
 
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
+    
+    const token = captchaRef.current.getValue();
+    if (!token) {
+      MySwal.fire({
+        background: '#0f172a',
+        color: '#f8fafc',
+        html: <p className="text-slate-300">You must confirm you are not a robot</p>,
+        icon: "error",
+        confirmButtonColor: '#6366f1',
+      });
+      return;
+    }
 
-    let token = captchaRef.current.getValue();
-    if (token) {
-      setFormStatus("Message submitted");
+    setFormStatus("Sending...");
+
+    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+
+    if (!serviceId || !templateId || !publicKey || serviceId === "your_service_id") {
+      setFormStatus("Send Message");
       MySwal.fire({
         background: '#0f172a',
         color: '#f8fafc',
         html: (
-          <p className="text-slate-300">
-            Your message has been sent! You will hear from me shortly.
-          </p>
+          <div className="text-slate-300 text-sm space-y-2">
+            <p className="font-bold text-base text-white">Email Service Not Configured</p>
+            <p>Please log in to Vercel and add these Environment Variables:</p>
+            <ul className="list-disc list-inside text-left opacity-80">
+              <li>NEXT_PUBLIC_EMAILJS_SERVICE_ID</li>
+              <li>NEXT_PUBLIC_EMAILJS_TEMPLATE_ID</li>
+              <li>NEXT_PUBLIC_EMAILJS_PUBLIC_KEY</li>
+            </ul>
+          </div>
         ),
+        icon: "warning",
+        confirmButtonColor: '#6366f1',
+      });
+      return;
+    }
+
+    try {
+      await emailjs.sendForm(serviceId, templateId, e.target, publicKey);
+      
+      setFormStatus("Message Sent!");
+      MySwal.fire({
+        background: '#0f172a',
+        color: '#f8fafc',
+        html: <p className="text-slate-300">Your message has been sent! You will hear from me shortly.</p>,
         icon: "success",
         confirmButtonColor: '#6366f1',
       });
-    } else {
+      e.target.reset();
+      captchaRef.current.reset();
+    } catch (error) {
+      console.error("EmailJS Error:", error);
+      setFormStatus("Send Message");
       MySwal.fire({
         background: '#0f172a',
         color: '#f8fafc',
-        html: (
-          <p className="text-slate-300">
-            You must confirm you are not a robot
-          </p>
-        ),
+        html: <p className="text-slate-300">Something went wrong. Please try again later.</p>,
         icon: "error",
         confirmButtonColor: '#6366f1',
       });
@@ -99,6 +137,7 @@ const Contact = () => {
                   className="w-full bg-foreground/5 border border-foreground/10 rounded-xl px-4 py-3 text-foreground focus:outline-none focus:ring-accent/50 transition-all" 
                   type="text" 
                   id="name" 
+                  name="from_name"
                   placeholder="Your Name"
                   required 
                 />
@@ -112,6 +151,7 @@ const Contact = () => {
                   className="w-full bg-foreground/5 border border-foreground/10 rounded-xl px-4 py-3 text-foreground focus:outline-none focus:ring-accent/50 transition-all" 
                   type="email" 
                   id="email" 
+                  name="reply_to"
                   placeholder="Your Email Address"
                   required 
                 />
@@ -124,6 +164,7 @@ const Contact = () => {
                 <textarea 
                   className="w-full bg-foreground/5 border border-foreground/10 rounded-xl px-4 py-3 text-foreground focus:outline-none focus:ring-accent/50 transition-all min-h-[150px] resize-none" 
                   id="message" 
+                  name="message"
                   placeholder="Hello, I'd like to talk about..."
                   required 
                 />
