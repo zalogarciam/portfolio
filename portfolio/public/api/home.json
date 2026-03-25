@@ -1,0 +1,158 @@
+{
+  "data": [
+    {
+      "images": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/glasses.webp",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/run.webp",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/running.webp",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/snowboard.webp"
+      ],
+      "activities": [
+        {
+          "month": "September 2025",
+          "introduction": "From IF-THEN to GPT. Artificial Intelligence Evolution",
+          "link": "https://www.sistemasdelsur.edu.pe/",
+          "institution": "Sistemas del Sur",
+          "description": "",
+          "date": "Tacna, Peru. September 20th, 2025"
+        },
+        {
+          "month": "November 2024",
+          "introduction": "Keys to getting a job as a Software Developer in big tech companies at ",
+          "link": "https://www.utp.edu.pe/",
+          "institution": "Universidad Tecnológica Perú - UTP",
+          "description": "",
+          "date": "Arequipa, Peru. November 30th, 2024"
+        },
+        {
+          "month": "May 2024",
+          "introduction": "Dino AI - Videogames for Education at ",
+          "link": "https://www.utp.edu.pe/",
+          "institution": "Universidad Tecnológica Perú - UTP",
+          "description": "",
+          "date": "Arequipa, Peru. May 25th, 2024"
+        },
+        {
+          "month": "January 2024",
+          "introduction": "Accepted as a teacher for Software Design and Architecture in the Systems Engineering career at ",
+          "link": "https://www.utp.edu.pe/",
+          "institution": "Universidad Tecnológica Perú - UTP",
+          "description": "",
+          "date": "Arequipa, Peru. Junuary 25th, 2024"
+        },
+        {
+          "month": "October 2023",
+          "introduction": "Speaker at XXX International Conference on Systems Engineering - Dino AI, by",
+          "link": "https://www2.ucsm.edu.pe/JINIS/",
+          "institution": "Universidad Católica de Santa María",
+          "description": "",
+          "date": "Arequipa, Peru. October 4th, 2023"
+        },
+        {
+          "month": "July 2023",
+          "introduction": "Alumni Reception at the Australian Ambassador's Residence by",
+          "link": "https://www.unimelb.edu.au/",
+          "institution": "The University of Melbourne",
+          "description": "",
+          "date": "Lima, Peru. July 24th, 2023"
+        },
+        {
+          "month": "July 2023",
+          "introduction": "Speaker at V Virtual Job Fair Conference named: 'University Studies Abroad'",
+          "link": "https://www.unsa.edu.pe",
+          "institution": "Universidad Nacional de San Agustin (UNSA)",
+          "description": "",
+          "date": "Arequipa, Peru from july 17th to july 22th, 2023"
+        },
+        {
+          "month": "July 2023",
+          "introduction": "Accepted as a teacher for Algorithms and Data Structures in the Design and Software Engineering career at ",
+          "link": "https://www.tecsup.edu.pe/",
+          "institution": "Tecsup - Instituto de Educación Superior en Perú",
+          "description": "",
+          "date": "Arequipa, Peru July, 2023"
+        },
+        {
+          "month": "June 2023",
+          "introduction": "Accepted into the National Young Engineer and Future Leaders Committee at",
+          "link": "https://www.facebook.com/photo.php?fbid=575211091485782&set=pb.100069906881512.-2207520000.&type=3",
+          "institution": "Colegio de Ingenieros del Perú",
+          "description": "",
+          "date": "Arequipa, Peru June 28th, 2023"
+        },
+        {
+          "month": "December 2022",
+          "introduction": "Presentation at IV Virtual Job Fair named: 'Higher Studies Abroad' (Masters and PhD)",
+          "link": "https://www.unsa.edu.pe",
+          "institution": "Universidad Nacional de San Agustin (UNSA)",
+          "description": "",
+          "date": "Arequipa, Peru from december 12th to december 16th, 2022"
+        },
+        {
+          "month": "November 2022",
+          "introduction": "Mentored startups that are incubated in universities. Organized by:",
+          "link": "http://www.koica.go.kr",
+          "institution": "KOICA (Korea International Cooperation Agency), Inha University",
+          "description": "",
+          "date": "Arequipa, Peru on november, 2022"
+        },
+        {
+          "month": "April 2022",
+          "introduction": " Taught Software Engineering courses Web Programming with Python and Game Development in Unity at",
+          "link": "https://www.iestp-ppd.edu.pe",
+          "institution": "Instituto Pedro P. Diaz",
+          "description": "",
+          "date": "Arequipa, Peru from march 1st to april 30th, 2022"
+        },
+        {
+          "month": "October 2021",
+          "introduction": "Participated with startup ideas at at",
+          "link": "https://www.facebook.com/expoemprendeaqp/",
+          "institution": "Expo Emprende 2021",
+          "description": "",
+          "date": "Arequipa, Peru from october 20th to october 24th, 20212"
+        },
+        {
+          "month": "June 2021",
+          "introduction": "Gave talks at",
+          "link": "https://www.facebook.com/bpraustralia",
+          "institution": "BPR Australia - Education Website",
+          "description": "",
+          "date": "Melbourne, Victoria, Australia from june to october, 2021"
+        },
+        {
+          "month": "May 2021",
+          "introduction": "Published a paper at",
+          "link": "https://chi2021.acm.org",
+          "institution": "Conference on Human Factors in Computing Systems (CHI)",
+          "description": "",
+          "date": "Yokohama, Japan from may 8th to may 13th, 2021"
+        },
+        {
+          "month": "December 2020",
+          "introduction": "Webinar presentation: 'Simulation of Climate Change with Virtual Reality' at",
+          "link": "https://www.ulasalle.edu.pe",
+          "institution": "Universidad La Salle",
+          "description": "",
+          "date": "Arequipa, Peru on December 21st, 2020"
+        },
+        {
+          "month": "December 2020",
+          "introduction": "Published a paper at",
+          "link": "http://www.ozchi.org/2020/",
+          "institution": "32nd Australian Conference On Human-Computer Interaction (OzCHI)",
+          "description": "",
+          "date": "Sydney NSW Australia from december 2nd to december 4th, 2020"
+        },
+        {
+          "month": "September 2019",
+          "introduction": "Published a paper at",
+          "link": "https://clei.org/clei2019/en/index.html",
+          "institution": "XLV Latin American Computing Conference (CLEI)",
+          "description": "",
+          "date": "Wyndham Panama Albrook Mall Panama City, Panama from september 30th to october 4th, 2019"
+        }
+      ]
+    }
+  ]
+}
