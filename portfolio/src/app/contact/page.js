@@ -132,7 +132,7 @@ const Contact = () => {
               <div className="flex flex-col items-center gap-6 pt-4">
                 <div className="transform scale-90 sm:scale-100 origin-center">
                   <ReCAPTCHA
-                    sitekey={process.env.NEXT_PUBLIC_GOOGLE_RECAPTCHA_SITE_KEY_PROD}
+                    sitekey={process.env.NEXT_PUBLIC_GOOGLE_RECAPTCHA_SITE_KEY_PROD || "6LdyTpMkAAAAAOlFlxRjSGR6g2mOt36VfBdW43Cl"}
                     ref={captchaRef}
                     theme="dark"
                   />
@@ -157,7 +157,7 @@ const Contact = () => {
               <div className="flex-1 min-h-[400px] rounded-2xl overflow-hidden border border-foreground/10 grayscale hover:grayscale-0 transition-all duration-700">
                 <GoogleMapReact
                   bootstrapURLKeys={{
-                    key: process.env.NEXT_PUBLIC_GOOGLE_API_KEY,
+                    key: process.env.NEXT_PUBLIC_GOOGLE_API_KEY || "AIzaSyC9mSAmnp4lrxmFjtriCeudSbgbvVQqZFk",
                   }}
                   defaultCenter={mapConfig.center}
                   defaultZoom={mapConfig.zoom}
