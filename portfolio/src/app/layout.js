@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="bg-dark text-slate-200 antialiased selection:bg-indigo-500/30 selection:text-indigo-200 transition-colors duration-300 overflow-x-hidden">
+      <body className="antialiased selection:bg-indigo-500/30 selection:text-indigo-200 transition-colors duration-300 overflow-x-hidden">
         <ClientLayout
           headerElements={headerElements}
           headerPaths={headerPaths}

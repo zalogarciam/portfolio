@@ -12,13 +12,13 @@ module.exports = {
         mono: ['"Cartograph CF"', 'monospace'],
       },
       colors: {
-        accent: "rgb(var(--accent))",
-        "accent-secondary": "rgb(var(--accent-secondary))",
-        foreground: "rgb(var(--foreground))",
-        muted: "rgb(var(--text-muted))",
+        accent: "rgb(var(--accent) / <alpha-value>)",
+        "accent-secondary": "rgb(var(--accent-secondary) / <alpha-value>)",
+        foreground: "rgb(var(--foreground) / <alpha-value>)",
+        muted: "rgb(var(--text-muted) / <alpha-value>)",
         primary: "#6366f1", // Indigo 500
         secondary: "#06b6d4", // Cyan 500
-        dark: "rgb(var(--background-start))",
+        dark: "rgb(var(--background-start) / <alpha-value>)",
         glass: "rgba(var(--glass-bg), 0.05)",
       },
       animation: {

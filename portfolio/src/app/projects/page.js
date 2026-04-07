@@ -55,7 +55,7 @@ const Projects = () => {
           {currentProjects.map((project, index) => (
               <div
                 key={`${project.id}-${index}`}
-                className="group relative glass rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:-translate-y-2 border border-white/10 hover:border-accent/30 flex flex-col"
+                className="group relative glass rounded-3xl overflow-hidden hover:bg-foreground/5 transition-all duration-500 hover:-translate-y-2 border border-foreground/10 hover:border-accent/30 flex flex-col"
               >
                 {/* Status Ribbon */}
                 <div className="absolute top-0 right-0 z-10">
@@ -76,7 +76,7 @@ const Projects = () => {
 
                 <div className="flex flex-col md:flex-row gap-8 p-8 flex-1">
                   {/* Project Image */}
-                  <div className="w-full md:w-2/5 aspect-video md:aspect-square rounded-2xl overflow-hidden relative border border-white/5 bg-white/5">
+                  <div className="w-full md:w-2/5 aspect-video md:aspect-square rounded-2xl overflow-hidden relative border border-foreground/5 bg-foreground/5">
                     <img
                       src={project.image}
                       className="w-full h-full object-contain transition-all duration-700 group-hover:scale-110 p-2"
@@ -105,7 +105,7 @@ const Projects = () => {
                 </div>
 
                 {/* Footer */}
-                <div className="p-6 bg-white/5 border-t border-white/5 flex items-center justify-between">
+                <div className="p-6 bg-foreground/5 border-t border-foreground/5 flex items-center justify-between">
                   <span className="text-[10px] font-medium text-slate-500 tracking-widest uppercase">
                     Refined Experience
                   </span>
@@ -123,7 +123,7 @@ const Projects = () => {
             <button
               onClick={() => paginate(currentPage - 1)}
               disabled={currentPage === 1}
-              className="px-4 py-2 glass rounded-xl disabled:opacity-50 disabled:cursor-not-allowed hover:bg-white/10 transition-colors"
+              className="px-4 py-2 glass rounded-xl disabled:opacity-50 disabled:cursor-not-allowed hover:bg-foreground/10 transition-colors"
             >
               Previous
             </button>
@@ -135,7 +135,7 @@ const Projects = () => {
                   className={`w-10 h-10 rounded-xl transition-all ${
                     currentPage === i + 1 
                       ? 'bg-accent text-white shadow-lg' 
-                      : 'glass hover:bg-white/10'
+                      : 'glass hover:bg-foreground/10'
                   }`}
                 >
                   {i + 1}
@@ -145,7 +145,7 @@ const Projects = () => {
             <button
               onClick={() => paginate(currentPage + 1)}
               disabled={currentPage === totalPages}
-              className="px-4 py-2 glass rounded-xl disabled:opacity-50 disabled:cursor-not-allowed hover:bg-white/10 transition-colors"
+              className="px-4 py-2 glass rounded-xl disabled:opacity-50 disabled:cursor-not-allowed hover:bg-foreground/10 transition-colors"
             >
               Next
             </button>
