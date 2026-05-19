@@ -13,8 +13,8 @@ const ThemeSwitcher = () => {
         onClick={() => setTheme('light')}
         className={`p-2 rounded-lg transition-all ${
           theme === 'light' 
-            ? 'bg-indigo-500 text-white shadow-lg' 
-            : 'text-slate-400 hover:text-white hover:bg-white/5'
+            ? 'bg-primary text-white shadow-lg' 
+            : 'text-muted hover:text-foreground hover:bg-white/5'
         }`}
         title="Light Mode"
       >
@@ -24,8 +24,8 @@ const ThemeSwitcher = () => {
         onClick={() => setTheme('dark')}
         className={`p-2 rounded-lg transition-all ${
           theme === 'dark' 
-            ? 'bg-indigo-500 text-white shadow-lg' 
-            : 'text-slate-400 hover:text-white hover:bg-white/5'
+            ? 'bg-primary text-white shadow-lg' 
+            : 'text-muted hover:text-foreground hover:bg-white/5'
         }`}
         title="Dark Mode"
       >
@@ -35,8 +35,8 @@ const ThemeSwitcher = () => {
         onClick={() => setTheme('hacker')}
         className={`p-2 rounded-lg transition-all ${
           theme === 'hacker' 
-            ? 'bg-green-500 text-black shadow-lg shadow-green-500/20' 
-            : 'text-slate-400 hover:text-green-500 hover:bg-white/5'
+            ? 'bg-primary text-black shadow-lg shadow-primary/20' 
+            : 'text-muted hover:text-primary hover:bg-white/5'
         }`}
         title="Hacker Mode"
       >

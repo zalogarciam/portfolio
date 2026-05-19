@@ -26,11 +26,11 @@ const Contact = () => {
     const token = captchaRef.current.getValue();
     if (!token) {
       MySwal.fire({
-        background: '#0f172a',
-        color: '#f8fafc',
+        background: 'rgb(var(--dialog-bg))',
+        color: 'rgb(var(--foreground))',
         html: <p className="text-slate-300">You must confirm you are not a robot</p>,
         icon: "error",
-        confirmButtonColor: '#6366f1',
+        confirmButtonColor: 'rgb(var(--primary))',
       });
       return;
     }
@@ -44,8 +44,8 @@ const Contact = () => {
     if (!serviceId || !templateId || !publicKey || serviceId === "your_service_id") {
       setFormStatus("Send Message");
       MySwal.fire({
-        background: '#0f172a',
-        color: '#f8fafc',
+        background: 'rgb(var(--dialog-bg))',
+        color: 'rgb(var(--foreground))',
         html: (
           <div className="text-slate-300 text-sm space-y-2">
             <p className="font-bold text-base text-white">Email Service Not Configured</p>
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
         ),
         icon: "warning",
-        confirmButtonColor: '#6366f1',
+        confirmButtonColor: 'rgb(var(--primary))',
       });
       return;
     }
@@ -68,11 +68,11 @@ const Contact = () => {
       
       setFormStatus("Message Sent!");
       MySwal.fire({
-        background: '#0f172a',
-        color: '#f8fafc',
+        background: 'rgb(var(--dialog-bg))',
+        color: 'rgb(var(--foreground))',
         html: <p className="text-slate-300">Your message has been sent! You will hear from me shortly.</p>,
         icon: "success",
-        confirmButtonColor: '#6366f1',
+        confirmButtonColor: 'rgb(var(--primary))',
       });
       e.target.reset();
       captchaRef.current.reset();
@@ -80,11 +80,11 @@ const Contact = () => {
       console.error("EmailJS Error:", error);
       setFormStatus("Send Message");
       MySwal.fire({
-        background: '#0f172a',
-        color: '#f8fafc',
+        background: 'rgb(var(--dialog-bg))',
+        color: 'rgb(var(--foreground))',
         html: <p className="text-slate-300">Something went wrong. Please try again later.</p>,
         icon: "error",
-        confirmButtonColor: '#6366f1',
+        confirmButtonColor: 'rgb(var(--primary))',
       });
     }
   };
@@ -107,7 +107,7 @@ const Contact = () => {
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">
             <span className="text-gradient">Get In Touch</span>
           </h1>
-          <div className="h-1 w-20 bg-indigo-500 mx-auto rounded-full"></div>
+          <div className="h-1 w-20 bg-primary mx-auto rounded-full"></div>
           <p className="mt-6 text-muted max-w-2xl mx-auto text-lg leading-relaxed">
             Have an idea or project in mind? Interested in working together? 
             I'm always open to discussing new opportunities and challenges.

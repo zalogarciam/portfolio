@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 :root {
+  /* Core Colors (Dark - Default) */
   --background-start: 15, 0, 0;
   --background-end: 2, 0, 0;
   --foreground: 250, 235, 235;
   --accent: 190, 18, 18; /* Dark Red Accent */
   --accent-secondary: 85, 0, 0; /* Deep Maroon */
-  --glass-bg: 255, 50, 50, 0.05;
+  --primary: 99, 102, 241; /* Indigo 500 equivalent */
+  --secondary: 6, 182, 212; /* Cyan 500 equivalent */
   --text-muted: 180, 150, 150;
+  --glass-bg: 255, 50, 50, 0.05;
+  --dialog-bg: 15, 23, 42; /* For SweetAlert etc */
 }
 
 [data-theme='light'] {
@@ -18,8 +22,11 @@
   --foreground: 15, 23, 42;
   --accent: 79, 70, 229;
   --accent-secondary: 8, 145, 178;
-  --glass-bg: 0, 0, 0, 0.05;
+  --primary: 79, 70, 229; /* Sync with accent in light mode */
+  --secondary: 8, 145, 178;
   --text-muted: 71, 85, 105;
+  --glass-bg: 0, 0, 0, 0.05;
+  --dialog-bg: 255, 255, 255;
 }
 
 [data-theme='hacker'] {
@@ -28,8 +35,11 @@
   --foreground: 0, 255, 65;
   --accent: 0, 255, 65;
   --accent-secondary: 0, 59, 0;
-  --glass-bg: 0, 255, 65, 0.1;
+  --primary: 0, 255, 65;
+  --secondary: 0, 143, 0;
   --text-muted: 0, 143, 0;
+  --glass-bg: 0, 255, 65, 0.1;
+  --dialog-bg: 0, 0, 0;
   font-family: 'Courier New', Courier, monospace !important;
 }
 

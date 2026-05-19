@@ -1,6 +1,28 @@
 {
   "data": [
     {
+      "id": 24,
+      "title": "Moyolo",
+      "description": "Developed a full-stack fleet management platform focused on real-time logistics operations and service monitoring. The system manages vehicles, drivers, clients, and transport services while integrating GPS tracking APIs for live unit monitoring and route visibility.",
+      "status": "inprogress",
+      "date": "5/19/2026",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/moyolo.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/redux.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/sass.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/postgresql.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/django.svg"
+      ],
+      "links": [
+        {
+          "web": "https://moyolo.pe"
+        }
+      ]
+    },
+    {
       "id": 23,
       "title": "Powerwod",
       "description": "Ecommerce platform focused on selling equipment and accessories for functional training and high-performance sports such as CrossFit. It features products like barbells, bumper plates, kettlebells, workout apparel, and training accessories, designed for athletes and fitness enthusiasts.",
