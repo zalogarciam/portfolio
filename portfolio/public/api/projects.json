@@ -144,7 +144,7 @@
       "title": "Conexión Animal",
       "description": "Web developed for Animal Connection, Passionate veterinarian committed to animal welfare, offering high-quality medical services ranging from preventive consultations to specialized surgeries. Focused on providing compassionate care and comprehensive care for pets of all species",
       "status": "completed",
-      "date": "10/1/2024",
+      "date": "06/06/2026",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/animal-connection.webp",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
@@ -279,11 +279,11 @@
       ]
     },
     {
-      "id": 17,
+      "id": 26,
       "title": "KOICA",
       "description": "Web application that presents events strengthen innovative entrepreneurship based on ICT and the competitiveness of Peru through the National Innovation Network.",
       "status": "completed",
-      "date": "15/12/2023",
+      "date": "12/15/2023",
       "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/koica.webp",
       "tech": [
         "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",

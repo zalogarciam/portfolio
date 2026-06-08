@@ -24,7 +24,13 @@ const Projects = () => {
 
   if (!isClient) return null;
 
-  const sortedProjects = [...projectsData].sort((a, b) => b.date - a.date);
+  const sortedProjects = [...projectsData].sort((a, b) => {
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    const timeA = isNaN(dateA.getTime()) ? 0 : dateA.getTime();
+    const timeB = isNaN(dateB.getTime()) ? 0 : dateB.getTime();
+    return timeB - timeA;
+  });
   const indexOfLastProject = currentPage * projectsPerPage;
   const indexOfFirstProject = indexOfLastProject - projectsPerPage;
   const currentProjects = sortedProjects.slice(indexOfFirstProject, indexOfLastProject);
