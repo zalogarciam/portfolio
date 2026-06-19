@@ -1,5 +1,25 @@
 {
   "data": [
+      {
+      "id": 26,
+      "title": "Alerta Mayor",
+      "description": "Developed a full-stack healthcare management platform focused on elderly independent living and caregiver oversight. The system allows families to coordinate daily wellness routines, manage medication schedules, and track hydration, featuring an intuitive voice diary and secure emergency SOS alerts.",
+      "status": "completed",
+      "date": "6/19/2026",
+      "image": "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/projects/alerta-mayor.webp",
+      "tech": [
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/nextjs.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/postgresql.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/python.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/django.svg",
+        "https://zg-s3.s3.us-east-2.amazonaws.com/portfolio/tech/aws.svg"
+      ],
+      "links": [
+        {
+          "web": "https://alerta-mayor-app.vercel.app/login"
+        }
+      ]
+    },
     {
       "id": 25,
       "title": "PMBSO",
@@ -157,7 +177,7 @@
       ],
       "links": [
         {
-          "web": "https://conexionanimal.vet/"
+          "web": "https://conexionanimalvet.com/"
         }
       ]
     },
