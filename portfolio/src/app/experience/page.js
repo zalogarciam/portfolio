@@ -130,8 +130,8 @@ const Experience = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 animate-fade-in delay-500">
           {[
             { label: "Years of Experience", value: 10, suffix: "+" },
-            { label: "Projects Delivered", value: 40, suffix: "+" },
-            { label: "Published Papers", value: 3, suffix: "" },
+            { label: "Projects Delivered", value: 50, suffix: "+" },
+            { label: "Published Papers", value: 4, suffix: "" },
           ].map((stat, idx) => (
             <div key={idx} className="glass p-8 rounded-3xl text-center hover:bg-white/10 transition-colors">
               <div className="text-gradient text-5xl font-black mb-2">
